@@ -17,6 +17,19 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
+# Repo
+db/
+*.hex
+incremental_db/
+greybox_tmp/
+simulation/
+stp1.tmp
+work/
+output_files/*.sof
+output_files/*.pof
+*.ROM
+*.bak
+
 # =========================
 # Operating System Files
 # =========================

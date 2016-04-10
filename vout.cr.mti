@@ -1,0 +1,74 @@
+D:/develop/vup1500/ram2k.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/develop/vup1500/ram2k.vhd
+Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package altera_mf_components
+-- Compiling entity ram2k
+-- Compiling architecture SYN of ram2k
+
+} {} {}} D:/develop/vup1500/pcg.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/develop/vup1500/pcg.vhd
+Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity pcg
+-- Compiling architecture RTL of pcg
+
+} {} {}} D:/develop/vup1500/videoout.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/develop/vup1500/videoout.vhd
+Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity videoout
+-- Compiling architecture RTL of videoout
+
+} {} {}} D:/develop/vup1500/tb_vout.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/develop/vup1500/tb_vout.vhd
+Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity tb_vout
+-- Compiling architecture test_bench of tb_vout
+
+} {} {}} D:/develop/vup1500/ram8k.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/develop/vup1500/ram8k.vhd
+Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package altera_mf_components
+-- Compiling entity ram8k
+-- Compiling architecture SYN of ram8k
+
+} {} {}} D:/develop/vup1500/cgrom.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/develop/vup1500/cgrom.vhd
+Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package altera_mf_components
+-- Compiling entity cgrom
+-- Compiling architecture SYN of cgrom
+
+} {} {}} D:/develop/vup1500/ram1k.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/develop/vup1500/ram1k.vhd
+Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package altera_mf_components
+-- Compiling entity ram1k
+-- Compiling architecture SYN of ram1k
+
+} {} {}} D:/develop/vup1500/pll57.vhd {1 {vcom -work work -2002 -explicit -stats=none D:/develop/vup1500/pll57.vhd
+Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity pll57
+-- Compiling architecture SYN of pll57
+
+} {} {}}

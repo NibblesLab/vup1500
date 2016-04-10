@@ -1,0 +1,10 @@
+PLL_Name	pll100:CKGEN0|altpll:altpll_component|pll100_altpll:auto_generated|pll1
+PLLJITTER	30
+PLLSPEmax	84
+PLLSPEmin	-53
+
+PLL_Name	videoout:VIDEO0|pll57:VCKGEN|altpll:altpll_component|pll57_altpll:auto_generated|pll1
+PLLJITTER	24
+PLLSPEmax	84
+PLLSPEmin	-53
+

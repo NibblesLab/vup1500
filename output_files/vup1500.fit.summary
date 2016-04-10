@@ -1,0 +1,18 @@
+Fitter Status : Successful - Sun Apr 10 21:13:47 2016
+Quartus Prime Version : 15.1.0 Build 185 10/21/2015 SJ Lite Edition
+Revision Name : vup1500
+Top-level Entity Name : vup1500
+Family : MAX 10
+Device : 10M08DAF484C8GES
+Timing Models : Final
+Total logic elements : 2,366 / 8,064 ( 29 % )
+    Total combinational functions : 2,129 / 8,064 ( 26 % )
+    Dedicated logic registers : 1,194 / 8,064 ( 15 % )
+Total registers : 1194
+Total pins : 217 / 250 ( 87 % )
+Total virtual pins : 0
+Total memory bits : 330,752 / 387,072 ( 85 % )
+Embedded Multiplier 9-bit elements : 0 / 48 ( 0 % )
+Total PLLs : 2 / 2 ( 100 % )
+UFM blocks : 0 / 1 ( 0 % )
+ADC blocks : 0 / 1 ( 0 % )
