@@ -1,5 +1,5 @@
 Flow report for vup1500
-Sun Apr 10 21:14:44 2016
+Mon Apr 11 22:10:19 2016
 Quartus Prime Version 15.1.0 Build 185 10/21/2015 SJ Lite Edition
 
 
@@ -41,7 +41,7 @@ agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Flow Summary                                                                     ;
 +------------------------------------+---------------------------------------------+
-; Flow Status                        ; Successful - Sun Apr 10 21:14:44 2016       ;
+; Flow Status                        ; Successful - Mon Apr 11 22:10:19 2016       ;
 ; Quartus Prime Version              ; 15.1.0 Build 185 10/21/2015 SJ Lite Edition ;
 ; Revision Name                      ; vup1500                                     ;
 ; Top-level Entity Name              ; vup1500                                     ;
@@ -67,7 +67,7 @@ agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 04/10/2016 21:11:31 ;
+; Start date & time ; 04/11/2016 22:07:34 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; vup1500             ;
 +-------------------+---------------------+
@@ -78,38 +78,32 @@ agreement for further details.
 +-------------------------------------+---------------------------------------+---------------+-------------+----------------+
 ; Assignment Name                     ; Value                                 ; Default Value ; Entity Name ; Section Id     ;
 +-------------------------------------+---------------------------------------+---------------+-------------+----------------+
-; COMPILER_SIGNATURE_ID               ; 121383101346.146029029104980          ; --            ; --          ; --             ;
+; COMPILER_SIGNATURE_ID               ; 121383101346.146038005401292          ; --            ; --          ; --             ;
 ; EDA_OUTPUT_DATA_FORMAT              ; Vhdl                                  ; --            ; --          ; eda_simulation ;
 ; EDA_SIMULATION_TOOL                 ; ModelSim-Altera (VHDL)                ; <None>        ; --          ; --             ;
 ; ENABLE_SIGNALTAP                    ; On                                    ; --            ; --          ; --             ;
 ; MAX_CORE_JUNCTION_TEMP              ; 85                                    ; --            ; --          ; --             ;
 ; MIN_CORE_JUNCTION_TEMP              ; 0                                     ; --            ; --          ; --             ;
-; MISC_FILE                           ; pll100_inst.vhd                       ; --            ; --          ; --             ;
-; MISC_FILE                           ; pll100.cmp                            ; --            ; --          ; --             ;
-; MISC_FILE                           ; pll100.ppf                            ; --            ; --          ; --             ;
-; MISC_FILE                           ; mrom2k_inst.vhd                       ; --            ; --          ; --             ;
-; MISC_FILE                           ; mrom2k.cmp                            ; --            ; --          ; --             ;
-; MISC_FILE                           ; pll57_inst.vhd                        ; --            ; --          ; --             ;
-; MISC_FILE                           ; pll57.cmp                             ; --            ; --          ; --             ;
-; MISC_FILE                           ; pll57.ppf                             ; --            ; --          ; --             ;
-; MISC_FILE                           ; ram2k_inst.vhd                        ; --            ; --          ; --             ;
-; MISC_FILE                           ; ram2k.cmp                             ; --            ; --          ; --             ;
-; MISC_FILE                           ; ram1k_inst.vhd                        ; --            ; --          ; --             ;
-; MISC_FILE                           ; ram1k.cmp                             ; --            ; --          ; --             ;
-; MISC_FILE                           ; cgrom_inst.vhd                        ; --            ; --          ; --             ;
-; MISC_FILE                           ; cgrom.cmp                             ; --            ; --          ; --             ;
-; MISC_FILE                           ; linebuf_inst.vhd                      ; --            ; --          ; --             ;
-; MISC_FILE                           ; linebuf.cmp                           ; --            ; --          ; --             ;
-; MISC_FILE                           ; mrom4k_inst.vhd                       ; --            ; --          ; --             ;
-; MISC_FILE                           ; mrom4k.cmp                            ; --            ; --          ; --             ;
-; MISC_FILE                           ; ram8k_inst.vhd                        ; --            ; --          ; --             ;
-; MISC_FILE                           ; ram8k.cmp                             ; --            ; --          ; --             ;
-; MISC_FILE                           ; mrom501_inst.vhd                      ; --            ; --          ; --             ;
-; MISC_FILE                           ; mrom501.cmp                           ; --            ; --          ; --             ;
-; MISC_FILE                           ; mrom502_0_inst.vhd                    ; --            ; --          ; --             ;
-; MISC_FILE                           ; mrom502_0.cmp                         ; --            ; --          ; --             ;
-; MISC_FILE                           ; mrom502_1_inst.vhd                    ; --            ; --          ; --             ;
-; MISC_FILE                           ; mrom502_1.cmp                         ; --            ; --          ; --             ;
+; MISC_FILE                           ; logic/pll100_inst.vhd                 ; --            ; --          ; --             ;
+; MISC_FILE                           ; logic/pll100.cmp                      ; --            ; --          ; --             ;
+; MISC_FILE                           ; logic/pll100.ppf                      ; --            ; --          ; --             ;
+; MISC_FILE                           ; logic/mrom2k_inst.vhd                 ; --            ; --          ; --             ;
+; MISC_FILE                           ; logic/mrom2k.cmp                      ; --            ; --          ; --             ;
+; MISC_FILE                           ; logic/mrom4k_inst.vhd                 ; --            ; --          ; --             ;
+; MISC_FILE                           ; logic/mrom4k.cmp                      ; --            ; --          ; --             ;
+; MISC_FILE                           ; logic/pll57_inst.vhd                  ; --            ; --          ; --             ;
+; MISC_FILE                           ; logic/pll57.cmp                       ; --            ; --          ; --             ;
+; MISC_FILE                           ; logic/pll57.ppf                       ; --            ; --          ; --             ;
+; MISC_FILE                           ; logic/ram2k_inst.vhd                  ; --            ; --          ; --             ;
+; MISC_FILE                           ; logic/ram2k.cmp                       ; --            ; --          ; --             ;
+; MISC_FILE                           ; logic/ram1k_inst.vhd                  ; --            ; --          ; --             ;
+; MISC_FILE                           ; logic/ram1k.cmp                       ; --            ; --          ; --             ;
+; MISC_FILE                           ; logic/cgrom_inst.vhd                  ; --            ; --          ; --             ;
+; MISC_FILE                           ; logic/cgrom.cmp                       ; --            ; --          ; --             ;
+; MISC_FILE                           ; logic/linebuf_inst.vhd                ; --            ; --          ; --             ;
+; MISC_FILE                           ; logic/linebuf.cmp                     ; --            ; --          ; --             ;
+; MISC_FILE                           ; logic/ram8k_inst.vhd                  ; --            ; --          ; --             ;
+; MISC_FILE                           ; logic/ram8k.cmp                       ; --            ; --          ; --             ;
 ; PARTITION_COLOR                     ; 16764057                              ; --            ; --          ; Top            ;
 ; PARTITION_FITTER_PRESERVATION_LEVEL ; PLACEMENT_AND_ROUTING                 ; --            ; --          ; Top            ;
 ; PARTITION_NETLIST_TYPE              ; SOURCE                                ; --            ; --          ; Top            ;
@@ -126,12 +120,12 @@ agreement for further details.
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name               ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis      ; 00:01:18     ; 1.0                     ; 893 MB              ; 00:01:11                           ;
-; Fitter                    ; 00:00:45     ; 1.0                     ; 1164 MB             ; 00:00:41                           ;
-; Assembler                 ; 00:00:03     ; 1.0                     ; 738 MB              ; 00:00:02                           ;
-; TimeQuest Timing Analyzer ; 00:00:12     ; 1.0                     ; 830 MB              ; 00:00:10                           ;
-; EDA Netlist Writer        ; 00:00:03     ; 1.0                     ; 744 MB              ; 00:00:02                           ;
-; Total                     ; 00:02:21     ; --                      ; --                  ; 00:02:06                           ;
+; Analysis & Synthesis      ; 00:01:14     ; 1.0                     ; 887 MB              ; 00:01:09                           ;
+; Fitter                    ; 00:00:39     ; 1.0                     ; 1168 MB             ; 00:00:34                           ;
+; Assembler                 ; 00:00:02     ; 1.0                     ; 736 MB              ; 00:00:02                           ;
+; TimeQuest Timing Analyzer ; 00:00:09     ; 1.0                     ; 834 MB              ; 00:00:08                           ;
+; EDA Netlist Writer        ; 00:00:02     ; 1.0                     ; 745 MB              ; 00:00:02                           ;
+; Total                     ; 00:02:06     ; --                      ; --                  ; 00:01:55                           ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 

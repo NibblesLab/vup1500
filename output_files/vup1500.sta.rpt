@@ -1,5 +1,5 @@
 TimeQuest Timing Analyzer report for vup1500
-Sun Apr 10 21:14:29 2016
+Mon Apr 11 22:10:08 2016
 Quartus Prime Version 15.1.0 Build 185 10/21/2015 SJ Lite Edition
 
 
@@ -91,7 +91,7 @@ agreement for further details.
 +---------------+--------+--------------------------+
 ; SDC File Path ; Status ; Read at                  ;
 +---------------+--------+--------------------------+
-; vup1500.sdc   ; OK     ; Sun Apr 10 21:14:18 2016 ;
+; vup1500.sdc   ; OK     ; Mon Apr 11 22:10:00 2016 ;
 +---------------+--------+--------------------------+
 
 
@@ -1608,7 +1608,7 @@ No non-DPA dedicated SERDES Receiver circuitry present in device or used in desi
 Info: *******************************************************************
 Info: Running Quartus Prime TimeQuest Timing Analyzer
     Info: Version 15.1.0 Build 185 10/21/2015 SJ Lite Edition
-    Info: Processing started: Sun Apr 10 21:14:16 2016
+    Info: Processing started: Mon Apr 11 22:09:59 2016
 Info: Command: quartus_sta vup1500 -c vup1500
 Info: qsta_default_script.tcl version: #1
 Info (20029): Only one processor detected - disabling parallel compilation
@@ -1855,9 +1855,9 @@ Info (332114): Report Metastability: Found 1 synchronizer chains.
 Info (332102): Design is not fully constrained for setup requirements
 Info (332102): Design is not fully constrained for hold requirements
 Info: Quartus Prime TimeQuest Timing Analyzer was successful. 0 errors, 70 warnings
-    Info: Peak virtual memory: 830 megabytes
-    Info: Processing ended: Sun Apr 10 21:14:29 2016
-    Info: Elapsed time: 00:00:13
-    Info: Total CPU time (on all processors): 00:00:10
+    Info: Peak virtual memory: 834 megabytes
+    Info: Processing ended: Mon Apr 11 22:10:08 2016
+    Info: Elapsed time: 00:00:09
+    Info: Total CPU time (on all processors): 00:00:08
 
 

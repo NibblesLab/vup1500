@@ -1,5 +1,5 @@
 Analysis & Synthesis report for vup1500
-Sun Apr 10 21:12:49 2016
+Mon Apr 11 22:08:48 2016
 Quartus Prime Version 15.1.0 Build 185 10/21/2015 SJ Lite Edition
 
 
@@ -138,7 +138,7 @@ agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                     ;
 +------------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Sun Apr 10 21:12:49 2016       ;
+; Analysis & Synthesis Status        ; Successful - Mon Apr 11 22:08:48 2016       ;
 ; Quartus Prime Version              ; 15.1.0 Build 185 10/21/2015 SJ Lite Edition ;
 ; Revision Name                      ; vup1500                                     ;
 ; Top-level Entity Name              ; vup1500                                     ;
@@ -249,39 +249,39 @@ agreement for further details.
 +--------------------------------------------------------------------+-----------------+----------------------------------------------+---------------------------------------------------------------------------------------+-------------+
 ; File Name with User-Entered Path                                   ; Used in Netlist ; File Type                                    ; File Name with Absolute Path                                                          ; Library     ;
 +--------------------------------------------------------------------+-----------------+----------------------------------------------+---------------------------------------------------------------------------------------+-------------+
-; vup1500.vhd                                                        ; yes             ; User VHDL File                               ; D:/develop/vup1500/vup1500.vhd                                                        ;             ;
-; pll100.vhd                                                         ; yes             ; User Wizard-Generated File                   ; D:/develop/vup1500/pll100.vhd                                                         ;             ;
-; mrom.vhd                                                           ; yes             ; User VHDL File                               ; D:/develop/vup1500/mrom.vhd                                                           ;             ;
-; mrom2k.vhd                                                         ; yes             ; User Wizard-Generated File                   ; D:/develop/vup1500/mrom2k.vhd                                                         ;             ;
-; i8255.vhd                                                          ; yes             ; User VHDL File                               ; D:/develop/vup1500/i8255.vhd                                                          ;             ;
-; i8253.vhd                                                          ; yes             ; User VHDL File                               ; D:/develop/vup1500/i8253.vhd                                                          ;             ;
-; gh_timer_8254_wb.vhd                                               ; yes             ; User VHDL File                               ; D:/develop/vup1500/gh_timer_8254_wb.vhd                                               ;             ;
-; gh_edge_det_XCD_t.vhd                                              ; yes             ; User VHDL File                               ; D:/develop/vup1500/gh_edge_det_XCD_t.vhd                                              ;             ;
-; gh_div2_bcd_4digits.vhd                                            ; yes             ; User VHDL File                               ; D:/develop/vup1500/gh_div2_bcd_4digits.vhd                                            ;             ;
-; gh_div_bcd2.vhd                                                    ; yes             ; User VHDL File                               ; D:/develop/vup1500/gh_div_bcd2.vhd                                                    ;             ;
-; gh_counter_down_16b_bb.vhd                                         ; yes             ; User VHDL File                               ; D:/develop/vup1500/gh_counter_down_16b_bb.vhd                                         ;             ;
-; gh_counter_down_4b_bb.vhd                                          ; yes             ; User VHDL File                               ; D:/develop/vup1500/gh_counter_down_4b_bb.vhd                                          ;             ;
-; gh_counter_control.vhd                                             ; yes             ; User VHDL File                               ; D:/develop/vup1500/gh_counter_control.vhd                                             ;             ;
-; gh_register_ce.vhd                                                 ; yes             ; User VHDL File                               ; D:/develop/vup1500/gh_register_ce.vhd                                                 ;             ;
-; gh_jkff.vhd                                                        ; yes             ; User VHDL File                               ; D:/develop/vup1500/gh_jkff.vhd                                                        ;             ;
-; gh_edge_det.vhd                                                    ; yes             ; User VHDL File                               ; D:/develop/vup1500/gh_edge_det.vhd                                                    ;             ;
-; z8420.vhd                                                          ; yes             ; User VHDL File                               ; D:/develop/vup1500/z8420.vhd                                                          ;             ;
-; Interrupt.vhd                                                      ; yes             ; User VHDL File                               ; D:/develop/vup1500/Interrupt.vhd                                                      ;             ;
-; psg.vhd                                                            ; yes             ; User VHDL File                               ; D:/develop/vup1500/psg.vhd                                                            ;             ;
-; psg_tone.vhd                                                       ; yes             ; User VHDL File                               ; D:/develop/vup1500/psg_tone.vhd                                                       ;             ;
-; psg_noise.vhd                                                      ; yes             ; User VHDL File                               ; D:/develop/vup1500/psg_noise.vhd                                                      ;             ;
-; dac.vhd                                                            ; yes             ; User VHDL File                               ; D:/develop/vup1500/dac.vhd                                                            ;             ;
-; videoout.vhd                                                       ; yes             ; User VHDL File                               ; D:/develop/vup1500/videoout.vhd                                                       ;             ;
-; pll57.vhd                                                          ; yes             ; User Wizard-Generated File                   ; D:/develop/vup1500/pll57.vhd                                                          ;             ;
-; ram2k.vhd                                                          ; yes             ; User Wizard-Generated File                   ; D:/develop/vup1500/ram2k.vhd                                                          ;             ;
-; pcg.vhd                                                            ; yes             ; User VHDL File                               ; D:/develop/vup1500/pcg.vhd                                                            ;             ;
-; ram1k.vhd                                                          ; yes             ; User Wizard-Generated File                   ; D:/develop/vup1500/ram1k.vhd                                                          ;             ;
-; cgrom.vhd                                                          ; yes             ; User Wizard-Generated File                   ; D:/develop/vup1500/cgrom.vhd                                                          ;             ;
-; ScanConv.vhd                                                       ; yes             ; User VHDL File                               ; D:/develop/vup1500/ScanConv.vhd                                                       ;             ;
-; linebuf.vhd                                                        ; yes             ; User Wizard-Generated File                   ; D:/develop/vup1500/linebuf.vhd                                                        ;             ;
-; mrom4k.vhd                                                         ; yes             ; User Wizard-Generated File                   ; D:/develop/vup1500/mrom4k.vhd                                                         ;             ;
-; ram8k.vhd                                                          ; yes             ; User Wizard-Generated File                   ; D:/develop/vup1500/ram8k.vhd                                                          ;             ;
-; sdram.vhd                                                          ; yes             ; User VHDL File                               ; D:/develop/vup1500/sdram.vhd                                                          ;             ;
+; logic/vup1500.vhd                                                  ; yes             ; User VHDL File                               ; D:/develop/vup1500/logic/vup1500.vhd                                                  ;             ;
+; logic/pll100.vhd                                                   ; yes             ; User Wizard-Generated File                   ; D:/develop/vup1500/logic/pll100.vhd                                                   ;             ;
+; logic/mrom.vhd                                                     ; yes             ; User VHDL File                               ; D:/develop/vup1500/logic/mrom.vhd                                                     ;             ;
+; logic/mrom2k.vhd                                                   ; yes             ; User Wizard-Generated File                   ; D:/develop/vup1500/logic/mrom2k.vhd                                                   ;             ;
+; logic/mrom4k.vhd                                                   ; yes             ; User Wizard-Generated File                   ; D:/develop/vup1500/logic/mrom4k.vhd                                                   ;             ;
+; logic/i8255.vhd                                                    ; yes             ; User VHDL File                               ; D:/develop/vup1500/logic/i8255.vhd                                                    ;             ;
+; logic/i8253.vhd                                                    ; yes             ; User VHDL File                               ; D:/develop/vup1500/logic/i8253.vhd                                                    ;             ;
+; logic/gh_timer_8254_wb.vhd                                         ; yes             ; User VHDL File                               ; D:/develop/vup1500/logic/gh_timer_8254_wb.vhd                                         ;             ;
+; logic/gh_edge_det_XCD_t.vhd                                        ; yes             ; User VHDL File                               ; D:/develop/vup1500/logic/gh_edge_det_XCD_t.vhd                                        ;             ;
+; logic/gh_div2_bcd_4digits.vhd                                      ; yes             ; User VHDL File                               ; D:/develop/vup1500/logic/gh_div2_bcd_4digits.vhd                                      ;             ;
+; logic/gh_div_bcd2.vhd                                              ; yes             ; User VHDL File                               ; D:/develop/vup1500/logic/gh_div_bcd2.vhd                                              ;             ;
+; logic/gh_counter_down_16b_bb.vhd                                   ; yes             ; User VHDL File                               ; D:/develop/vup1500/logic/gh_counter_down_16b_bb.vhd                                   ;             ;
+; logic/gh_counter_down_4b_bb.vhd                                    ; yes             ; User VHDL File                               ; D:/develop/vup1500/logic/gh_counter_down_4b_bb.vhd                                    ;             ;
+; logic/gh_counter_control.vhd                                       ; yes             ; User VHDL File                               ; D:/develop/vup1500/logic/gh_counter_control.vhd                                       ;             ;
+; logic/gh_register_ce.vhd                                           ; yes             ; User VHDL File                               ; D:/develop/vup1500/logic/gh_register_ce.vhd                                           ;             ;
+; logic/gh_jkff.vhd                                                  ; yes             ; User VHDL File                               ; D:/develop/vup1500/logic/gh_jkff.vhd                                                  ;             ;
+; logic/gh_edge_det.vhd                                              ; yes             ; User VHDL File                               ; D:/develop/vup1500/logic/gh_edge_det.vhd                                              ;             ;
+; logic/z8420.vhd                                                    ; yes             ; User VHDL File                               ; D:/develop/vup1500/logic/z8420.vhd                                                    ;             ;
+; logic/Interrupt.vhd                                                ; yes             ; User VHDL File                               ; D:/develop/vup1500/logic/Interrupt.vhd                                                ;             ;
+; logic/psg.vhd                                                      ; yes             ; User VHDL File                               ; D:/develop/vup1500/logic/psg.vhd                                                      ;             ;
+; logic/psg_tone.vhd                                                 ; yes             ; User VHDL File                               ; D:/develop/vup1500/logic/psg_tone.vhd                                                 ;             ;
+; logic/psg_noise.vhd                                                ; yes             ; User VHDL File                               ; D:/develop/vup1500/logic/psg_noise.vhd                                                ;             ;
+; logic/dac.vhd                                                      ; yes             ; User VHDL File                               ; D:/develop/vup1500/logic/dac.vhd                                                      ;             ;
+; logic/videoout.vhd                                                 ; yes             ; User VHDL File                               ; D:/develop/vup1500/logic/videoout.vhd                                                 ;             ;
+; logic/pll57.vhd                                                    ; yes             ; User Wizard-Generated File                   ; D:/develop/vup1500/logic/pll57.vhd                                                    ;             ;
+; logic/ram2k.vhd                                                    ; yes             ; User Wizard-Generated File                   ; D:/develop/vup1500/logic/ram2k.vhd                                                    ;             ;
+; logic/pcg.vhd                                                      ; yes             ; User VHDL File                               ; D:/develop/vup1500/logic/pcg.vhd                                                      ;             ;
+; logic/ram1k.vhd                                                    ; yes             ; User Wizard-Generated File                   ; D:/develop/vup1500/logic/ram1k.vhd                                                    ;             ;
+; logic/cgrom.vhd                                                    ; yes             ; User Wizard-Generated File                   ; D:/develop/vup1500/logic/cgrom.vhd                                                    ;             ;
+; logic/ScanConv.vhd                                                 ; yes             ; User VHDL File                               ; D:/develop/vup1500/logic/ScanConv.vhd                                                 ;             ;
+; logic/linebuf.vhd                                                  ; yes             ; User Wizard-Generated File                   ; D:/develop/vup1500/logic/linebuf.vhd                                                  ;             ;
+; logic/ram8k.vhd                                                    ; yes             ; User Wizard-Generated File                   ; D:/develop/vup1500/logic/ram8k.vhd                                                    ;             ;
+; logic/sdram.vhd                                                    ; yes             ; User VHDL File                               ; D:/develop/vup1500/logic/sdram.vhd                                                    ;             ;
 ; altsyncram.tdf                                                     ; yes             ; Megafunction                                 ; c:/altera_lite/15.1/quartus/libraries/megafunctions/altsyncram.tdf                    ;             ;
 ; stratix_ram_block.inc                                              ; yes             ; Megafunction                                 ; c:/altera_lite/15.1/quartus/libraries/megafunctions/stratix_ram_block.inc             ;             ;
 ; lpm_mux.inc                                                        ; yes             ; Megafunction                                 ; c:/altera_lite/15.1/quartus/libraries/megafunctions/lpm_mux.inc                       ;             ;
@@ -320,6 +320,39 @@ agreement for further details.
 ; db/ip/sldc3dd541a/submodules/alt_sld_fab_alt_sld_fab_sldfabric.vhd ; yes             ; Encrypted Auto-Found VHDL File               ; D:/develop/vup1500/db/ip/sldc3dd541a/submodules/alt_sld_fab_alt_sld_fab_sldfabric.vhd ; alt_sld_fab ;
 ; db/ip/sldc3dd541a/submodules/alt_sld_fab_alt_sld_fab_splitter.sv   ; yes             ; Encrypted Auto-Found SystemVerilog HDL File  ; D:/develop/vup1500/db/ip/sldc3dd541a/submodules/alt_sld_fab_alt_sld_fab_splitter.sv   ; alt_sld_fab ;
 ; sld_jtag_hub.vhd                                                   ; yes             ; Encrypted Megafunction                       ; c:/altera_lite/15.1/quartus/libraries/megafunctions/sld_jtag_hub.vhd                  ;             ;
+; vup1500.vhd                                                        ; yes             ; User VHDL File                               ; vup1500.vhd                                                                           ;             ;
+; pll100.vhd                                                         ; yes             ; User Wizard-Generated File                   ; pll100.vhd                                                                            ;             ;
+; mrom.vhd                                                           ; yes             ; User VHDL File                               ; mrom.vhd                                                                              ;             ;
+; mrom2k.vhd                                                         ; yes             ; User Wizard-Generated File                   ; mrom2k.vhd                                                                            ;             ;
+; i8255.vhd                                                          ; yes             ; User VHDL File                               ; i8255.vhd                                                                             ;             ;
+; i8253.vhd                                                          ; yes             ; User VHDL File                               ; i8253.vhd                                                                             ;             ;
+; gh_timer_8254_wb.vhd                                               ; yes             ; User VHDL File                               ; gh_timer_8254_wb.vhd                                                                  ;             ;
+; gh_edge_det_XCD_t.vhd                                              ; yes             ; User VHDL File                               ; gh_edge_det_XCD_t.vhd                                                                 ;             ;
+; gh_div2_bcd_4digits.vhd                                            ; yes             ; User VHDL File                               ; gh_div2_bcd_4digits.vhd                                                               ;             ;
+; gh_div_bcd2.vhd                                                    ; yes             ; User VHDL File                               ; gh_div_bcd2.vhd                                                                       ;             ;
+; gh_counter_down_16b_bb.vhd                                         ; yes             ; User VHDL File                               ; gh_counter_down_16b_bb.vhd                                                            ;             ;
+; gh_counter_down_4b_bb.vhd                                          ; yes             ; User VHDL File                               ; gh_counter_down_4b_bb.vhd                                                             ;             ;
+; gh_counter_control.vhd                                             ; yes             ; User VHDL File                               ; gh_counter_control.vhd                                                                ;             ;
+; gh_register_ce.vhd                                                 ; yes             ; User VHDL File                               ; gh_register_ce.vhd                                                                    ;             ;
+; gh_jkff.vhd                                                        ; yes             ; User VHDL File                               ; gh_jkff.vhd                                                                           ;             ;
+; gh_edge_det.vhd                                                    ; yes             ; User VHDL File                               ; gh_edge_det.vhd                                                                       ;             ;
+; z8420.vhd                                                          ; yes             ; User VHDL File                               ; z8420.vhd                                                                             ;             ;
+; Interrupt.vhd                                                      ; yes             ; User VHDL File                               ; Interrupt.vhd                                                                         ;             ;
+; psg.vhd                                                            ; yes             ; User VHDL File                               ; psg.vhd                                                                               ;             ;
+; psg_tone.vhd                                                       ; yes             ; User VHDL File                               ; psg_tone.vhd                                                                          ;             ;
+; psg_noise.vhd                                                      ; yes             ; User VHDL File                               ; psg_noise.vhd                                                                         ;             ;
+; dac.vhd                                                            ; yes             ; User VHDL File                               ; dac.vhd                                                                               ;             ;
+; videoout.vhd                                                       ; yes             ; User VHDL File                               ; videoout.vhd                                                                          ;             ;
+; pll57.vhd                                                          ; yes             ; User Wizard-Generated File                   ; pll57.vhd                                                                             ;             ;
+; ram2k.vhd                                                          ; yes             ; User Wizard-Generated File                   ; ram2k.vhd                                                                             ;             ;
+; pcg.vhd                                                            ; yes             ; User VHDL File                               ; pcg.vhd                                                                               ;             ;
+; ram1k.vhd                                                          ; yes             ; User Wizard-Generated File                   ; ram1k.vhd                                                                             ;             ;
+; cgrom.vhd                                                          ; yes             ; User Wizard-Generated File                   ; cgrom.vhd                                                                             ;             ;
+; ScanConv.vhd                                                       ; yes             ; User VHDL File                               ; ScanConv.vhd                                                                          ;             ;
+; linebuf.vhd                                                        ; yes             ; User Wizard-Generated File                   ; linebuf.vhd                                                                           ;             ;
+; mrom4k.vhd                                                         ; yes             ; User Wizard-Generated File                   ; mrom4k.vhd                                                                            ;             ;
+; ram8k.vhd                                                          ; yes             ; User Wizard-Generated File                   ; ram8k.vhd                                                                             ;             ;
+; sdram.vhd                                                          ; yes             ; User VHDL File                               ; sdram.vhd                                                                             ;             ;
 ; db/altsyncram_ggo3.tdf                                             ; yes             ; Auto-Generated Megafunction                  ; D:/develop/vup1500/db/altsyncram_ggo3.tdf                                             ;             ;
 +--------------------------------------------------------------------+-----------------+----------------------------------------------+---------------------------------------------------------------------------------------+-------------+
 
@@ -561,30 +594,30 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +------------------------------------------------------------------------------------------------------------------------------------+------+------------------+--------------+--------------+--------------+--------------+-------+---------------+
 
 
-+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis IP Cores Summary                                                                                                                                                                                                                                                                                                                          ;
-+--------+--------------+---------+--------------+--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------+
-; Vendor ; IP Core Name ; Version ; Release Date ; License Type ; Entity Instance                                                                                                                                                                                                                                                              ; IP Include File ;
-+--------+--------------+---------+--------------+--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------+
-; Altera ; Signal Tap   ; N/A     ; N/A          ; Licensed     ; |vup1500|sld_hub:auto_hub|alt_sld_fab_with_jtag_input:\instrumentation_fabric_with_node_gen:fabric_gen_new_way:with_jtag_input_gen:instrumentation_fabric|alt_sld_fab:instrumentation_fabric                                                                                 ;                 ;
-; Altera ; Signal Tap   ; N/A     ; N/A          ; Licensed     ; |vup1500|sld_hub:auto_hub|alt_sld_fab_with_jtag_input:\instrumentation_fabric_with_node_gen:fabric_gen_new_way:with_jtag_input_gen:instrumentation_fabric|alt_sld_fab:instrumentation_fabric|alt_sld_fab_alt_sld_fab:alt_sld_fab                                             ;                 ;
-; Altera ; Signal Tap   ; N/A     ; N/A          ; Licensed     ; |vup1500|sld_hub:auto_hub|alt_sld_fab_with_jtag_input:\instrumentation_fabric_with_node_gen:fabric_gen_new_way:with_jtag_input_gen:instrumentation_fabric|alt_sld_fab:instrumentation_fabric|alt_sld_fab_alt_sld_fab:alt_sld_fab|alt_sld_fab_alt_sld_fab_presplit:presplit   ;                 ;
-; Altera ; Signal Tap   ; N/A     ; N/A          ; Licensed     ; |vup1500|sld_hub:auto_hub|alt_sld_fab_with_jtag_input:\instrumentation_fabric_with_node_gen:fabric_gen_new_way:with_jtag_input_gen:instrumentation_fabric|alt_sld_fab:instrumentation_fabric|alt_sld_fab_alt_sld_fab:alt_sld_fab|alt_sld_fab_alt_sld_fab_sldfabric:sldfabric ;                 ;
-; Altera ; Signal Tap   ; N/A     ; N/A          ; Licensed     ; |vup1500|sld_hub:auto_hub|alt_sld_fab_with_jtag_input:\instrumentation_fabric_with_node_gen:fabric_gen_new_way:with_jtag_input_gen:instrumentation_fabric|alt_sld_fab:instrumentation_fabric|alt_sld_fab_alt_sld_fab:alt_sld_fab|alt_sld_fab_alt_sld_fab_splitter:splitter   ;                 ;
-; Altera ; ALTPLL       ; 15.1    ; N/A          ; N/A          ; |vup1500|pll100:CKGEN0                                                                                                                                                                                                                                                       ; pll100.vhd      ;
-; Altera ; ROM: 1-PORT  ; 15.1    ; N/A          ; N/A          ; |vup1500|mrom:MROM0|mrom2k:mrom0                                                                                                                                                                                                                                             ; mrom2k.vhd      ;
-; Altera ; ROM: 1-PORT  ; 15.1    ; N/A          ; N/A          ; |vup1500|mrom:MROM0|mrom4k:mrom1                                                                                                                                                                                                                                             ; mrom4k.vhd      ;
-; Altera ; RAM: 2-PORT  ; 15.1    ; N/A          ; N/A          ; |vup1500|ScanConv:SCONV0|linebuf:SBUF                                                                                                                                                                                                                                        ; linebuf.vhd     ;
-; Altera ; RAM: 1-PORT  ; 15.1    ; N/A          ; N/A          ; |vup1500|videoout:VIDEO0|ram8k:GRAM0                                                                                                                                                                                                                                         ; ram8k.vhd       ;
-; Altera ; RAM: 1-PORT  ; 15.1    ; N/A          ; N/A          ; |vup1500|videoout:VIDEO0|ram8k:GRAM1                                                                                                                                                                                                                                         ; ram8k.vhd       ;
-; Altera ; RAM: 1-PORT  ; 15.1    ; N/A          ; N/A          ; |vup1500|videoout:VIDEO0|ram8k:GRAM2                                                                                                                                                                                                                                         ; ram8k.vhd       ;
-; Altera ; RAM: 1-PORT  ; 15.1    ; N/A          ; N/A          ; |vup1500|videoout:VIDEO0|ram2k:VARAM0                                                                                                                                                                                                                                        ; ram2k.vhd       ;
-; Altera ; ALTPLL       ; 15.1    ; N/A          ; N/A          ; |vup1500|videoout:VIDEO0|pll57:VCKGEN                                                                                                                                                                                                                                        ; pll57.vhd       ;
-; Altera ; RAM: 1-PORT  ; 15.1    ; N/A          ; N/A          ; |vup1500|videoout:VIDEO0|pcg:VPCG0|ram1k:CGRAM0                                                                                                                                                                                                                              ; ram1k.vhd       ;
-; Altera ; RAM: 1-PORT  ; 15.1    ; N/A          ; N/A          ; |vup1500|videoout:VIDEO0|pcg:VPCG0|ram1k:CGRAM1                                                                                                                                                                                                                              ; ram1k.vhd       ;
-; Altera ; ROM: 1-PORT  ; 15.1    ; N/A          ; N/A          ; |vup1500|videoout:VIDEO0|pcg:VPCG0|cgrom:CGROM0                                                                                                                                                                                                                              ; cgrom.vhd       ;
-; Altera ; RAM: 1-PORT  ; 15.1    ; N/A          ; N/A          ; |vup1500|videoout:VIDEO0|ram2k:VVRAM0                                                                                                                                                                                                                                        ; ram2k.vhd       ;
-+--------+--------------+---------+--------------+--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------+
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis IP Cores Summary                                                                                                                                                                                                                                                                                                                            ;
++--------+--------------+---------+--------------+--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------+
+; Vendor ; IP Core Name ; Version ; Release Date ; License Type ; Entity Instance                                                                                                                                                                                                                                                              ; IP Include File   ;
++--------+--------------+---------+--------------+--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------+
+; Altera ; Signal Tap   ; N/A     ; N/A          ; Licensed     ; |vup1500|sld_hub:auto_hub|alt_sld_fab_with_jtag_input:\instrumentation_fabric_with_node_gen:fabric_gen_new_way:with_jtag_input_gen:instrumentation_fabric|alt_sld_fab:instrumentation_fabric                                                                                 ;                   ;
+; Altera ; Signal Tap   ; N/A     ; N/A          ; Licensed     ; |vup1500|sld_hub:auto_hub|alt_sld_fab_with_jtag_input:\instrumentation_fabric_with_node_gen:fabric_gen_new_way:with_jtag_input_gen:instrumentation_fabric|alt_sld_fab:instrumentation_fabric|alt_sld_fab_alt_sld_fab:alt_sld_fab                                             ;                   ;
+; Altera ; Signal Tap   ; N/A     ; N/A          ; Licensed     ; |vup1500|sld_hub:auto_hub|alt_sld_fab_with_jtag_input:\instrumentation_fabric_with_node_gen:fabric_gen_new_way:with_jtag_input_gen:instrumentation_fabric|alt_sld_fab:instrumentation_fabric|alt_sld_fab_alt_sld_fab:alt_sld_fab|alt_sld_fab_alt_sld_fab_presplit:presplit   ;                   ;
+; Altera ; Signal Tap   ; N/A     ; N/A          ; Licensed     ; |vup1500|sld_hub:auto_hub|alt_sld_fab_with_jtag_input:\instrumentation_fabric_with_node_gen:fabric_gen_new_way:with_jtag_input_gen:instrumentation_fabric|alt_sld_fab:instrumentation_fabric|alt_sld_fab_alt_sld_fab:alt_sld_fab|alt_sld_fab_alt_sld_fab_sldfabric:sldfabric ;                   ;
+; Altera ; Signal Tap   ; N/A     ; N/A          ; Licensed     ; |vup1500|sld_hub:auto_hub|alt_sld_fab_with_jtag_input:\instrumentation_fabric_with_node_gen:fabric_gen_new_way:with_jtag_input_gen:instrumentation_fabric|alt_sld_fab:instrumentation_fabric|alt_sld_fab_alt_sld_fab:alt_sld_fab|alt_sld_fab_alt_sld_fab_splitter:splitter   ;                   ;
+; Altera ; ALTPLL       ; 15.1    ; N/A          ; N/A          ; |vup1500|pll100:CKGEN0                                                                                                                                                                                                                                                       ; logic/pll100.vhd  ;
+; Altera ; ROM: 1-PORT  ; 15.1    ; N/A          ; N/A          ; |vup1500|mrom:MROM0|mrom2k:mrom0                                                                                                                                                                                                                                             ; logic/mrom2k.vhd  ;
+; Altera ; ROM: 1-PORT  ; 15.1    ; N/A          ; N/A          ; |vup1500|mrom:MROM0|mrom4k:mrom1                                                                                                                                                                                                                                             ; logic/mrom4k.vhd  ;
+; Altera ; RAM: 2-PORT  ; 15.1    ; N/A          ; N/A          ; |vup1500|ScanConv:SCONV0|linebuf:SBUF                                                                                                                                                                                                                                        ; logic/linebuf.vhd ;
+; Altera ; RAM: 1-PORT  ; 15.1    ; N/A          ; N/A          ; |vup1500|videoout:VIDEO0|ram8k:GRAM0                                                                                                                                                                                                                                         ; logic/ram8k.vhd   ;
+; Altera ; RAM: 1-PORT  ; 15.1    ; N/A          ; N/A          ; |vup1500|videoout:VIDEO0|ram8k:GRAM1                                                                                                                                                                                                                                         ; logic/ram8k.vhd   ;
+; Altera ; RAM: 1-PORT  ; 15.1    ; N/A          ; N/A          ; |vup1500|videoout:VIDEO0|ram8k:GRAM2                                                                                                                                                                                                                                         ; logic/ram8k.vhd   ;
+; Altera ; RAM: 1-PORT  ; 15.1    ; N/A          ; N/A          ; |vup1500|videoout:VIDEO0|ram2k:VARAM0                                                                                                                                                                                                                                        ; logic/ram2k.vhd   ;
+; Altera ; ALTPLL       ; 15.1    ; N/A          ; N/A          ; |vup1500|videoout:VIDEO0|pll57:VCKGEN                                                                                                                                                                                                                                        ; logic/pll57.vhd   ;
+; Altera ; RAM: 1-PORT  ; 15.1    ; N/A          ; N/A          ; |vup1500|videoout:VIDEO0|pcg:VPCG0|ram1k:CGRAM0                                                                                                                                                                                                                              ; logic/ram1k.vhd   ;
+; Altera ; RAM: 1-PORT  ; 15.1    ; N/A          ; N/A          ; |vup1500|videoout:VIDEO0|pcg:VPCG0|ram1k:CGRAM1                                                                                                                                                                                                                              ; logic/ram1k.vhd   ;
+; Altera ; ROM: 1-PORT  ; 15.1    ; N/A          ; N/A          ; |vup1500|videoout:VIDEO0|pcg:VPCG0|cgrom:CGROM0                                                                                                                                                                                                                              ; logic/cgrom.vhd   ;
+; Altera ; RAM: 1-PORT  ; 15.1    ; N/A          ; N/A          ; |vup1500|videoout:VIDEO0|ram2k:VVRAM0                                                                                                                                                                                                                                        ; logic/ram2k.vhd   ;
++--------+--------------+---------+--------------+--------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------+
 
 
 Encoding Type:  One-Hot
@@ -3312,7 +3345,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:08     ;
+; Top            ; 00:00:06     ;
 +----------------+--------------+
 
 
@@ -3322,143 +3355,134 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 15.1.0 Build 185 10/21/2015 SJ Lite Edition
-    Info: Processing started: Sun Apr 10 21:11:30 2016
+    Info: Processing started: Mon Apr 11 22:07:33 2016
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off vup1500 -c vup1500
 Info (20029): Only one processor detected - disabling parallel compilation
-Info (12021): Found 2 design units, including 1 entities, in source file vup1500.vhd
-    Info (12022): Found design unit 1: vup1500-rtl File: D:/develop/vup1500/vup1500.vhd Line: 196
-    Info (12023): Found entity 1: vup1500 File: D:/develop/vup1500/vup1500.vhd Line: 14
-Info (12021): Found 2 design units, including 1 entities, in source file pll100.vhd
-    Info (12022): Found design unit 1: pll100-SYN File: D:/develop/vup1500/pll100.vhd Line: 53
-    Info (12023): Found entity 1: pll100 File: D:/develop/vup1500/pll100.vhd Line: 43
-Info (12021): Found 2 design units, including 1 entities, in source file mrom.vhd
-    Info (12022): Found design unit 1: mrom-rtl File: D:/develop/vup1500/mrom.vhd Line: 23
-    Info (12023): Found entity 1: mrom File: D:/develop/vup1500/mrom.vhd Line: 14
-Info (12021): Found 2 design units, including 1 entities, in source file mrom2k.vhd
-    Info (12022): Found design unit 1: mrom2k-SYN File: D:/develop/vup1500/mrom2k.vhd Line: 53
-    Info (12023): Found entity 1: mrom2k File: D:/develop/vup1500/mrom2k.vhd Line: 43
-Info (12021): Found 2 design units, including 1 entities, in source file i8255.vhd
-    Info (12022): Found design unit 1: i8255-Behavioral File: D:/develop/vup1500/i8255.vhd Line: 42
-    Info (12023): Found entity 1: i8255 File: D:/develop/vup1500/i8255.vhd Line: 19
-Info (12021): Found 2 design units, including 1 entities, in source file i8253.vhd
-    Info (12022): Found design unit 1: i8253-Behavioral File: D:/develop/vup1500/i8253.vhd Line: 42
-    Info (12023): Found entity 1: i8253 File: D:/develop/vup1500/i8253.vhd Line: 17
-Info (12021): Found 2 design units, including 1 entities, in source file gh_timer_8254_wb.vhd
-    Info (12022): Found design unit 1: gh_timer_8254_wb-a File: D:/develop/vup1500/gh_timer_8254_wb.vhd Line: 58
-    Info (12023): Found entity 1: gh_timer_8254_wb File: D:/develop/vup1500/gh_timer_8254_wb.vhd Line: 22
-Info (12021): Found 2 design units, including 1 entities, in source file gh_edge_det_xcd_t.vhd
-    Info (12022): Found design unit 1: gh_edge_det_XCD_t-a File: D:/develop/vup1500/gh_edge_det_XCD_t.vhd Line: 35
-    Info (12023): Found entity 1: gh_edge_det_XCD_t File: D:/develop/vup1500/gh_edge_det_XCD_t.vhd Line: 23
-Info (12021): Found 2 design units, including 1 entities, in source file gh_div2_bcd_4digits.vhd
-    Info (12022): Found design unit 1: gh_div2_bcd_4digits-a File: D:/develop/vup1500/gh_div2_bcd_4digits.vhd Line: 28
-    Info (12023): Found entity 1: gh_div2_bcd_4digits File: D:/develop/vup1500/gh_div2_bcd_4digits.vhd Line: 21
-Info (12021): Found 2 design units, including 1 entities, in source file gh_div_bcd2.vhd
-    Info (12022): Found design unit 1: gh_div_bcd2-a File: D:/develop/vup1500/gh_div_bcd2.vhd Line: 32
-    Info (12023): Found entity 1: gh_div_bcd2 File: D:/develop/vup1500/gh_div_bcd2.vhd Line: 23
-Info (12021): Found 2 design units, including 1 entities, in source file gh_counter_down_16b_bb.vhd
-    Info (12022): Found design unit 1: gh_counter_down_16b_bb-a File: D:/develop/vup1500/gh_counter_down_16b_bb.vhd Line: 37
-    Info (12023): Found entity 1: gh_counter_down_16b_bb File: D:/develop/vup1500/gh_counter_down_16b_bb.vhd Line: 21
-Info (12021): Found 2 design units, including 1 entities, in source file gh_counter_down_4b_bb.vhd
-    Info (12022): Found design unit 1: gh_counter_down_4b_bb-a File: D:/develop/vup1500/gh_counter_down_4b_bb.vhd Line: 35
-    Info (12023): Found entity 1: gh_counter_down_4b_bb File: D:/develop/vup1500/gh_counter_down_4b_bb.vhd Line: 22
-Info (12021): Found 2 design units, including 1 entities, in source file gh_counter_control.vhd
-    Info (12022): Found design unit 1: gh_counter_control-a File: D:/develop/vup1500/gh_counter_control.vhd Line: 42
-    Info (12023): Found entity 1: gh_counter_control File: D:/develop/vup1500/gh_counter_control.vhd Line: 21
-Info (12021): Found 2 design units, including 1 entities, in source file gh_register_ce.vhd
-    Info (12022): Found design unit 1: gh_register_ce-a File: D:/develop/vup1500/gh_register_ce.vhd Line: 33
-    Info (12023): Found entity 1: gh_register_ce File: D:/develop/vup1500/gh_register_ce.vhd Line: 22
-Info (12021): Found 2 design units, including 1 entities, in source file gh_register.vhd
-    Info (12022): Found design unit 1: gh_register-a File: D:/develop/vup1500/gh_register.vhd Line: 31
-    Info (12023): Found entity 1: gh_register File: D:/develop/vup1500/gh_register.vhd Line: 21
-Info (12021): Found 2 design units, including 1 entities, in source file gh_jkff.vhd
-    Info (12022): Found design unit 1: gh_jkff-a File: D:/develop/vup1500/gh_jkff.vhd Line: 33
-    Info (12023): Found entity 1: gh_jkff File: D:/develop/vup1500/gh_jkff.vhd Line: 24
-Info (12021): Found 2 design units, including 1 entities, in source file gh_edge_det.vhd
-    Info (12022): Found design unit 1: gh_edge_det-a File: D:/develop/vup1500/gh_edge_det.vhd Line: 37
-    Info (12023): Found entity 1: gh_edge_det File: D:/develop/vup1500/gh_edge_det.vhd Line: 24
-Info (12021): Found 2 design units, including 1 entities, in source file z8420.vhd
-    Info (12022): Found design unit 1: z8420-Behavioral File: D:/develop/vup1500/z8420.vhd Line: 47
-    Info (12023): Found entity 1: z8420 File: D:/develop/vup1500/z8420.vhd Line: 17
-Info (12021): Found 2 design units, including 1 entities, in source file interrupt.vhd
-    Info (12022): Found design unit 1: Interrupt-Behavioral File: D:/develop/vup1500/Interrupt.vhd Line: 34
-    Info (12023): Found entity 1: Interrupt File: D:/develop/vup1500/Interrupt.vhd Line: 14
-Info (12021): Found 2 design units, including 1 entities, in source file psg.vhd
-    Info (12022): Found design unit 1: psg-rtl File: D:/develop/vup1500/psg.vhd Line: 17
-    Info (12023): Found entity 1: psg File: D:/develop/vup1500/psg.vhd Line: 5
-Info (12021): Found 2 design units, including 1 entities, in source file psg_tone.vhd
-    Info (12022): Found design unit 1: psg_tone-rtl File: D:/develop/vup1500/psg_tone.vhd Line: 13
-    Info (12023): Found entity 1: psg_tone File: D:/develop/vup1500/psg_tone.vhd Line: 5
-Info (12021): Found 2 design units, including 1 entities, in source file psg_noise.vhd
-    Info (12022): Found design unit 1: psg_noise-rtl File: D:/develop/vup1500/psg_noise.vhd Line: 14
-    Info (12023): Found entity 1: psg_noise File: D:/develop/vup1500/psg_noise.vhd Line: 5
-Info (12021): Found 2 design units, including 1 entities, in source file dac.vhd
-    Info (12022): Found design unit 1: dac-rtl File: D:/develop/vup1500/dac.vhd Line: 13
-    Info (12023): Found entity 1: dac File: D:/develop/vup1500/dac.vhd Line: 6
-Info (12021): Found 2 design units, including 1 entities, in source file videoout.vhd
-    Info (12022): Found design unit 1: videoout-RTL File: D:/develop/vup1500/videoout.vhd Line: 52
-    Info (12023): Found entity 1: videoout File: D:/develop/vup1500/videoout.vhd Line: 15
-Info (12021): Found 2 design units, including 1 entities, in source file pll57.vhd
-    Info (12022): Found design unit 1: pll57-SYN File: D:/develop/vup1500/pll57.vhd Line: 53
-    Info (12023): Found entity 1: pll57 File: D:/develop/vup1500/pll57.vhd Line: 43
-Info (12021): Found 2 design units, including 1 entities, in source file ram2k.vhd
-    Info (12022): Found design unit 1: ram2k-SYN File: D:/develop/vup1500/ram2k.vhd Line: 55
-    Info (12023): Found entity 1: ram2k File: D:/develop/vup1500/ram2k.vhd Line: 43
-Info (12021): Found 2 design units, including 1 entities, in source file pcg.vhd
-    Info (12022): Found design unit 1: pcg-RTL File: D:/develop/vup1500/pcg.vhd Line: 34
-    Info (12023): Found entity 1: pcg File: D:/develop/vup1500/pcg.vhd Line: 16
-Info (12021): Found 2 design units, including 1 entities, in source file ram1k.vhd
-    Info (12022): Found design unit 1: ram1k-SYN File: D:/develop/vup1500/ram1k.vhd Line: 55
-    Info (12023): Found entity 1: ram1k File: D:/develop/vup1500/ram1k.vhd Line: 43
-Info (12021): Found 2 design units, including 1 entities, in source file cgrom.vhd
-    Info (12022): Found design unit 1: cgrom-SYN File: D:/develop/vup1500/cgrom.vhd Line: 53
-    Info (12023): Found entity 1: cgrom File: D:/develop/vup1500/cgrom.vhd Line: 43
-Info (12021): Found 2 design units, including 1 entities, in source file scanconv.vhd
-    Info (12022): Found design unit 1: ScanConv-RTL File: D:/develop/vup1500/ScanConv.vhd Line: 29
-    Info (12023): Found entity 1: ScanConv File: D:/develop/vup1500/ScanConv.vhd Line: 15
-Info (12021): Found 2 design units, including 1 entities, in source file linebuf.vhd
-    Info (12022): Found design unit 1: linebuf-SYN File: D:/develop/vup1500/linebuf.vhd Line: 57
-    Info (12023): Found entity 1: linebuf File: D:/develop/vup1500/linebuf.vhd Line: 43
-Info (12021): Found 2 design units, including 1 entities, in source file mrom4k.vhd
-    Info (12022): Found design unit 1: mrom4k-SYN File: D:/develop/vup1500/mrom4k.vhd Line: 53
-    Info (12023): Found entity 1: mrom4k File: D:/develop/vup1500/mrom4k.vhd Line: 43
-Info (12021): Found 2 design units, including 1 entities, in source file ram8k.vhd
-    Info (12022): Found design unit 1: ram8k-SYN File: D:/develop/vup1500/ram8k.vhd Line: 55
-    Info (12023): Found entity 1: ram8k File: D:/develop/vup1500/ram8k.vhd Line: 43
-Info (12021): Found 2 design units, including 1 entities, in source file sdram.vhd
-    Info (12022): Found design unit 1: sdram-rtl File: D:/develop/vup1500/sdram.vhd Line: 74
-    Info (12023): Found entity 1: sdram File: D:/develop/vup1500/sdram.vhd Line: 14
-Info (12021): Found 2 design units, including 1 entities, in source file mrom501.vhd
-    Info (12022): Found design unit 1: mrom501-SYN File: D:/develop/vup1500/mrom501.vhd Line: 53
-    Info (12023): Found entity 1: mrom501 File: D:/develop/vup1500/mrom501.vhd Line: 43
-Info (12021): Found 2 design units, including 1 entities, in source file mrom502_0.vhd
-    Info (12022): Found design unit 1: mrom502_0-SYN File: D:/develop/vup1500/mrom502_0.vhd Line: 53
-    Info (12023): Found entity 1: mrom502_0 File: D:/develop/vup1500/mrom502_0.vhd Line: 43
-Info (12021): Found 2 design units, including 1 entities, in source file mrom502_1.vhd
-    Info (12022): Found design unit 1: mrom502_1-SYN File: D:/develop/vup1500/mrom502_1.vhd Line: 53
-    Info (12023): Found entity 1: mrom502_1 File: D:/develop/vup1500/mrom502_1.vhd Line: 43
+Info (12021): Found 2 design units, including 1 entities, in source file logic/vup1500.vhd
+    Info (12022): Found design unit 1: vup1500-rtl File: D:/develop/vup1500/logic/vup1500.vhd Line: 196
+    Info (12023): Found entity 1: vup1500 File: D:/develop/vup1500/logic/vup1500.vhd Line: 14
+Info (12021): Found 2 design units, including 1 entities, in source file logic/pll100.vhd
+    Info (12022): Found design unit 1: pll100-SYN File: D:/develop/vup1500/logic/pll100.vhd Line: 53
+    Info (12023): Found entity 1: pll100 File: D:/develop/vup1500/logic/pll100.vhd Line: 43
+Info (12021): Found 2 design units, including 1 entities, in source file logic/mrom.vhd
+    Info (12022): Found design unit 1: mrom-rtl File: D:/develop/vup1500/logic/mrom.vhd Line: 23
+    Info (12023): Found entity 1: mrom File: D:/develop/vup1500/logic/mrom.vhd Line: 14
+Info (12021): Found 2 design units, including 1 entities, in source file logic/mrom2k.vhd
+    Info (12022): Found design unit 1: mrom2k-SYN File: D:/develop/vup1500/logic/mrom2k.vhd Line: 53
+    Info (12023): Found entity 1: mrom2k File: D:/develop/vup1500/logic/mrom2k.vhd Line: 43
+Info (12021): Found 2 design units, including 1 entities, in source file logic/mrom4k.vhd
+    Info (12022): Found design unit 1: mrom4k-SYN File: D:/develop/vup1500/logic/mrom4k.vhd Line: 53
+    Info (12023): Found entity 1: mrom4k File: D:/develop/vup1500/logic/mrom4k.vhd Line: 43
+Info (12021): Found 2 design units, including 1 entities, in source file logic/i8255.vhd
+    Info (12022): Found design unit 1: i8255-Behavioral File: D:/develop/vup1500/logic/i8255.vhd Line: 42
+    Info (12023): Found entity 1: i8255 File: D:/develop/vup1500/logic/i8255.vhd Line: 19
+Info (12021): Found 2 design units, including 1 entities, in source file logic/i8253.vhd
+    Info (12022): Found design unit 1: i8253-Behavioral File: D:/develop/vup1500/logic/i8253.vhd Line: 42
+    Info (12023): Found entity 1: i8253 File: D:/develop/vup1500/logic/i8253.vhd Line: 17
+Info (12021): Found 2 design units, including 1 entities, in source file logic/gh_timer_8254_wb.vhd
+    Info (12022): Found design unit 1: gh_timer_8254_wb-a File: D:/develop/vup1500/logic/gh_timer_8254_wb.vhd Line: 58
+    Info (12023): Found entity 1: gh_timer_8254_wb File: D:/develop/vup1500/logic/gh_timer_8254_wb.vhd Line: 22
+Info (12021): Found 2 design units, including 1 entities, in source file logic/gh_edge_det_xcd_t.vhd
+    Info (12022): Found design unit 1: gh_edge_det_XCD_t-a File: D:/develop/vup1500/logic/gh_edge_det_XCD_t.vhd Line: 35
+    Info (12023): Found entity 1: gh_edge_det_XCD_t File: D:/develop/vup1500/logic/gh_edge_det_XCD_t.vhd Line: 23
+Info (12021): Found 2 design units, including 1 entities, in source file logic/gh_div2_bcd_4digits.vhd
+    Info (12022): Found design unit 1: gh_div2_bcd_4digits-a File: D:/develop/vup1500/logic/gh_div2_bcd_4digits.vhd Line: 28
+    Info (12023): Found entity 1: gh_div2_bcd_4digits File: D:/develop/vup1500/logic/gh_div2_bcd_4digits.vhd Line: 21
+Info (12021): Found 2 design units, including 1 entities, in source file logic/gh_div_bcd2.vhd
+    Info (12022): Found design unit 1: gh_div_bcd2-a File: D:/develop/vup1500/logic/gh_div_bcd2.vhd Line: 32
+    Info (12023): Found entity 1: gh_div_bcd2 File: D:/develop/vup1500/logic/gh_div_bcd2.vhd Line: 23
+Info (12021): Found 2 design units, including 1 entities, in source file logic/gh_counter_down_16b_bb.vhd
+    Info (12022): Found design unit 1: gh_counter_down_16b_bb-a File: D:/develop/vup1500/logic/gh_counter_down_16b_bb.vhd Line: 37
+    Info (12023): Found entity 1: gh_counter_down_16b_bb File: D:/develop/vup1500/logic/gh_counter_down_16b_bb.vhd Line: 21
+Info (12021): Found 2 design units, including 1 entities, in source file logic/gh_counter_down_4b_bb.vhd
+    Info (12022): Found design unit 1: gh_counter_down_4b_bb-a File: D:/develop/vup1500/logic/gh_counter_down_4b_bb.vhd Line: 35
+    Info (12023): Found entity 1: gh_counter_down_4b_bb File: D:/develop/vup1500/logic/gh_counter_down_4b_bb.vhd Line: 22
+Info (12021): Found 2 design units, including 1 entities, in source file logic/gh_counter_control.vhd
+    Info (12022): Found design unit 1: gh_counter_control-a File: D:/develop/vup1500/logic/gh_counter_control.vhd Line: 42
+    Info (12023): Found entity 1: gh_counter_control File: D:/develop/vup1500/logic/gh_counter_control.vhd Line: 21
+Info (12021): Found 2 design units, including 1 entities, in source file logic/gh_register_ce.vhd
+    Info (12022): Found design unit 1: gh_register_ce-a File: D:/develop/vup1500/logic/gh_register_ce.vhd Line: 33
+    Info (12023): Found entity 1: gh_register_ce File: D:/develop/vup1500/logic/gh_register_ce.vhd Line: 22
+Info (12021): Found 2 design units, including 1 entities, in source file logic/gh_register.vhd
+    Info (12022): Found design unit 1: gh_register-a File: D:/develop/vup1500/logic/gh_register.vhd Line: 31
+    Info (12023): Found entity 1: gh_register File: D:/develop/vup1500/logic/gh_register.vhd Line: 21
+Info (12021): Found 2 design units, including 1 entities, in source file logic/gh_jkff.vhd
+    Info (12022): Found design unit 1: gh_jkff-a File: D:/develop/vup1500/logic/gh_jkff.vhd Line: 33
+    Info (12023): Found entity 1: gh_jkff File: D:/develop/vup1500/logic/gh_jkff.vhd Line: 24
+Info (12021): Found 2 design units, including 1 entities, in source file logic/gh_edge_det.vhd
+    Info (12022): Found design unit 1: gh_edge_det-a File: D:/develop/vup1500/logic/gh_edge_det.vhd Line: 37
+    Info (12023): Found entity 1: gh_edge_det File: D:/develop/vup1500/logic/gh_edge_det.vhd Line: 24
+Info (12021): Found 2 design units, including 1 entities, in source file logic/z8420.vhd
+    Info (12022): Found design unit 1: z8420-Behavioral File: D:/develop/vup1500/logic/z8420.vhd Line: 47
+    Info (12023): Found entity 1: z8420 File: D:/develop/vup1500/logic/z8420.vhd Line: 17
+Info (12021): Found 2 design units, including 1 entities, in source file logic/interrupt.vhd
+    Info (12022): Found design unit 1: Interrupt-Behavioral File: D:/develop/vup1500/logic/Interrupt.vhd Line: 34
+    Info (12023): Found entity 1: Interrupt File: D:/develop/vup1500/logic/Interrupt.vhd Line: 14
+Info (12021): Found 2 design units, including 1 entities, in source file logic/psg.vhd
+    Info (12022): Found design unit 1: psg-rtl File: D:/develop/vup1500/logic/psg.vhd Line: 17
+    Info (12023): Found entity 1: psg File: D:/develop/vup1500/logic/psg.vhd Line: 5
+Info (12021): Found 2 design units, including 1 entities, in source file logic/psg_tone.vhd
+    Info (12022): Found design unit 1: psg_tone-rtl File: D:/develop/vup1500/logic/psg_tone.vhd Line: 13
+    Info (12023): Found entity 1: psg_tone File: D:/develop/vup1500/logic/psg_tone.vhd Line: 5
+Info (12021): Found 2 design units, including 1 entities, in source file logic/psg_noise.vhd
+    Info (12022): Found design unit 1: psg_noise-rtl File: D:/develop/vup1500/logic/psg_noise.vhd Line: 14
+    Info (12023): Found entity 1: psg_noise File: D:/develop/vup1500/logic/psg_noise.vhd Line: 5
+Info (12021): Found 2 design units, including 1 entities, in source file logic/dac.vhd
+    Info (12022): Found design unit 1: dac-rtl File: D:/develop/vup1500/logic/dac.vhd Line: 13
+    Info (12023): Found entity 1: dac File: D:/develop/vup1500/logic/dac.vhd Line: 6
+Info (12021): Found 2 design units, including 1 entities, in source file logic/videoout.vhd
+    Info (12022): Found design unit 1: videoout-RTL File: D:/develop/vup1500/logic/videoout.vhd Line: 52
+    Info (12023): Found entity 1: videoout File: D:/develop/vup1500/logic/videoout.vhd Line: 15
+Info (12021): Found 2 design units, including 1 entities, in source file logic/pll57.vhd
+    Info (12022): Found design unit 1: pll57-SYN File: D:/develop/vup1500/logic/pll57.vhd Line: 53
+    Info (12023): Found entity 1: pll57 File: D:/develop/vup1500/logic/pll57.vhd Line: 43
+Info (12021): Found 2 design units, including 1 entities, in source file logic/ram2k.vhd
+    Info (12022): Found design unit 1: ram2k-SYN File: D:/develop/vup1500/logic/ram2k.vhd Line: 55
+    Info (12023): Found entity 1: ram2k File: D:/develop/vup1500/logic/ram2k.vhd Line: 43
+Info (12021): Found 2 design units, including 1 entities, in source file logic/pcg.vhd
+    Info (12022): Found design unit 1: pcg-RTL File: D:/develop/vup1500/logic/pcg.vhd Line: 34
+    Info (12023): Found entity 1: pcg File: D:/develop/vup1500/logic/pcg.vhd Line: 16
+Info (12021): Found 2 design units, including 1 entities, in source file logic/ram1k.vhd
+    Info (12022): Found design unit 1: ram1k-SYN File: D:/develop/vup1500/logic/ram1k.vhd Line: 55
+    Info (12023): Found entity 1: ram1k File: D:/develop/vup1500/logic/ram1k.vhd Line: 43
+Info (12021): Found 2 design units, including 1 entities, in source file logic/cgrom.vhd
+    Info (12022): Found design unit 1: cgrom-SYN File: D:/develop/vup1500/logic/cgrom.vhd Line: 53
+    Info (12023): Found entity 1: cgrom File: D:/develop/vup1500/logic/cgrom.vhd Line: 43
+Info (12021): Found 2 design units, including 1 entities, in source file logic/scanconv.vhd
+    Info (12022): Found design unit 1: ScanConv-RTL File: D:/develop/vup1500/logic/ScanConv.vhd Line: 29
+    Info (12023): Found entity 1: ScanConv File: D:/develop/vup1500/logic/ScanConv.vhd Line: 15
+Info (12021): Found 2 design units, including 1 entities, in source file logic/linebuf.vhd
+    Info (12022): Found design unit 1: linebuf-SYN File: D:/develop/vup1500/logic/linebuf.vhd Line: 57
+    Info (12023): Found entity 1: linebuf File: D:/develop/vup1500/logic/linebuf.vhd Line: 43
+Info (12021): Found 2 design units, including 1 entities, in source file logic/ram8k.vhd
+    Info (12022): Found design unit 1: ram8k-SYN File: D:/develop/vup1500/logic/ram8k.vhd Line: 55
+    Info (12023): Found entity 1: ram8k File: D:/develop/vup1500/logic/ram8k.vhd Line: 43
+Info (12021): Found 2 design units, including 1 entities, in source file logic/sdram.vhd
+    Info (12022): Found design unit 1: sdram-rtl File: D:/develop/vup1500/logic/sdram.vhd Line: 74
+    Info (12023): Found entity 1: sdram File: D:/develop/vup1500/logic/sdram.vhd Line: 14
 Info (12127): Elaborating entity "vup1500" for the top level hierarchy
-Warning (10541): VHDL Signal Declaration warning at vup1500.vhd(19): used implicit default value for signal "AD5681R_LDACn" because signal was never assigned a value or an explicit default value. Use of implicit default value may introduce unintended design optimizations. File: D:/develop/vup1500/vup1500.vhd Line: 19
-Warning (10541): VHDL Signal Declaration warning at vup1500.vhd(20): used implicit default value for signal "AD5681R_RSTn" because signal was never assigned a value or an explicit default value. Use of implicit default value may introduce unintended design optimizations. File: D:/develop/vup1500/vup1500.vhd Line: 20
-Warning (10541): VHDL Signal Declaration warning at vup1500.vhd(21): used implicit default value for signal "AD5681R_SCL" because signal was never assigned a value or an explicit default value. Use of implicit default value may introduce unintended design optimizations. File: D:/develop/vup1500/vup1500.vhd Line: 21
-Warning (10541): VHDL Signal Declaration warning at vup1500.vhd(22): used implicit default value for signal "AD5681R_SDA" because signal was never assigned a value or an explicit default value. Use of implicit default value may introduce unintended design optimizations. File: D:/develop/vup1500/vup1500.vhd Line: 22
-Warning (10541): VHDL Signal Declaration warning at vup1500.vhd(23): used implicit default value for signal "AD5681R_SYNCn" because signal was never assigned a value or an explicit default value. Use of implicit default value may introduce unintended design optimizations. File: D:/develop/vup1500/vup1500.vhd Line: 23
-Warning (10541): VHDL Signal Declaration warning at vup1500.vhd(27): used implicit default value for signal "ADT7420_SCL" because signal was never assigned a value or an explicit default value. Use of implicit default value may introduce unintended design optimizations. File: D:/develop/vup1500/vup1500.vhd Line: 27
-Warning (10541): VHDL Signal Declaration warning at vup1500.vhd(30): used implicit default value for signal "ADXL362_CS" because signal was never assigned a value or an explicit default value. Use of implicit default value may introduce unintended design optimizations. File: D:/develop/vup1500/vup1500.vhd Line: 30
-Warning (10541): VHDL Signal Declaration warning at vup1500.vhd(34): used implicit default value for signal "ADXL362_MOSI" because signal was never assigned a value or an explicit default value. Use of implicit default value may introduce unintended design optimizations. File: D:/develop/vup1500/vup1500.vhd Line: 34
-Warning (10541): VHDL Signal Declaration warning at vup1500.vhd(35): used implicit default value for signal "ADXL362_SCLK" because signal was never assigned a value or an explicit default value. Use of implicit default value may introduce unintended design optimizations. File: D:/develop/vup1500/vup1500.vhd Line: 35
-Warning (10036): Verilog HDL or VHDL warning at vup1500.vhd(217): object "CK7M16" assigned a value but never read File: D:/develop/vup1500/vup1500.vhd Line: 217
-Warning (10036): Verilog HDL or VHDL warning at vup1500.vhd(230): object "PPIPA" assigned a value but never read File: D:/develop/vup1500/vup1500.vhd Line: 230
-Warning (10541): VHDL Signal Declaration warning at vup1500.vhd(231): used implicit default value for signal "PPIPB" because signal was never assigned a value or an explicit default value. Use of implicit default value may introduce unintended design optimizations. File: D:/develop/vup1500/vup1500.vhd Line: 231
-Warning (10541): VHDL Signal Declaration warning at vup1500.vhd(248): used implicit default value for signal "PIOPB" because signal was never assigned a value or an explicit default value. Use of implicit default value may introduce unintended design optimizations. File: D:/develop/vup1500/vup1500.vhd Line: 248
-Warning (10492): VHDL Process Statement warning at vup1500.vhd(857): signal "ZRST_x" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: D:/develop/vup1500/vup1500.vhd Line: 857
-Warning (10873): Using initial value X (don't care) for net "SDRAM_A[12]" at vup1500.vhd(178) File: D:/develop/vup1500/vup1500.vhd Line: 178
-Warning (10873): Using initial value X (don't care) for net "PIOPA[7..6]" at vup1500.vhd(247) File: D:/develop/vup1500/vup1500.vhd Line: 247
-Warning (10873): Using initial value X (don't care) for net "PIOPA[3..0]" at vup1500.vhd(247) File: D:/develop/vup1500/vup1500.vhd Line: 247
-Info (12128): Elaborating entity "mrom" for hierarchy "mrom:MROM0" File: D:/develop/vup1500/vup1500.vhd Line: 543
-Info (12128): Elaborating entity "mrom2k" for hierarchy "mrom:MROM0|mrom2k:mrom0" File: D:/develop/vup1500/mrom.vhd Line: 48
-Info (12128): Elaborating entity "altsyncram" for hierarchy "mrom:MROM0|mrom2k:mrom0|altsyncram:altsyncram_component" File: D:/develop/vup1500/mrom2k.vhd Line: 60
-Info (12130): Elaborated megafunction instantiation "mrom:MROM0|mrom2k:mrom0|altsyncram:altsyncram_component" File: D:/develop/vup1500/mrom2k.vhd Line: 60
-Info (12133): Instantiated megafunction "mrom:MROM0|mrom2k:mrom0|altsyncram:altsyncram_component" with the following parameter: File: D:/develop/vup1500/mrom2k.vhd Line: 60
+Warning (10541): VHDL Signal Declaration warning at vup1500.vhd(19): used implicit default value for signal "AD5681R_LDACn" because signal was never assigned a value or an explicit default value. Use of implicit default value may introduce unintended design optimizations. File: D:/develop/vup1500/logic/vup1500.vhd Line: 19
+Warning (10541): VHDL Signal Declaration warning at vup1500.vhd(20): used implicit default value for signal "AD5681R_RSTn" because signal was never assigned a value or an explicit default value. Use of implicit default value may introduce unintended design optimizations. File: D:/develop/vup1500/logic/vup1500.vhd Line: 20
+Warning (10541): VHDL Signal Declaration warning at vup1500.vhd(21): used implicit default value for signal "AD5681R_SCL" because signal was never assigned a value or an explicit default value. Use of implicit default value may introduce unintended design optimizations. File: D:/develop/vup1500/logic/vup1500.vhd Line: 21
+Warning (10541): VHDL Signal Declaration warning at vup1500.vhd(22): used implicit default value for signal "AD5681R_SDA" because signal was never assigned a value or an explicit default value. Use of implicit default value may introduce unintended design optimizations. File: D:/develop/vup1500/logic/vup1500.vhd Line: 22
+Warning (10541): VHDL Signal Declaration warning at vup1500.vhd(23): used implicit default value for signal "AD5681R_SYNCn" because signal was never assigned a value or an explicit default value. Use of implicit default value may introduce unintended design optimizations. File: D:/develop/vup1500/logic/vup1500.vhd Line: 23
+Warning (10541): VHDL Signal Declaration warning at vup1500.vhd(27): used implicit default value for signal "ADT7420_SCL" because signal was never assigned a value or an explicit default value. Use of implicit default value may introduce unintended design optimizations. File: D:/develop/vup1500/logic/vup1500.vhd Line: 27
+Warning (10541): VHDL Signal Declaration warning at vup1500.vhd(30): used implicit default value for signal "ADXL362_CS" because signal was never assigned a value or an explicit default value. Use of implicit default value may introduce unintended design optimizations. File: D:/develop/vup1500/logic/vup1500.vhd Line: 30
+Warning (10541): VHDL Signal Declaration warning at vup1500.vhd(34): used implicit default value for signal "ADXL362_MOSI" because signal was never assigned a value or an explicit default value. Use of implicit default value may introduce unintended design optimizations. File: D:/develop/vup1500/logic/vup1500.vhd Line: 34
+Warning (10541): VHDL Signal Declaration warning at vup1500.vhd(35): used implicit default value for signal "ADXL362_SCLK" because signal was never assigned a value or an explicit default value. Use of implicit default value may introduce unintended design optimizations. File: D:/develop/vup1500/logic/vup1500.vhd Line: 35
+Warning (10036): Verilog HDL or VHDL warning at vup1500.vhd(217): object "CK7M16" assigned a value but never read File: D:/develop/vup1500/logic/vup1500.vhd Line: 217
+Warning (10036): Verilog HDL or VHDL warning at vup1500.vhd(230): object "PPIPA" assigned a value but never read File: D:/develop/vup1500/logic/vup1500.vhd Line: 230
+Warning (10541): VHDL Signal Declaration warning at vup1500.vhd(231): used implicit default value for signal "PPIPB" because signal was never assigned a value or an explicit default value. Use of implicit default value may introduce unintended design optimizations. File: D:/develop/vup1500/logic/vup1500.vhd Line: 231
+Warning (10541): VHDL Signal Declaration warning at vup1500.vhd(248): used implicit default value for signal "PIOPB" because signal was never assigned a value or an explicit default value. Use of implicit default value may introduce unintended design optimizations. File: D:/develop/vup1500/logic/vup1500.vhd Line: 248
+Warning (10492): VHDL Process Statement warning at vup1500.vhd(857): signal "ZRST_x" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: D:/develop/vup1500/logic/vup1500.vhd Line: 857
+Warning (10873): Using initial value X (don't care) for net "SDRAM_A[12]" at vup1500.vhd(178) File: D:/develop/vup1500/logic/vup1500.vhd Line: 178
+Warning (10873): Using initial value X (don't care) for net "PIOPA[7..6]" at vup1500.vhd(247) File: D:/develop/vup1500/logic/vup1500.vhd Line: 247
+Warning (10873): Using initial value X (don't care) for net "PIOPA[3..0]" at vup1500.vhd(247) File: D:/develop/vup1500/logic/vup1500.vhd Line: 247
+Info (12128): Elaborating entity "mrom" for hierarchy "mrom:MROM0" File: D:/develop/vup1500/logic/vup1500.vhd Line: 543
+Info (12128): Elaborating entity "mrom2k" for hierarchy "mrom:MROM0|mrom2k:mrom0" File: D:/develop/vup1500/logic/mrom.vhd Line: 48
+Info (12128): Elaborating entity "altsyncram" for hierarchy "mrom:MROM0|mrom2k:mrom0|altsyncram:altsyncram_component" File: D:/develop/vup1500/logic/mrom2k.vhd Line: 60
+Info (12130): Elaborated megafunction instantiation "mrom:MROM0|mrom2k:mrom0|altsyncram:altsyncram_component" File: D:/develop/vup1500/logic/mrom2k.vhd Line: 60
+Info (12133): Instantiated megafunction "mrom:MROM0|mrom2k:mrom0|altsyncram:altsyncram_component" with the following parameter: File: D:/develop/vup1500/logic/mrom2k.vhd Line: 60
     Info (12134): Parameter "address_aclr_a" = "NONE"
     Info (12134): Parameter "address_aclr_b" = "NONE"
     Info (12134): Parameter "address_reg_b" = "CLOCK1"
@@ -3524,10 +3548,10 @@ Warning (113015): Width of data items in "9z502m_e8.hex" is greater than the mem
     Warning (113009): Data at line (8) of memory initialization file "9z502m_e8.hex" is too wide to fit in one memory word. Wrapping data to subsequent addresses. File: D:/develop/vup1500/9z502m_e8.hex Line: 8
     Warning (113009): Data at line (9) of memory initialization file "9z502m_e8.hex" is too wide to fit in one memory word. Wrapping data to subsequent addresses. File: D:/develop/vup1500/9z502m_e8.hex Line: 9
     Warning (113009): Data at line (10) of memory initialization file "9z502m_e8.hex" is too wide to fit in one memory word. Wrapping data to subsequent addresses. File: D:/develop/vup1500/9z502m_e8.hex Line: 10
-Info (12128): Elaborating entity "mrom4k" for hierarchy "mrom:MROM0|mrom4k:mrom1" File: D:/develop/vup1500/mrom.vhd Line: 54
-Info (12128): Elaborating entity "altsyncram" for hierarchy "mrom:MROM0|mrom4k:mrom1|altsyncram:altsyncram_component" File: D:/develop/vup1500/mrom4k.vhd Line: 60
-Info (12130): Elaborated megafunction instantiation "mrom:MROM0|mrom4k:mrom1|altsyncram:altsyncram_component" File: D:/develop/vup1500/mrom4k.vhd Line: 60
-Info (12133): Instantiated megafunction "mrom:MROM0|mrom4k:mrom1|altsyncram:altsyncram_component" with the following parameter: File: D:/develop/vup1500/mrom4k.vhd Line: 60
+Info (12128): Elaborating entity "mrom4k" for hierarchy "mrom:MROM0|mrom4k:mrom1" File: D:/develop/vup1500/logic/mrom.vhd Line: 54
+Info (12128): Elaborating entity "altsyncram" for hierarchy "mrom:MROM0|mrom4k:mrom1|altsyncram:altsyncram_component" File: D:/develop/vup1500/logic/mrom4k.vhd Line: 60
+Info (12130): Elaborated megafunction instantiation "mrom:MROM0|mrom4k:mrom1|altsyncram:altsyncram_component" File: D:/develop/vup1500/logic/mrom4k.vhd Line: 60
+Info (12133): Instantiated megafunction "mrom:MROM0|mrom4k:mrom1|altsyncram:altsyncram_component" with the following parameter: File: D:/develop/vup1500/logic/mrom4k.vhd Line: 60
     Info (12134): Parameter "address_aclr_a" = "NONE"
     Info (12134): Parameter "address_aclr_b" = "NONE"
     Info (12134): Parameter "address_reg_b" = "CLOCK1"
@@ -3593,50 +3617,50 @@ Warning (113015): Width of data items in "9z502m_f0.hex" is greater than the mem
     Warning (113009): Data at line (8) of memory initialization file "9z502m_f0.hex" is too wide to fit in one memory word. Wrapping data to subsequent addresses. File: D:/develop/vup1500/9z502m_f0.hex Line: 8
     Warning (113009): Data at line (9) of memory initialization file "9z502m_f0.hex" is too wide to fit in one memory word. Wrapping data to subsequent addresses. File: D:/develop/vup1500/9z502m_f0.hex Line: 9
     Warning (113009): Data at line (10) of memory initialization file "9z502m_f0.hex" is too wide to fit in one memory word. Wrapping data to subsequent addresses. File: D:/develop/vup1500/9z502m_f0.hex Line: 10
-Info (12128): Elaborating entity "i8255" for hierarchy "i8255:PPI0" File: D:/develop/vup1500/vup1500.vhd Line: 550
-Warning (10541): VHDL Signal Declaration warning at i8255.vhd(36): used implicit default value for signal "LDDAT" because signal was never assigned a value or an explicit default value. Use of implicit default value may introduce unintended design optimizations. File: D:/develop/vup1500/i8255.vhd Line: 36
-Info (12128): Elaborating entity "i8253" for hierarchy "i8253:PIT0" File: D:/develop/vup1500/vup1500.vhd Line: 571
-Info (12128): Elaborating entity "gh_timer_8254_wb" for hierarchy "i8253:PIT0|gh_timer_8254_wb:PIT8254" File: D:/develop/vup1500/i8253.vhd Line: 99
-Info (12128): Elaborating entity "gh_register_ce" for hierarchy "i8253:PIT0|gh_timer_8254_wb:PIT8254|gh_register_ce:u1" File: D:/develop/vup1500/gh_timer_8254_wb.vhd Line: 136
-Info (12128): Elaborating entity "gh_edge_det" for hierarchy "i8253:PIT0|gh_timer_8254_wb:PIT8254|gh_edge_det:U2" File: D:/develop/vup1500/gh_timer_8254_wb.vhd Line: 150
-Info (12128): Elaborating entity "gh_register_ce" for hierarchy "i8253:PIT0|gh_timer_8254_wb:PIT8254|gh_register_ce:u4" File: D:/develop/vup1500/gh_timer_8254_wb.vhd Line: 197
-Info (12128): Elaborating entity "gh_counter_control" for hierarchy "i8253:PIT0|gh_timer_8254_wb:PIT8254|gh_counter_control:U5" File: D:/develop/vup1500/gh_timer_8254_wb.vhd Line: 248
-Info (12128): Elaborating entity "gh_edge_det_XCD_t" for hierarchy "i8253:PIT0|gh_timer_8254_wb:PIT8254|gh_counter_control:U5|gh_edge_det_XCD_t:U1" File: D:/develop/vup1500/gh_counter_control.vhd Line: 186
-Info (12128): Elaborating entity "gh_jkff" for hierarchy "i8253:PIT0|gh_timer_8254_wb:PIT8254|gh_counter_control:U5|gh_edge_det_XCD_t:U1|gh_jkff:U1" File: D:/develop/vup1500/gh_edge_det_XCD_t.vhd Line: 74
-Info (12128): Elaborating entity "gh_register_ce" for hierarchy "i8253:PIT0|gh_timer_8254_wb:PIT8254|gh_counter_control:U5|gh_register_ce:u2" File: D:/develop/vup1500/gh_counter_control.vhd Line: 196
-Info (12128): Elaborating entity "gh_counter_down_16b_bb" for hierarchy "i8253:PIT0|gh_timer_8254_wb:PIT8254|gh_counter_control:U5|gh_counter_down_16b_bb:U9" File: D:/develop/vup1500/gh_counter_control.vhd Line: 395
-Info (12128): Elaborating entity "gh_div2_bcd_4digits" for hierarchy "i8253:PIT0|gh_timer_8254_wb:PIT8254|gh_counter_control:U5|gh_counter_down_16b_bb:U9|gh_div2_bcd_4digits:U0" File: D:/develop/vup1500/gh_counter_down_16b_bb.vhd Line: 109
-Info (12128): Elaborating entity "gh_div_bcd2" for hierarchy "i8253:PIT0|gh_timer_8254_wb:PIT8254|gh_counter_control:U5|gh_counter_down_16b_bb:U9|gh_div2_bcd_4digits:U0|gh_div_bcd2:U0" File: D:/develop/vup1500/gh_div2_bcd_4digits.vhd Line: 45
-Info (12128): Elaborating entity "gh_counter_down_4b_bb" for hierarchy "i8253:PIT0|gh_timer_8254_wb:PIT8254|gh_counter_control:U5|gh_counter_down_16b_bb:U9|gh_counter_down_4b_bb:U4" File: D:/develop/vup1500/gh_counter_down_16b_bb.vhd Line: 230
-Info (12128): Elaborating entity "z8420" for hierarchy "z8420:PIO0" File: D:/develop/vup1500/vup1500.vhd Line: 591
-Warning (10541): VHDL Signal Declaration warning at z8420.vhd(41): used implicit default value for signal "LDDAT" because signal was never assigned a value or an explicit default value. Use of implicit default value may introduce unintended design optimizations. File: D:/develop/vup1500/z8420.vhd Line: 41
-Warning (10036): Verilog HDL or VHDL warning at z8420.vhd(66): object "MODEA" assigned a value but never read File: D:/develop/vup1500/z8420.vhd Line: 66
-Warning (10036): Verilog HDL or VHDL warning at z8420.vhd(76): object "MODEB" assigned a value but never read File: D:/develop/vup1500/z8420.vhd Line: 76
-Info (12128): Elaborating entity "Interrupt" for hierarchy "z8420:PIO0|Interrupt:INT0" File: D:/develop/vup1500/z8420.vhd Line: 124
-Warning (10492): VHDL Process Statement warning at Interrupt.vhd(91): signal "INTA" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: D:/develop/vup1500/Interrupt.vhd Line: 91
-Warning (10631): VHDL Process Statement warning at Interrupt.vhd(88): inferring latch(es) for signal or variable "LINTI", which holds its previous value in one or more paths through the process File: D:/develop/vup1500/Interrupt.vhd Line: 88
-Info (10041): Inferred latch for "LINTI" at Interrupt.vhd(88) File: D:/develop/vup1500/Interrupt.vhd Line: 88
-Info (12128): Elaborating entity "psg" for hierarchy "psg:PSG0" File: D:/develop/vup1500/vup1500.vhd Line: 619
-Info (12128): Elaborating entity "psg_tone" for hierarchy "psg:PSG0|psg_tone:t0" File: D:/develop/vup1500/psg.vhd Line: 65
-Info (12128): Elaborating entity "psg_noise" for hierarchy "psg:PSG0|psg_noise:t3" File: D:/develop/vup1500/psg.vhd Line: 86
-Info (12128): Elaborating entity "dac" for hierarchy "psg:PSG0|dac:inst_dac" File: D:/develop/vup1500/psg.vhd Line: 94
-Info (12128): Elaborating entity "videoout" for hierarchy "videoout:VIDEO0" File: D:/develop/vup1500/vup1500.vhd Line: 643
-Warning (10036): Verilog HDL or VHDL warning at videoout.vhd(109): object "DCODE" assigned a value but never read File: D:/develop/vup1500/videoout.vhd Line: 109
-Warning (10036): Verilog HDL or VHDL warning at videoout.vhd(120): object "COLR" assigned a value but never read File: D:/develop/vup1500/videoout.vhd Line: 120
-Warning (10036): Verilog HDL or VHDL warning at videoout.vhd(129): object "SYN_x" assigned a value but never read File: D:/develop/vup1500/videoout.vhd Line: 129
-Warning (10812): VHDL warning at videoout.vhd(559): sensitivity list already contains ADAT File: D:/develop/vup1500/videoout.vhd Line: 559
-Warning (10492): VHDL Process Statement warning at videoout.vhd(582): signal "PALET0" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: D:/develop/vup1500/videoout.vhd Line: 582
-Warning (10492): VHDL Process Statement warning at videoout.vhd(583): signal "PALET1" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: D:/develop/vup1500/videoout.vhd Line: 583
-Warning (10492): VHDL Process Statement warning at videoout.vhd(584): signal "PALET2" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: D:/develop/vup1500/videoout.vhd Line: 584
-Warning (10492): VHDL Process Statement warning at videoout.vhd(585): signal "PALET3" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: D:/develop/vup1500/videoout.vhd Line: 585
-Warning (10492): VHDL Process Statement warning at videoout.vhd(586): signal "PALET4" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: D:/develop/vup1500/videoout.vhd Line: 586
-Warning (10492): VHDL Process Statement warning at videoout.vhd(587): signal "PALET5" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: D:/develop/vup1500/videoout.vhd Line: 587
-Warning (10492): VHDL Process Statement warning at videoout.vhd(588): signal "PALET6" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: D:/develop/vup1500/videoout.vhd Line: 588
-Warning (10492): VHDL Process Statement warning at videoout.vhd(589): signal "PALET7" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: D:/develop/vup1500/videoout.vhd Line: 589
-Info (12128): Elaborating entity "ram2k" for hierarchy "videoout:VIDEO0|ram2k:VVRAM0" File: D:/develop/vup1500/videoout.vhd Line: 189
-Info (12128): Elaborating entity "altsyncram" for hierarchy "videoout:VIDEO0|ram2k:VVRAM0|altsyncram:altsyncram_component" File: D:/develop/vup1500/ram2k.vhd Line: 62
-Info (12130): Elaborated megafunction instantiation "videoout:VIDEO0|ram2k:VVRAM0|altsyncram:altsyncram_component" File: D:/develop/vup1500/ram2k.vhd Line: 62
-Info (12133): Instantiated megafunction "videoout:VIDEO0|ram2k:VVRAM0|altsyncram:altsyncram_component" with the following parameter: File: D:/develop/vup1500/ram2k.vhd Line: 62
+Info (12128): Elaborating entity "i8255" for hierarchy "i8255:PPI0" File: D:/develop/vup1500/logic/vup1500.vhd Line: 550
+Warning (10541): VHDL Signal Declaration warning at i8255.vhd(36): used implicit default value for signal "LDDAT" because signal was never assigned a value or an explicit default value. Use of implicit default value may introduce unintended design optimizations. File: D:/develop/vup1500/logic/i8255.vhd Line: 36
+Info (12128): Elaborating entity "i8253" for hierarchy "i8253:PIT0" File: D:/develop/vup1500/logic/vup1500.vhd Line: 571
+Info (12128): Elaborating entity "gh_timer_8254_wb" for hierarchy "i8253:PIT0|gh_timer_8254_wb:PIT8254" File: D:/develop/vup1500/logic/i8253.vhd Line: 99
+Info (12128): Elaborating entity "gh_register_ce" for hierarchy "i8253:PIT0|gh_timer_8254_wb:PIT8254|gh_register_ce:u1" File: D:/develop/vup1500/logic/gh_timer_8254_wb.vhd Line: 136
+Info (12128): Elaborating entity "gh_edge_det" for hierarchy "i8253:PIT0|gh_timer_8254_wb:PIT8254|gh_edge_det:U2" File: D:/develop/vup1500/logic/gh_timer_8254_wb.vhd Line: 150
+Info (12128): Elaborating entity "gh_register_ce" for hierarchy "i8253:PIT0|gh_timer_8254_wb:PIT8254|gh_register_ce:u4" File: D:/develop/vup1500/logic/gh_timer_8254_wb.vhd Line: 197
+Info (12128): Elaborating entity "gh_counter_control" for hierarchy "i8253:PIT0|gh_timer_8254_wb:PIT8254|gh_counter_control:U5" File: D:/develop/vup1500/logic/gh_timer_8254_wb.vhd Line: 248
+Info (12128): Elaborating entity "gh_edge_det_XCD_t" for hierarchy "i8253:PIT0|gh_timer_8254_wb:PIT8254|gh_counter_control:U5|gh_edge_det_XCD_t:U1" File: D:/develop/vup1500/logic/gh_counter_control.vhd Line: 186
+Info (12128): Elaborating entity "gh_jkff" for hierarchy "i8253:PIT0|gh_timer_8254_wb:PIT8254|gh_counter_control:U5|gh_edge_det_XCD_t:U1|gh_jkff:U1" File: D:/develop/vup1500/logic/gh_edge_det_XCD_t.vhd Line: 74
+Info (12128): Elaborating entity "gh_register_ce" for hierarchy "i8253:PIT0|gh_timer_8254_wb:PIT8254|gh_counter_control:U5|gh_register_ce:u2" File: D:/develop/vup1500/logic/gh_counter_control.vhd Line: 196
+Info (12128): Elaborating entity "gh_counter_down_16b_bb" for hierarchy "i8253:PIT0|gh_timer_8254_wb:PIT8254|gh_counter_control:U5|gh_counter_down_16b_bb:U9" File: D:/develop/vup1500/logic/gh_counter_control.vhd Line: 395
+Info (12128): Elaborating entity "gh_div2_bcd_4digits" for hierarchy "i8253:PIT0|gh_timer_8254_wb:PIT8254|gh_counter_control:U5|gh_counter_down_16b_bb:U9|gh_div2_bcd_4digits:U0" File: D:/develop/vup1500/logic/gh_counter_down_16b_bb.vhd Line: 109
+Info (12128): Elaborating entity "gh_div_bcd2" for hierarchy "i8253:PIT0|gh_timer_8254_wb:PIT8254|gh_counter_control:U5|gh_counter_down_16b_bb:U9|gh_div2_bcd_4digits:U0|gh_div_bcd2:U0" File: D:/develop/vup1500/logic/gh_div2_bcd_4digits.vhd Line: 45
+Info (12128): Elaborating entity "gh_counter_down_4b_bb" for hierarchy "i8253:PIT0|gh_timer_8254_wb:PIT8254|gh_counter_control:U5|gh_counter_down_16b_bb:U9|gh_counter_down_4b_bb:U4" File: D:/develop/vup1500/logic/gh_counter_down_16b_bb.vhd Line: 230
+Info (12128): Elaborating entity "z8420" for hierarchy "z8420:PIO0" File: D:/develop/vup1500/logic/vup1500.vhd Line: 591
+Warning (10541): VHDL Signal Declaration warning at z8420.vhd(41): used implicit default value for signal "LDDAT" because signal was never assigned a value or an explicit default value. Use of implicit default value may introduce unintended design optimizations. File: D:/develop/vup1500/logic/z8420.vhd Line: 41
+Warning (10036): Verilog HDL or VHDL warning at z8420.vhd(66): object "MODEA" assigned a value but never read File: D:/develop/vup1500/logic/z8420.vhd Line: 66
+Warning (10036): Verilog HDL or VHDL warning at z8420.vhd(76): object "MODEB" assigned a value but never read File: D:/develop/vup1500/logic/z8420.vhd Line: 76
+Info (12128): Elaborating entity "Interrupt" for hierarchy "z8420:PIO0|Interrupt:INT0" File: D:/develop/vup1500/logic/z8420.vhd Line: 124
+Warning (10492): VHDL Process Statement warning at Interrupt.vhd(91): signal "INTA" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: D:/develop/vup1500/logic/Interrupt.vhd Line: 91
+Warning (10631): VHDL Process Statement warning at Interrupt.vhd(88): inferring latch(es) for signal or variable "LINTI", which holds its previous value in one or more paths through the process File: D:/develop/vup1500/logic/Interrupt.vhd Line: 88
+Info (10041): Inferred latch for "LINTI" at Interrupt.vhd(88) File: D:/develop/vup1500/logic/Interrupt.vhd Line: 88
+Info (12128): Elaborating entity "psg" for hierarchy "psg:PSG0" File: D:/develop/vup1500/logic/vup1500.vhd Line: 619
+Info (12128): Elaborating entity "psg_tone" for hierarchy "psg:PSG0|psg_tone:t0" File: D:/develop/vup1500/logic/psg.vhd Line: 65
+Info (12128): Elaborating entity "psg_noise" for hierarchy "psg:PSG0|psg_noise:t3" File: D:/develop/vup1500/logic/psg.vhd Line: 86
+Info (12128): Elaborating entity "dac" for hierarchy "psg:PSG0|dac:inst_dac" File: D:/develop/vup1500/logic/psg.vhd Line: 94
+Info (12128): Elaborating entity "videoout" for hierarchy "videoout:VIDEO0" File: D:/develop/vup1500/logic/vup1500.vhd Line: 643
+Warning (10036): Verilog HDL or VHDL warning at videoout.vhd(109): object "DCODE" assigned a value but never read File: D:/develop/vup1500/logic/videoout.vhd Line: 109
+Warning (10036): Verilog HDL or VHDL warning at videoout.vhd(120): object "COLR" assigned a value but never read File: D:/develop/vup1500/logic/videoout.vhd Line: 120
+Warning (10036): Verilog HDL or VHDL warning at videoout.vhd(129): object "SYN_x" assigned a value but never read File: D:/develop/vup1500/logic/videoout.vhd Line: 129
+Warning (10812): VHDL warning at videoout.vhd(559): sensitivity list already contains ADAT File: D:/develop/vup1500/logic/videoout.vhd Line: 559
+Warning (10492): VHDL Process Statement warning at videoout.vhd(582): signal "PALET0" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: D:/develop/vup1500/logic/videoout.vhd Line: 582
+Warning (10492): VHDL Process Statement warning at videoout.vhd(583): signal "PALET1" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: D:/develop/vup1500/logic/videoout.vhd Line: 583
+Warning (10492): VHDL Process Statement warning at videoout.vhd(584): signal "PALET2" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: D:/develop/vup1500/logic/videoout.vhd Line: 584
+Warning (10492): VHDL Process Statement warning at videoout.vhd(585): signal "PALET3" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: D:/develop/vup1500/logic/videoout.vhd Line: 585
+Warning (10492): VHDL Process Statement warning at videoout.vhd(586): signal "PALET4" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: D:/develop/vup1500/logic/videoout.vhd Line: 586
+Warning (10492): VHDL Process Statement warning at videoout.vhd(587): signal "PALET5" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: D:/develop/vup1500/logic/videoout.vhd Line: 587
+Warning (10492): VHDL Process Statement warning at videoout.vhd(588): signal "PALET6" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: D:/develop/vup1500/logic/videoout.vhd Line: 588
+Warning (10492): VHDL Process Statement warning at videoout.vhd(589): signal "PALET7" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: D:/develop/vup1500/logic/videoout.vhd Line: 589
+Info (12128): Elaborating entity "ram2k" for hierarchy "videoout:VIDEO0|ram2k:VVRAM0" File: D:/develop/vup1500/logic/videoout.vhd Line: 189
+Info (12128): Elaborating entity "altsyncram" for hierarchy "videoout:VIDEO0|ram2k:VVRAM0|altsyncram:altsyncram_component" File: D:/develop/vup1500/logic/ram2k.vhd Line: 62
+Info (12130): Elaborated megafunction instantiation "videoout:VIDEO0|ram2k:VVRAM0|altsyncram:altsyncram_component" File: D:/develop/vup1500/logic/ram2k.vhd Line: 62
+Info (12133): Instantiated megafunction "videoout:VIDEO0|ram2k:VVRAM0|altsyncram:altsyncram_component" with the following parameter: File: D:/develop/vup1500/logic/ram2k.vhd Line: 62
     Info (12134): Parameter "address_aclr_a" = "UNUSED"
     Info (12134): Parameter "address_aclr_b" = "NONE"
     Info (12134): Parameter "address_reg_b" = "CLOCK1"
@@ -3707,11 +3731,11 @@ Info (12133): Instantiated megafunction "videoout:VIDEO0|ram2k:VVRAM0|altsyncram
 Info (12128): Elaborating entity "sld_jtag_endpoint_adapter" for hierarchy "videoout:VIDEO0|ram2k:VVRAM0|altsyncram:altsyncram_component|altsyncram_98r3:auto_generated|sld_mod_ram_rom:mgl_prim2|sld_jtag_endpoint_adapter:jtag_signal_adapter" File: c:/altera_lite/15.1/quartus/libraries/megafunctions/sld_mod_ram_rom.vhd Line: 276
 Info (12128): Elaborating entity "sld_jtag_endpoint_adapter_impl" for hierarchy "videoout:VIDEO0|ram2k:VVRAM0|altsyncram:altsyncram_component|altsyncram_98r3:auto_generated|sld_mod_ram_rom:mgl_prim2|sld_jtag_endpoint_adapter:jtag_signal_adapter|sld_jtag_endpoint_adapter_impl:sld_jtag_endpoint_adapter_impl_inst" File: c:/altera_lite/15.1/quartus/libraries/megafunctions/sld_jtag_endpoint_adapter.vhd Line: 228
 Info (12128): Elaborating entity "sld_rom_sr" for hierarchy "videoout:VIDEO0|ram2k:VVRAM0|altsyncram:altsyncram_component|altsyncram_98r3:auto_generated|sld_mod_ram_rom:mgl_prim2|sld_rom_sr:\ram_rom_logic_gen:name_gen:info_rom_sr" File: c:/altera_lite/15.1/quartus/libraries/megafunctions/sld_mod_ram_rom.vhd Line: 747
-Info (12128): Elaborating entity "pcg" for hierarchy "videoout:VIDEO0|pcg:VPCG0" File: D:/develop/vup1500/videoout.vhd Line: 205
-Info (12128): Elaborating entity "cgrom" for hierarchy "videoout:VIDEO0|pcg:VPCG0|cgrom:CGROM0" File: D:/develop/vup1500/pcg.vhd Line: 88
-Info (12128): Elaborating entity "altsyncram" for hierarchy "videoout:VIDEO0|pcg:VPCG0|cgrom:CGROM0|altsyncram:altsyncram_component" File: D:/develop/vup1500/cgrom.vhd Line: 60
-Info (12130): Elaborated megafunction instantiation "videoout:VIDEO0|pcg:VPCG0|cgrom:CGROM0|altsyncram:altsyncram_component" File: D:/develop/vup1500/cgrom.vhd Line: 60
-Info (12133): Instantiated megafunction "videoout:VIDEO0|pcg:VPCG0|cgrom:CGROM0|altsyncram:altsyncram_component" with the following parameter: File: D:/develop/vup1500/cgrom.vhd Line: 60
+Info (12128): Elaborating entity "pcg" for hierarchy "videoout:VIDEO0|pcg:VPCG0" File: D:/develop/vup1500/logic/videoout.vhd Line: 205
+Info (12128): Elaborating entity "cgrom" for hierarchy "videoout:VIDEO0|pcg:VPCG0|cgrom:CGROM0" File: D:/develop/vup1500/logic/pcg.vhd Line: 88
+Info (12128): Elaborating entity "altsyncram" for hierarchy "videoout:VIDEO0|pcg:VPCG0|cgrom:CGROM0|altsyncram:altsyncram_component" File: D:/develop/vup1500/logic/cgrom.vhd Line: 60
+Info (12130): Elaborated megafunction instantiation "videoout:VIDEO0|pcg:VPCG0|cgrom:CGROM0|altsyncram:altsyncram_component" File: D:/develop/vup1500/logic/cgrom.vhd Line: 60
+Info (12133): Instantiated megafunction "videoout:VIDEO0|pcg:VPCG0|cgrom:CGROM0|altsyncram:altsyncram_component" with the following parameter: File: D:/develop/vup1500/logic/cgrom.vhd Line: 60
     Info (12134): Parameter "address_aclr_a" = "NONE"
     Info (12134): Parameter "address_aclr_b" = "NONE"
     Info (12134): Parameter "address_reg_b" = "CLOCK1"
@@ -3777,10 +3801,10 @@ Warning (113015): Width of data items in "font.hex" is greater than the memory w
     Warning (113009): Data at line (9) of memory initialization file "font.hex" is too wide to fit in one memory word. Wrapping data to subsequent addresses. File: D:/develop/vup1500/font.hex Line: 9
     Warning (113009): Data at line (10) of memory initialization file "font.hex" is too wide to fit in one memory word. Wrapping data to subsequent addresses. File: D:/develop/vup1500/font.hex Line: 10
     Warning (113009): Data at line (11) of memory initialization file "font.hex" is too wide to fit in one memory word. Wrapping data to subsequent addresses. File: D:/develop/vup1500/font.hex Line: 11
-Info (12128): Elaborating entity "ram1k" for hierarchy "videoout:VIDEO0|pcg:VPCG0|ram1k:CGRAM0" File: D:/develop/vup1500/pcg.vhd Line: 94
-Info (12128): Elaborating entity "altsyncram" for hierarchy "videoout:VIDEO0|pcg:VPCG0|ram1k:CGRAM0|altsyncram:altsyncram_component" File: D:/develop/vup1500/ram1k.vhd Line: 62
-Info (12130): Elaborated megafunction instantiation "videoout:VIDEO0|pcg:VPCG0|ram1k:CGRAM0|altsyncram:altsyncram_component" File: D:/develop/vup1500/ram1k.vhd Line: 62
-Info (12133): Instantiated megafunction "videoout:VIDEO0|pcg:VPCG0|ram1k:CGRAM0|altsyncram:altsyncram_component" with the following parameter: File: D:/develop/vup1500/ram1k.vhd Line: 62
+Info (12128): Elaborating entity "ram1k" for hierarchy "videoout:VIDEO0|pcg:VPCG0|ram1k:CGRAM0" File: D:/develop/vup1500/logic/pcg.vhd Line: 94
+Info (12128): Elaborating entity "altsyncram" for hierarchy "videoout:VIDEO0|pcg:VPCG0|ram1k:CGRAM0|altsyncram:altsyncram_component" File: D:/develop/vup1500/logic/ram1k.vhd Line: 62
+Info (12130): Elaborated megafunction instantiation "videoout:VIDEO0|pcg:VPCG0|ram1k:CGRAM0|altsyncram:altsyncram_component" File: D:/develop/vup1500/logic/ram1k.vhd Line: 62
+Info (12133): Instantiated megafunction "videoout:VIDEO0|pcg:VPCG0|ram1k:CGRAM0|altsyncram:altsyncram_component" with the following parameter: File: D:/develop/vup1500/logic/ram1k.vhd Line: 62
     Info (12134): Parameter "address_aclr_a" = "UNUSED"
     Info (12134): Parameter "address_aclr_b" = "NONE"
     Info (12134): Parameter "address_reg_b" = "CLOCK1"
@@ -3834,10 +3858,10 @@ Info (12133): Instantiated megafunction "videoout:VIDEO0|pcg:VPCG0|ram1k:CGRAM0|
 Info (12021): Found 1 design units, including 1 entities, in source file db/altsyncram_17p3.tdf
     Info (12023): Found entity 1: altsyncram_17p3 File: D:/develop/vup1500/db/altsyncram_17p3.tdf Line: 28
 Info (12128): Elaborating entity "altsyncram_17p3" for hierarchy "videoout:VIDEO0|pcg:VPCG0|ram1k:CGRAM0|altsyncram:altsyncram_component|altsyncram_17p3:auto_generated" File: c:/altera_lite/15.1/quartus/libraries/megafunctions/altsyncram.tdf Line: 792
-Info (12128): Elaborating entity "ram8k" for hierarchy "videoout:VIDEO0|ram8k:GRAM0" File: D:/develop/vup1500/videoout.vhd Line: 221
-Info (12128): Elaborating entity "altsyncram" for hierarchy "videoout:VIDEO0|ram8k:GRAM0|altsyncram:altsyncram_component" File: D:/develop/vup1500/ram8k.vhd Line: 62
-Info (12130): Elaborated megafunction instantiation "videoout:VIDEO0|ram8k:GRAM0|altsyncram:altsyncram_component" File: D:/develop/vup1500/ram8k.vhd Line: 62
-Info (12133): Instantiated megafunction "videoout:VIDEO0|ram8k:GRAM0|altsyncram:altsyncram_component" with the following parameter: File: D:/develop/vup1500/ram8k.vhd Line: 62
+Info (12128): Elaborating entity "ram8k" for hierarchy "videoout:VIDEO0|ram8k:GRAM0" File: D:/develop/vup1500/logic/videoout.vhd Line: 221
+Info (12128): Elaborating entity "altsyncram" for hierarchy "videoout:VIDEO0|ram8k:GRAM0|altsyncram:altsyncram_component" File: D:/develop/vup1500/logic/ram8k.vhd Line: 62
+Info (12130): Elaborated megafunction instantiation "videoout:VIDEO0|ram8k:GRAM0|altsyncram:altsyncram_component" File: D:/develop/vup1500/logic/ram8k.vhd Line: 62
+Info (12133): Instantiated megafunction "videoout:VIDEO0|ram8k:GRAM0|altsyncram:altsyncram_component" with the following parameter: File: D:/develop/vup1500/logic/ram8k.vhd Line: 62
     Info (12134): Parameter "address_aclr_a" = "UNUSED"
     Info (12134): Parameter "address_aclr_b" = "NONE"
     Info (12134): Parameter "address_reg_b" = "CLOCK1"
@@ -3891,10 +3915,10 @@ Info (12133): Instantiated megafunction "videoout:VIDEO0|ram8k:GRAM0|altsyncram:
 Info (12021): Found 1 design units, including 1 entities, in source file db/altsyncram_pcp3.tdf
     Info (12023): Found entity 1: altsyncram_pcp3 File: D:/develop/vup1500/db/altsyncram_pcp3.tdf Line: 28
 Info (12128): Elaborating entity "altsyncram_pcp3" for hierarchy "videoout:VIDEO0|ram8k:GRAM0|altsyncram:altsyncram_component|altsyncram_pcp3:auto_generated" File: c:/altera_lite/15.1/quartus/libraries/megafunctions/altsyncram.tdf Line: 792
-Info (12128): Elaborating entity "pll57" for hierarchy "videoout:VIDEO0|pll57:VCKGEN" File: D:/develop/vup1500/videoout.vhd Line: 248
-Info (12128): Elaborating entity "altpll" for hierarchy "videoout:VIDEO0|pll57:VCKGEN|altpll:altpll_component" File: D:/develop/vup1500/pll57.vhd Line: 142
-Info (12130): Elaborated megafunction instantiation "videoout:VIDEO0|pll57:VCKGEN|altpll:altpll_component" File: D:/develop/vup1500/pll57.vhd Line: 142
-Info (12133): Instantiated megafunction "videoout:VIDEO0|pll57:VCKGEN|altpll:altpll_component" with the following parameter: File: D:/develop/vup1500/pll57.vhd Line: 142
+Info (12128): Elaborating entity "pll57" for hierarchy "videoout:VIDEO0|pll57:VCKGEN" File: D:/develop/vup1500/logic/videoout.vhd Line: 248
+Info (12128): Elaborating entity "altpll" for hierarchy "videoout:VIDEO0|pll57:VCKGEN|altpll:altpll_component" File: D:/develop/vup1500/logic/pll57.vhd Line: 142
+Info (12130): Elaborated megafunction instantiation "videoout:VIDEO0|pll57:VCKGEN|altpll:altpll_component" File: D:/develop/vup1500/logic/pll57.vhd Line: 142
+Info (12133): Instantiated megafunction "videoout:VIDEO0|pll57:VCKGEN|altpll:altpll_component" with the following parameter: File: D:/develop/vup1500/logic/pll57.vhd Line: 142
     Info (12134): Parameter "bandwidth_type" = "AUTO"
     Info (12134): Parameter "clk0_divide_by" = "5000"
     Info (12134): Parameter "clk0_duty_cycle" = "50"
@@ -3956,11 +3980,11 @@ Info (12133): Instantiated megafunction "videoout:VIDEO0|pll57:VCKGEN|altpll:alt
 Info (12021): Found 1 design units, including 1 entities, in source file db/pll57_altpll.v
     Info (12023): Found entity 1: pll57_altpll File: D:/develop/vup1500/db/pll57_altpll.v Line: 30
 Info (12128): Elaborating entity "pll57_altpll" for hierarchy "videoout:VIDEO0|pll57:VCKGEN|altpll:altpll_component|pll57_altpll:auto_generated" File: c:/altera_lite/15.1/quartus/libraries/megafunctions/altpll.tdf Line: 898
-Info (12128): Elaborating entity "ScanConv" for hierarchy "ScanConv:SCONV0" File: D:/develop/vup1500/vup1500.vhd Line: 678
-Info (12128): Elaborating entity "linebuf" for hierarchy "ScanConv:SCONV0|linebuf:SBUF" File: D:/develop/vup1500/ScanConv.vhd Line: 64
-Info (12128): Elaborating entity "altsyncram" for hierarchy "ScanConv:SCONV0|linebuf:SBUF|altsyncram:altsyncram_component" File: D:/develop/vup1500/linebuf.vhd Line: 64
-Info (12130): Elaborated megafunction instantiation "ScanConv:SCONV0|linebuf:SBUF|altsyncram:altsyncram_component" File: D:/develop/vup1500/linebuf.vhd Line: 64
-Info (12133): Instantiated megafunction "ScanConv:SCONV0|linebuf:SBUF|altsyncram:altsyncram_component" with the following parameter: File: D:/develop/vup1500/linebuf.vhd Line: 64
+Info (12128): Elaborating entity "ScanConv" for hierarchy "ScanConv:SCONV0" File: D:/develop/vup1500/logic/vup1500.vhd Line: 678
+Info (12128): Elaborating entity "linebuf" for hierarchy "ScanConv:SCONV0|linebuf:SBUF" File: D:/develop/vup1500/logic/ScanConv.vhd Line: 64
+Info (12128): Elaborating entity "altsyncram" for hierarchy "ScanConv:SCONV0|linebuf:SBUF|altsyncram:altsyncram_component" File: D:/develop/vup1500/logic/linebuf.vhd Line: 64
+Info (12130): Elaborated megafunction instantiation "ScanConv:SCONV0|linebuf:SBUF|altsyncram:altsyncram_component" File: D:/develop/vup1500/logic/linebuf.vhd Line: 64
+Info (12133): Instantiated megafunction "ScanConv:SCONV0|linebuf:SBUF|altsyncram:altsyncram_component" with the following parameter: File: D:/develop/vup1500/logic/linebuf.vhd Line: 64
     Info (12134): Parameter "address_aclr_a" = "UNUSED"
     Info (12134): Parameter "address_aclr_b" = "NONE"
     Info (12134): Parameter "address_reg_b" = "CLOCK1"
@@ -4014,10 +4038,10 @@ Info (12133): Instantiated megafunction "ScanConv:SCONV0|linebuf:SBUF|altsyncram
 Info (12021): Found 1 design units, including 1 entities, in source file db/altsyncram_olo3.tdf
     Info (12023): Found entity 1: altsyncram_olo3 File: D:/develop/vup1500/db/altsyncram_olo3.tdf Line: 28
 Info (12128): Elaborating entity "altsyncram_olo3" for hierarchy "ScanConv:SCONV0|linebuf:SBUF|altsyncram:altsyncram_component|altsyncram_olo3:auto_generated" File: c:/altera_lite/15.1/quartus/libraries/megafunctions/altsyncram.tdf Line: 792
-Info (12128): Elaborating entity "pll100" for hierarchy "pll100:CKGEN0" File: D:/develop/vup1500/vup1500.vhd Line: 691
-Info (12128): Elaborating entity "altpll" for hierarchy "pll100:CKGEN0|altpll:altpll_component" File: D:/develop/vup1500/pll100.vhd Line: 142
-Info (12130): Elaborated megafunction instantiation "pll100:CKGEN0|altpll:altpll_component" File: D:/develop/vup1500/pll100.vhd Line: 142
-Info (12133): Instantiated megafunction "pll100:CKGEN0|altpll:altpll_component" with the following parameter: File: D:/develop/vup1500/pll100.vhd Line: 142
+Info (12128): Elaborating entity "pll100" for hierarchy "pll100:CKGEN0" File: D:/develop/vup1500/logic/vup1500.vhd Line: 691
+Info (12128): Elaborating entity "altpll" for hierarchy "pll100:CKGEN0|altpll:altpll_component" File: D:/develop/vup1500/logic/pll100.vhd Line: 142
+Info (12130): Elaborated megafunction instantiation "pll100:CKGEN0|altpll:altpll_component" File: D:/develop/vup1500/logic/pll100.vhd Line: 142
+Info (12133): Instantiated megafunction "pll100:CKGEN0|altpll:altpll_component" with the following parameter: File: D:/develop/vup1500/logic/pll100.vhd Line: 142
     Info (12134): Parameter "bandwidth_type" = "AUTO"
     Info (12134): Parameter "clk0_divide_by" = "1"
     Info (12134): Parameter "clk0_duty_cycle" = "50"
@@ -4079,10 +4103,10 @@ Info (12133): Instantiated megafunction "pll100:CKGEN0|altpll:altpll_component" 
 Info (12021): Found 1 design units, including 1 entities, in source file db/pll100_altpll.v
     Info (12023): Found entity 1: pll100_altpll File: D:/develop/vup1500/db/pll100_altpll.v Line: 30
 Info (12128): Elaborating entity "pll100_altpll" for hierarchy "pll100:CKGEN0|altpll:altpll_component|pll100_altpll:auto_generated" File: c:/altera_lite/15.1/quartus/libraries/megafunctions/altpll.tdf Line: 898
-Info (12128): Elaborating entity "sdram" for hierarchy "sdram:DRAM0" File: D:/develop/vup1500/vup1500.vhd Line: 697
-Warning (10036): Verilog HDL or VHDL warning at sdram.vhd(87): object "PGDi" assigned a value but never read File: D:/develop/vup1500/sdram.vhd Line: 87
+Info (12128): Elaborating entity "sdram" for hierarchy "sdram:DRAM0" File: D:/develop/vup1500/logic/vup1500.vhd Line: 697
+Warning (10036): Verilog HDL or VHDL warning at sdram.vhd(87): object "PGDi" assigned a value but never read File: D:/develop/vup1500/logic/sdram.vhd Line: 87
 Info (11170): Start IP generation for the debug fabric within sld_hub.
-Info (11172): 2016.04.10.21:12:24 Progress: Loading sldc3dd541a/alt_sld_fab_wrapper_hw.tcl
+Info (11172): 2016.04.11.22:08:26 Progress: Loading sldc3dd541a/alt_sld_fab_wrapper_hw.tcl
 Info (11172): Alt_sld_fab.alt_sld_fab: SLD fabric agents which did not specify prefer_host were connected to JTAG
 Info (11172): Alt_sld_fab: Generating alt_sld_fab "alt_sld_fab" for QUARTUS_SYNTH
 Info (11172): Alt_sld_fab: "alt_sld_fab" instantiated alt_sld_fab "alt_sld_fab"
@@ -4106,213 +4130,213 @@ Info (12021): Found 2 design units, including 1 entities, in source file db/ip/s
 Info (12021): Found 1 design units, including 1 entities, in source file db/ip/sldc3dd541a/submodules/alt_sld_fab_alt_sld_fab_splitter.sv
     Info (12023): Found entity 1: alt_sld_fab_alt_sld_fab_splitter File: D:/develop/vup1500/db/ip/sldc3dd541a/submodules/alt_sld_fab_alt_sld_fab_splitter.sv Line: 3
 Warning (19016): Clock multiplexers are found and protected
-    Warning (19017): Found clock multiplexer i8253:PIT0|gh_timer_8254_wb:PIT8254|gh_counter_control:U6|Mux3 File: D:/develop/vup1500/gh_counter_control.vhd Line: 232
-    Warning (19017): Found clock multiplexer i8253:PIT0|gh_timer_8254_wb:PIT8254|gh_counter_control:U6|gh_counter_down_16b_bb:U9|Mux1 File: D:/develop/vup1500/gh_counter_down_16b_bb.vhd Line: 116
-    Warning (19017): Found clock multiplexer i8253:PIT0|gh_timer_8254_wb:PIT8254|gh_counter_control:U6|Mux0 File: D:/develop/vup1500/gh_counter_control.vhd Line: 232
-    Warning (19017): Found clock multiplexer i8253:PIT0|gh_timer_8254_wb:PIT8254|gh_counter_control:U6|gh_counter_down_16b_bb:U9|hDI[0] File: D:/develop/vup1500/gh_counter_down_16b_bb.vhd Line: 91
-    Warning (19017): Found clock multiplexer i8253:PIT0|gh_timer_8254_wb:PIT8254|gh_counter_control:U6|gh_counter_down_16b_bb:U9|gh_div2_bcd_4digits:U0|gh_div_bcd2:U3|Mux3 File: D:/develop/vup1500/gh_div_bcd2.vhd Line: 42
-    Warning (19017): Found clock multiplexer i8253:PIT0|gh_timer_8254_wb:PIT8254|gh_counter_control:U6|gh_counter_down_16b_bb:U9|gh_div2_bcd_4digits:U0|gh_div_bcd2:U2|Mux4 File: D:/develop/vup1500/gh_div_bcd2.vhd Line: 42
-    Warning (19017): Found clock multiplexer i8253:PIT0|gh_timer_8254_wb:PIT8254|gh_counter_control:U6|gh_counter_down_16b_bb:U9|hDI[1] File: D:/develop/vup1500/gh_counter_down_16b_bb.vhd Line: 91
-    Warning (19017): Found clock multiplexer i8253:PIT0|gh_timer_8254_wb:PIT8254|gh_counter_control:U6|gh_counter_down_16b_bb:U9|gh_div2_bcd_4digits:U0|gh_div_bcd2:U3|Mux2 File: D:/develop/vup1500/gh_div_bcd2.vhd Line: 42
-    Warning (19017): Found clock multiplexer i8253:PIT0|gh_timer_8254_wb:PIT8254|gh_counter_control:U6|gh_counter_down_16b_bb:U9|hDI[2] File: D:/develop/vup1500/gh_counter_down_16b_bb.vhd Line: 91
-    Warning (19017): Found clock multiplexer i8253:PIT0|gh_timer_8254_wb:PIT8254|gh_counter_control:U6|gh_counter_down_16b_bb:U9|gh_div2_bcd_4digits:U0|gh_div_bcd2:U3|Mux1 File: D:/develop/vup1500/gh_div_bcd2.vhd Line: 42
-    Warning (19017): Found clock multiplexer i8253:PIT0|gh_timer_8254_wb:PIT8254|gh_counter_control:U6|gh_counter_down_16b_bb:U9|hDI[3] File: D:/develop/vup1500/gh_counter_down_16b_bb.vhd Line: 91
-    Warning (19017): Found clock multiplexer i8253:PIT0|gh_timer_8254_wb:PIT8254|gh_counter_control:U6|gh_counter_down_16b_bb:U9|gh_div2_bcd_4digits:U0|gh_div_bcd2:U3|Mux0 File: D:/develop/vup1500/gh_div_bcd2.vhd Line: 42
-    Warning (19017): Found clock multiplexer i8253:PIT0|gh_timer_8254_wb:PIT8254|gh_counter_control:U6|gh_counter_down_16b_bb:U9|hDI[4] File: D:/develop/vup1500/gh_counter_down_16b_bb.vhd Line: 91
-    Warning (19017): Found clock multiplexer i8253:PIT0|gh_timer_8254_wb:PIT8254|gh_counter_control:U6|gh_counter_down_16b_bb:U9|gh_div2_bcd_4digits:U0|gh_div_bcd2:U2|Mux3 File: D:/develop/vup1500/gh_div_bcd2.vhd Line: 42
-    Warning (19017): Found clock multiplexer i8253:PIT0|gh_timer_8254_wb:PIT8254|gh_counter_control:U6|gh_counter_down_16b_bb:U9|gh_div2_bcd_4digits:U0|gh_div_bcd2:U1|Mux4 File: D:/develop/vup1500/gh_div_bcd2.vhd Line: 42
-    Warning (19017): Found clock multiplexer i8253:PIT0|gh_timer_8254_wb:PIT8254|gh_counter_control:U6|gh_counter_down_16b_bb:U9|hDI[5] File: D:/develop/vup1500/gh_counter_down_16b_bb.vhd Line: 91
-    Warning (19017): Found clock multiplexer i8253:PIT0|gh_timer_8254_wb:PIT8254|gh_counter_control:U6|gh_counter_down_16b_bb:U9|gh_div2_bcd_4digits:U0|gh_div_bcd2:U2|Mux2 File: D:/develop/vup1500/gh_div_bcd2.vhd Line: 42
-    Warning (19017): Found clock multiplexer i8253:PIT0|gh_timer_8254_wb:PIT8254|gh_counter_control:U6|gh_counter_down_16b_bb:U9|hDI[6] File: D:/develop/vup1500/gh_counter_down_16b_bb.vhd Line: 91
-    Warning (19017): Found clock multiplexer i8253:PIT0|gh_timer_8254_wb:PIT8254|gh_counter_control:U6|gh_counter_down_16b_bb:U9|gh_div2_bcd_4digits:U0|gh_div_bcd2:U2|Mux1 File: D:/develop/vup1500/gh_div_bcd2.vhd Line: 42
-    Warning (19017): Found clock multiplexer i8253:PIT0|gh_timer_8254_wb:PIT8254|gh_counter_control:U6|gh_counter_down_16b_bb:U9|hDI[7] File: D:/develop/vup1500/gh_counter_down_16b_bb.vhd Line: 91
-    Warning (19017): Found clock multiplexer i8253:PIT0|gh_timer_8254_wb:PIT8254|gh_counter_control:U6|gh_counter_down_16b_bb:U9|gh_div2_bcd_4digits:U0|gh_div_bcd2:U2|Mux0 File: D:/develop/vup1500/gh_div_bcd2.vhd Line: 42
-    Warning (19017): Found clock multiplexer i8253:PIT0|gh_timer_8254_wb:PIT8254|gh_counter_control:U6|gh_counter_down_16b_bb:U9|hDI[8] File: D:/develop/vup1500/gh_counter_down_16b_bb.vhd Line: 91
-    Warning (19017): Found clock multiplexer i8253:PIT0|gh_timer_8254_wb:PIT8254|gh_counter_control:U6|gh_counter_down_16b_bb:U9|gh_div2_bcd_4digits:U0|gh_div_bcd2:U1|Mux3 File: D:/develop/vup1500/gh_div_bcd2.vhd Line: 42
-    Warning (19017): Found clock multiplexer i8253:PIT0|gh_timer_8254_wb:PIT8254|gh_counter_control:U6|gh_counter_down_16b_bb:U9|gh_div2_bcd_4digits:U0|gh_div_bcd2:U0|Mux4 File: D:/develop/vup1500/gh_div_bcd2.vhd Line: 42
-    Warning (19017): Found clock multiplexer i8253:PIT0|gh_timer_8254_wb:PIT8254|gh_counter_control:U6|gh_counter_down_16b_bb:U9|hDI[9] File: D:/develop/vup1500/gh_counter_down_16b_bb.vhd Line: 91
-    Warning (19017): Found clock multiplexer i8253:PIT0|gh_timer_8254_wb:PIT8254|gh_counter_control:U6|gh_counter_down_16b_bb:U9|gh_div2_bcd_4digits:U0|gh_div_bcd2:U1|Mux2 File: D:/develop/vup1500/gh_div_bcd2.vhd Line: 42
-    Warning (19017): Found clock multiplexer i8253:PIT0|gh_timer_8254_wb:PIT8254|gh_counter_control:U6|gh_counter_down_16b_bb:U9|hDI[10] File: D:/develop/vup1500/gh_counter_down_16b_bb.vhd Line: 91
-    Warning (19017): Found clock multiplexer i8253:PIT0|gh_timer_8254_wb:PIT8254|gh_counter_control:U6|gh_counter_down_16b_bb:U9|gh_div2_bcd_4digits:U0|gh_div_bcd2:U1|Mux1 File: D:/develop/vup1500/gh_div_bcd2.vhd Line: 42
-    Warning (19017): Found clock multiplexer i8253:PIT0|gh_timer_8254_wb:PIT8254|gh_counter_control:U6|gh_counter_down_16b_bb:U9|hDI[11] File: D:/develop/vup1500/gh_counter_down_16b_bb.vhd Line: 91
-    Warning (19017): Found clock multiplexer i8253:PIT0|gh_timer_8254_wb:PIT8254|gh_counter_control:U6|gh_counter_down_16b_bb:U9|gh_div2_bcd_4digits:U0|gh_div_bcd2:U1|Mux0 File: D:/develop/vup1500/gh_div_bcd2.vhd Line: 42
-    Warning (19017): Found clock multiplexer i8253:PIT0|gh_timer_8254_wb:PIT8254|gh_counter_control:U6|gh_counter_down_16b_bb:U9|hDI[12] File: D:/develop/vup1500/gh_counter_down_16b_bb.vhd Line: 91
-    Warning (19017): Found clock multiplexer i8253:PIT0|gh_timer_8254_wb:PIT8254|gh_counter_control:U6|gh_counter_down_16b_bb:U9|gh_div2_bcd_4digits:U0|gh_div_bcd2:U0|Mux3 File: D:/develop/vup1500/gh_div_bcd2.vhd Line: 42
-    Warning (19017): Found clock multiplexer i8253:PIT0|gh_timer_8254_wb:PIT8254|gh_counter_control:U6|gh_counter_down_16b_bb:U9|hDI[13] File: D:/develop/vup1500/gh_counter_down_16b_bb.vhd Line: 91
-    Warning (19017): Found clock multiplexer i8253:PIT0|gh_timer_8254_wb:PIT8254|gh_counter_control:U6|gh_counter_down_16b_bb:U9|gh_div2_bcd_4digits:U0|gh_div_bcd2:U0|Mux2 File: D:/develop/vup1500/gh_div_bcd2.vhd Line: 42
-    Warning (19017): Found clock multiplexer i8253:PIT0|gh_timer_8254_wb:PIT8254|gh_counter_control:U6|gh_counter_down_16b_bb:U9|hDI[14] File: D:/develop/vup1500/gh_counter_down_16b_bb.vhd Line: 91
-    Warning (19017): Found clock multiplexer i8253:PIT0|gh_timer_8254_wb:PIT8254|gh_counter_control:U6|gh_counter_down_16b_bb:U9|gh_div2_bcd_4digits:U0|gh_div_bcd2:U0|Mux1 File: D:/develop/vup1500/gh_div_bcd2.vhd Line: 42
-    Warning (19017): Found clock multiplexer i8253:PIT0|gh_timer_8254_wb:PIT8254|gh_counter_control:U6|gh_counter_down_16b_bb:U9|gh_div2_bcd_4digits:U0|gh_div_bcd2:U0|Mux0 File: D:/develop/vup1500/gh_div_bcd2.vhd Line: 42
-    Warning (19017): Found clock multiplexer i8253:PIT0|gh_timer_8254_wb:PIT8254|gh_counter_control:U6|Mux1 File: D:/develop/vup1500/gh_counter_control.vhd Line: 232
-    Warning (19017): Found clock multiplexer i8253:PIT0|gh_timer_8254_wb:PIT8254|gh_counter_control:U6|iload~0 File: D:/develop/vup1500/gh_counter_control.vhd Line: 113
-    Warning (19017): Found clock multiplexer i8253:PIT0|gh_timer_8254_wb:PIT8254|iiCS1 File: D:/develop/vup1500/gh_timer_8254_wb.vhd Line: 119
-    Warning (19017): Found clock multiplexer i8253:PIT0|gh_timer_8254_wb:PIT8254|iiCS1~0 File: D:/develop/vup1500/gh_timer_8254_wb.vhd Line: 119
-    Warning (19017): Found clock multiplexer i8253:PIT0|gh_timer_8254_wb:PIT8254|gh_counter_control:U6|iload~1 File: D:/develop/vup1500/gh_counter_control.vhd Line: 113
+    Warning (19017): Found clock multiplexer i8253:PIT0|gh_timer_8254_wb:PIT8254|gh_counter_control:U6|Mux3 File: D:/develop/vup1500/logic/gh_counter_control.vhd Line: 232
+    Warning (19017): Found clock multiplexer i8253:PIT0|gh_timer_8254_wb:PIT8254|gh_counter_control:U6|gh_counter_down_16b_bb:U9|Mux1 File: D:/develop/vup1500/logic/gh_counter_down_16b_bb.vhd Line: 116
+    Warning (19017): Found clock multiplexer i8253:PIT0|gh_timer_8254_wb:PIT8254|gh_counter_control:U6|Mux0 File: D:/develop/vup1500/logic/gh_counter_control.vhd Line: 232
+    Warning (19017): Found clock multiplexer i8253:PIT0|gh_timer_8254_wb:PIT8254|gh_counter_control:U6|gh_counter_down_16b_bb:U9|hDI[0] File: D:/develop/vup1500/logic/gh_counter_down_16b_bb.vhd Line: 91
+    Warning (19017): Found clock multiplexer i8253:PIT0|gh_timer_8254_wb:PIT8254|gh_counter_control:U6|gh_counter_down_16b_bb:U9|gh_div2_bcd_4digits:U0|gh_div_bcd2:U3|Mux3 File: D:/develop/vup1500/logic/gh_div_bcd2.vhd Line: 42
+    Warning (19017): Found clock multiplexer i8253:PIT0|gh_timer_8254_wb:PIT8254|gh_counter_control:U6|gh_counter_down_16b_bb:U9|gh_div2_bcd_4digits:U0|gh_div_bcd2:U2|Mux4 File: D:/develop/vup1500/logic/gh_div_bcd2.vhd Line: 42
+    Warning (19017): Found clock multiplexer i8253:PIT0|gh_timer_8254_wb:PIT8254|gh_counter_control:U6|gh_counter_down_16b_bb:U9|hDI[1] File: D:/develop/vup1500/logic/gh_counter_down_16b_bb.vhd Line: 91
+    Warning (19017): Found clock multiplexer i8253:PIT0|gh_timer_8254_wb:PIT8254|gh_counter_control:U6|gh_counter_down_16b_bb:U9|gh_div2_bcd_4digits:U0|gh_div_bcd2:U3|Mux2 File: D:/develop/vup1500/logic/gh_div_bcd2.vhd Line: 42
+    Warning (19017): Found clock multiplexer i8253:PIT0|gh_timer_8254_wb:PIT8254|gh_counter_control:U6|gh_counter_down_16b_bb:U9|hDI[2] File: D:/develop/vup1500/logic/gh_counter_down_16b_bb.vhd Line: 91
+    Warning (19017): Found clock multiplexer i8253:PIT0|gh_timer_8254_wb:PIT8254|gh_counter_control:U6|gh_counter_down_16b_bb:U9|gh_div2_bcd_4digits:U0|gh_div_bcd2:U3|Mux1 File: D:/develop/vup1500/logic/gh_div_bcd2.vhd Line: 42
+    Warning (19017): Found clock multiplexer i8253:PIT0|gh_timer_8254_wb:PIT8254|gh_counter_control:U6|gh_counter_down_16b_bb:U9|hDI[3] File: D:/develop/vup1500/logic/gh_counter_down_16b_bb.vhd Line: 91
+    Warning (19017): Found clock multiplexer i8253:PIT0|gh_timer_8254_wb:PIT8254|gh_counter_control:U6|gh_counter_down_16b_bb:U9|gh_div2_bcd_4digits:U0|gh_div_bcd2:U3|Mux0 File: D:/develop/vup1500/logic/gh_div_bcd2.vhd Line: 42
+    Warning (19017): Found clock multiplexer i8253:PIT0|gh_timer_8254_wb:PIT8254|gh_counter_control:U6|gh_counter_down_16b_bb:U9|hDI[4] File: D:/develop/vup1500/logic/gh_counter_down_16b_bb.vhd Line: 91
+    Warning (19017): Found clock multiplexer i8253:PIT0|gh_timer_8254_wb:PIT8254|gh_counter_control:U6|gh_counter_down_16b_bb:U9|gh_div2_bcd_4digits:U0|gh_div_bcd2:U2|Mux3 File: D:/develop/vup1500/logic/gh_div_bcd2.vhd Line: 42
+    Warning (19017): Found clock multiplexer i8253:PIT0|gh_timer_8254_wb:PIT8254|gh_counter_control:U6|gh_counter_down_16b_bb:U9|gh_div2_bcd_4digits:U0|gh_div_bcd2:U1|Mux4 File: D:/develop/vup1500/logic/gh_div_bcd2.vhd Line: 42
+    Warning (19017): Found clock multiplexer i8253:PIT0|gh_timer_8254_wb:PIT8254|gh_counter_control:U6|gh_counter_down_16b_bb:U9|hDI[5] File: D:/develop/vup1500/logic/gh_counter_down_16b_bb.vhd Line: 91
+    Warning (19017): Found clock multiplexer i8253:PIT0|gh_timer_8254_wb:PIT8254|gh_counter_control:U6|gh_counter_down_16b_bb:U9|gh_div2_bcd_4digits:U0|gh_div_bcd2:U2|Mux2 File: D:/develop/vup1500/logic/gh_div_bcd2.vhd Line: 42
+    Warning (19017): Found clock multiplexer i8253:PIT0|gh_timer_8254_wb:PIT8254|gh_counter_control:U6|gh_counter_down_16b_bb:U9|hDI[6] File: D:/develop/vup1500/logic/gh_counter_down_16b_bb.vhd Line: 91
+    Warning (19017): Found clock multiplexer i8253:PIT0|gh_timer_8254_wb:PIT8254|gh_counter_control:U6|gh_counter_down_16b_bb:U9|gh_div2_bcd_4digits:U0|gh_div_bcd2:U2|Mux1 File: D:/develop/vup1500/logic/gh_div_bcd2.vhd Line: 42
+    Warning (19017): Found clock multiplexer i8253:PIT0|gh_timer_8254_wb:PIT8254|gh_counter_control:U6|gh_counter_down_16b_bb:U9|hDI[7] File: D:/develop/vup1500/logic/gh_counter_down_16b_bb.vhd Line: 91
+    Warning (19017): Found clock multiplexer i8253:PIT0|gh_timer_8254_wb:PIT8254|gh_counter_control:U6|gh_counter_down_16b_bb:U9|gh_div2_bcd_4digits:U0|gh_div_bcd2:U2|Mux0 File: D:/develop/vup1500/logic/gh_div_bcd2.vhd Line: 42
+    Warning (19017): Found clock multiplexer i8253:PIT0|gh_timer_8254_wb:PIT8254|gh_counter_control:U6|gh_counter_down_16b_bb:U9|hDI[8] File: D:/develop/vup1500/logic/gh_counter_down_16b_bb.vhd Line: 91
+    Warning (19017): Found clock multiplexer i8253:PIT0|gh_timer_8254_wb:PIT8254|gh_counter_control:U6|gh_counter_down_16b_bb:U9|gh_div2_bcd_4digits:U0|gh_div_bcd2:U1|Mux3 File: D:/develop/vup1500/logic/gh_div_bcd2.vhd Line: 42
+    Warning (19017): Found clock multiplexer i8253:PIT0|gh_timer_8254_wb:PIT8254|gh_counter_control:U6|gh_counter_down_16b_bb:U9|gh_div2_bcd_4digits:U0|gh_div_bcd2:U0|Mux4 File: D:/develop/vup1500/logic/gh_div_bcd2.vhd Line: 42
+    Warning (19017): Found clock multiplexer i8253:PIT0|gh_timer_8254_wb:PIT8254|gh_counter_control:U6|gh_counter_down_16b_bb:U9|hDI[9] File: D:/develop/vup1500/logic/gh_counter_down_16b_bb.vhd Line: 91
+    Warning (19017): Found clock multiplexer i8253:PIT0|gh_timer_8254_wb:PIT8254|gh_counter_control:U6|gh_counter_down_16b_bb:U9|gh_div2_bcd_4digits:U0|gh_div_bcd2:U1|Mux2 File: D:/develop/vup1500/logic/gh_div_bcd2.vhd Line: 42
+    Warning (19017): Found clock multiplexer i8253:PIT0|gh_timer_8254_wb:PIT8254|gh_counter_control:U6|gh_counter_down_16b_bb:U9|hDI[10] File: D:/develop/vup1500/logic/gh_counter_down_16b_bb.vhd Line: 91
+    Warning (19017): Found clock multiplexer i8253:PIT0|gh_timer_8254_wb:PIT8254|gh_counter_control:U6|gh_counter_down_16b_bb:U9|gh_div2_bcd_4digits:U0|gh_div_bcd2:U1|Mux1 File: D:/develop/vup1500/logic/gh_div_bcd2.vhd Line: 42
+    Warning (19017): Found clock multiplexer i8253:PIT0|gh_timer_8254_wb:PIT8254|gh_counter_control:U6|gh_counter_down_16b_bb:U9|hDI[11] File: D:/develop/vup1500/logic/gh_counter_down_16b_bb.vhd Line: 91
+    Warning (19017): Found clock multiplexer i8253:PIT0|gh_timer_8254_wb:PIT8254|gh_counter_control:U6|gh_counter_down_16b_bb:U9|gh_div2_bcd_4digits:U0|gh_div_bcd2:U1|Mux0 File: D:/develop/vup1500/logic/gh_div_bcd2.vhd Line: 42
+    Warning (19017): Found clock multiplexer i8253:PIT0|gh_timer_8254_wb:PIT8254|gh_counter_control:U6|gh_counter_down_16b_bb:U9|hDI[12] File: D:/develop/vup1500/logic/gh_counter_down_16b_bb.vhd Line: 91
+    Warning (19017): Found clock multiplexer i8253:PIT0|gh_timer_8254_wb:PIT8254|gh_counter_control:U6|gh_counter_down_16b_bb:U9|gh_div2_bcd_4digits:U0|gh_div_bcd2:U0|Mux3 File: D:/develop/vup1500/logic/gh_div_bcd2.vhd Line: 42
+    Warning (19017): Found clock multiplexer i8253:PIT0|gh_timer_8254_wb:PIT8254|gh_counter_control:U6|gh_counter_down_16b_bb:U9|hDI[13] File: D:/develop/vup1500/logic/gh_counter_down_16b_bb.vhd Line: 91
+    Warning (19017): Found clock multiplexer i8253:PIT0|gh_timer_8254_wb:PIT8254|gh_counter_control:U6|gh_counter_down_16b_bb:U9|gh_div2_bcd_4digits:U0|gh_div_bcd2:U0|Mux2 File: D:/develop/vup1500/logic/gh_div_bcd2.vhd Line: 42
+    Warning (19017): Found clock multiplexer i8253:PIT0|gh_timer_8254_wb:PIT8254|gh_counter_control:U6|gh_counter_down_16b_bb:U9|hDI[14] File: D:/develop/vup1500/logic/gh_counter_down_16b_bb.vhd Line: 91
+    Warning (19017): Found clock multiplexer i8253:PIT0|gh_timer_8254_wb:PIT8254|gh_counter_control:U6|gh_counter_down_16b_bb:U9|gh_div2_bcd_4digits:U0|gh_div_bcd2:U0|Mux1 File: D:/develop/vup1500/logic/gh_div_bcd2.vhd Line: 42
+    Warning (19017): Found clock multiplexer i8253:PIT0|gh_timer_8254_wb:PIT8254|gh_counter_control:U6|gh_counter_down_16b_bb:U9|gh_div2_bcd_4digits:U0|gh_div_bcd2:U0|Mux0 File: D:/develop/vup1500/logic/gh_div_bcd2.vhd Line: 42
+    Warning (19017): Found clock multiplexer i8253:PIT0|gh_timer_8254_wb:PIT8254|gh_counter_control:U6|Mux1 File: D:/develop/vup1500/logic/gh_counter_control.vhd Line: 232
+    Warning (19017): Found clock multiplexer i8253:PIT0|gh_timer_8254_wb:PIT8254|gh_counter_control:U6|iload~0 File: D:/develop/vup1500/logic/gh_counter_control.vhd Line: 113
+    Warning (19017): Found clock multiplexer i8253:PIT0|gh_timer_8254_wb:PIT8254|iiCS1 File: D:/develop/vup1500/logic/gh_timer_8254_wb.vhd Line: 119
+    Warning (19017): Found clock multiplexer i8253:PIT0|gh_timer_8254_wb:PIT8254|iiCS1~0 File: D:/develop/vup1500/logic/gh_timer_8254_wb.vhd Line: 119
+    Warning (19017): Found clock multiplexer i8253:PIT0|gh_timer_8254_wb:PIT8254|gh_counter_control:U6|iload~1 File: D:/develop/vup1500/logic/gh_counter_control.vhd Line: 113
 Warning (13039): The following bidirectional pins have no drivers
-    Warning (13040): bidirectional pin "ADT7420_SDA" has no driver File: D:/develop/vup1500/vup1500.vhd Line: 28
-    Warning (13040): bidirectional pin "I2C_SCL" has no driver File: D:/develop/vup1500/vup1500.vhd Line: 37
-    Warning (13040): bidirectional pin "I2C_SDA" has no driver File: D:/develop/vup1500/vup1500.vhd Line: 38
-    Warning (13040): bidirectional pin "GPIO_J5_03" has no driver File: D:/develop/vup1500/vup1500.vhd Line: 69
-    Warning (13040): bidirectional pin "GPIO_J5_04" has no driver File: D:/develop/vup1500/vup1500.vhd Line: 70
-    Warning (13040): bidirectional pin "GPIO_J5_09" has no driver File: D:/develop/vup1500/vup1500.vhd Line: 75
-    Warning (13040): bidirectional pin "GPIO_J5_10" has no driver File: D:/develop/vup1500/vup1500.vhd Line: 76
-    Warning (13040): bidirectional pin "GPIO_J5_13" has no driver File: D:/develop/vup1500/vup1500.vhd Line: 77
-    Warning (13040): bidirectional pin "GPIO_J5_14" has no driver File: D:/develop/vup1500/vup1500.vhd Line: 78
-    Warning (13040): bidirectional pin "GPIO_J5_15" has no driver File: D:/develop/vup1500/vup1500.vhd Line: 79
-    Warning (13040): bidirectional pin "GPIO_J5_16" has no driver File: D:/develop/vup1500/vup1500.vhd Line: 80
-    Warning (13040): bidirectional pin "GPIO_J5_17" has no driver File: D:/develop/vup1500/vup1500.vhd Line: 81
-    Warning (13040): bidirectional pin "GPIO_J5_19" has no driver File: D:/develop/vup1500/vup1500.vhd Line: 83
-    Warning (13040): bidirectional pin "GPIO_J5_21" has no driver File: D:/develop/vup1500/vup1500.vhd Line: 85
-    Warning (13040): bidirectional pin "GPIO_J5_22" has no driver File: D:/develop/vup1500/vup1500.vhd Line: 86
-    Warning (13040): bidirectional pin "GPIO_J5_23" has no driver File: D:/develop/vup1500/vup1500.vhd Line: 87
-    Warning (13040): bidirectional pin "GPIO_J5_25" has no driver File: D:/develop/vup1500/vup1500.vhd Line: 89
-    Warning (13040): bidirectional pin "GPIO_J5_27" has no driver File: D:/develop/vup1500/vup1500.vhd Line: 91
-    Warning (13040): bidirectional pin "GPIO_J5_31" has no driver File: D:/develop/vup1500/vup1500.vhd Line: 93
-    Warning (13040): bidirectional pin "GPIO_J5_32" has no driver File: D:/develop/vup1500/vup1500.vhd Line: 94
-    Warning (13040): bidirectional pin "EG_P1" has no driver File: D:/develop/vup1500/vup1500.vhd Line: 103
-    Warning (13040): bidirectional pin "EG_P2" has no driver File: D:/develop/vup1500/vup1500.vhd Line: 104
-    Warning (13040): bidirectional pin "EG_P3" has no driver File: D:/develop/vup1500/vup1500.vhd Line: 105
-    Warning (13040): bidirectional pin "EG_P4" has no driver File: D:/develop/vup1500/vup1500.vhd Line: 106
-    Warning (13040): bidirectional pin "EG_P5" has no driver File: D:/develop/vup1500/vup1500.vhd Line: 107
-    Warning (13040): bidirectional pin "EG_P6" has no driver File: D:/develop/vup1500/vup1500.vhd Line: 108
-    Warning (13040): bidirectional pin "EG_P7" has no driver File: D:/develop/vup1500/vup1500.vhd Line: 109
-    Warning (13040): bidirectional pin "EG_P8" has no driver File: D:/develop/vup1500/vup1500.vhd Line: 110
-    Warning (13040): bidirectional pin "EG_P9" has no driver File: D:/develop/vup1500/vup1500.vhd Line: 111
-    Warning (13040): bidirectional pin "EG_P10" has no driver File: D:/develop/vup1500/vup1500.vhd Line: 112
-    Warning (13040): bidirectional pin "EG_P11" has no driver File: D:/develop/vup1500/vup1500.vhd Line: 113
-    Warning (13040): bidirectional pin "EG_P12" has no driver File: D:/develop/vup1500/vup1500.vhd Line: 114
-    Warning (13040): bidirectional pin "EG_P13" has no driver File: D:/develop/vup1500/vup1500.vhd Line: 115
-    Warning (13040): bidirectional pin "EG_P14" has no driver File: D:/develop/vup1500/vup1500.vhd Line: 116
-    Warning (13040): bidirectional pin "EG_P15" has no driver File: D:/develop/vup1500/vup1500.vhd Line: 117
-    Warning (13040): bidirectional pin "EG_P16" has no driver File: D:/develop/vup1500/vup1500.vhd Line: 118
-    Warning (13040): bidirectional pin "EG_P17" has no driver File: D:/develop/vup1500/vup1500.vhd Line: 119
-    Warning (13040): bidirectional pin "EG_P18" has no driver File: D:/develop/vup1500/vup1500.vhd Line: 120
-    Warning (13040): bidirectional pin "EG_P19" has no driver File: D:/develop/vup1500/vup1500.vhd Line: 121
-    Warning (13040): bidirectional pin "EG_P20" has no driver File: D:/develop/vup1500/vup1500.vhd Line: 122
-    Warning (13040): bidirectional pin "EG_P21" has no driver File: D:/develop/vup1500/vup1500.vhd Line: 123
-    Warning (13040): bidirectional pin "EG_P22" has no driver File: D:/develop/vup1500/vup1500.vhd Line: 124
-    Warning (13040): bidirectional pin "EG_P23" has no driver File: D:/develop/vup1500/vup1500.vhd Line: 125
-    Warning (13040): bidirectional pin "EG_P24" has no driver File: D:/develop/vup1500/vup1500.vhd Line: 126
-    Warning (13040): bidirectional pin "EG_P25" has no driver File: D:/develop/vup1500/vup1500.vhd Line: 127
-    Warning (13040): bidirectional pin "EG_P26" has no driver File: D:/develop/vup1500/vup1500.vhd Line: 128
-    Warning (13040): bidirectional pin "EG_P27" has no driver File: D:/develop/vup1500/vup1500.vhd Line: 129
-    Warning (13040): bidirectional pin "EG_P28" has no driver File: D:/develop/vup1500/vup1500.vhd Line: 130
-    Warning (13040): bidirectional pin "EG_P29" has no driver File: D:/develop/vup1500/vup1500.vhd Line: 131
-    Warning (13040): bidirectional pin "EG_P35" has no driver File: D:/develop/vup1500/vup1500.vhd Line: 132
-    Warning (13040): bidirectional pin "EG_P36" has no driver File: D:/develop/vup1500/vup1500.vhd Line: 133
-    Warning (13040): bidirectional pin "EG_P37" has no driver File: D:/develop/vup1500/vup1500.vhd Line: 134
-    Warning (13040): bidirectional pin "EG_P38" has no driver File: D:/develop/vup1500/vup1500.vhd Line: 135
-    Warning (13040): bidirectional pin "EG_P39" has no driver File: D:/develop/vup1500/vup1500.vhd Line: 136
-    Warning (13040): bidirectional pin "EG_P40" has no driver File: D:/develop/vup1500/vup1500.vhd Line: 137
-    Warning (13040): bidirectional pin "EG_P41" has no driver File: D:/develop/vup1500/vup1500.vhd Line: 138
-    Warning (13040): bidirectional pin "EG_P42" has no driver File: D:/develop/vup1500/vup1500.vhd Line: 139
-    Warning (13040): bidirectional pin "EG_P43" has no driver File: D:/develop/vup1500/vup1500.vhd Line: 140
-    Warning (13040): bidirectional pin "EG_P44" has no driver File: D:/develop/vup1500/vup1500.vhd Line: 141
-    Warning (13040): bidirectional pin "EG_P45" has no driver File: D:/develop/vup1500/vup1500.vhd Line: 142
-    Warning (13040): bidirectional pin "EG_P46" has no driver File: D:/develop/vup1500/vup1500.vhd Line: 143
-    Warning (13040): bidirectional pin "EG_P47" has no driver File: D:/develop/vup1500/vup1500.vhd Line: 144
-    Warning (13040): bidirectional pin "EG_P48" has no driver File: D:/develop/vup1500/vup1500.vhd Line: 145
-    Warning (13040): bidirectional pin "EG_P49" has no driver File: D:/develop/vup1500/vup1500.vhd Line: 146
-    Warning (13040): bidirectional pin "EG_P50" has no driver File: D:/develop/vup1500/vup1500.vhd Line: 147
-    Warning (13040): bidirectional pin "EG_P51" has no driver File: D:/develop/vup1500/vup1500.vhd Line: 148
-    Warning (13040): bidirectional pin "EG_P52" has no driver File: D:/develop/vup1500/vup1500.vhd Line: 149
-    Warning (13040): bidirectional pin "EG_P53" has no driver File: D:/develop/vup1500/vup1500.vhd Line: 150
-    Warning (13040): bidirectional pin "EG_P54" has no driver File: D:/develop/vup1500/vup1500.vhd Line: 151
-    Warning (13040): bidirectional pin "EG_P55" has no driver File: D:/develop/vup1500/vup1500.vhd Line: 152
-    Warning (13040): bidirectional pin "EG_P56" has no driver File: D:/develop/vup1500/vup1500.vhd Line: 153
-    Warning (13040): bidirectional pin "EG_P57" has no driver File: D:/develop/vup1500/vup1500.vhd Line: 154
-    Warning (13040): bidirectional pin "EG_P58" has no driver File: D:/develop/vup1500/vup1500.vhd Line: 155
-    Warning (13040): bidirectional pin "EG_P59" has no driver File: D:/develop/vup1500/vup1500.vhd Line: 156
-    Warning (13040): bidirectional pin "EG_P60" has no driver File: D:/develop/vup1500/vup1500.vhd Line: 157
-    Warning (13040): bidirectional pin "EXP_PRESENT" has no driver File: D:/develop/vup1500/vup1500.vhd Line: 158
-    Warning (13040): bidirectional pin "RESET_EXPn" has no driver File: D:/develop/vup1500/vup1500.vhd Line: 159
-Info (13000): Registers with preset signals will power-up high File: D:/develop/vup1500/vup1500.vhd Line: 210
+    Warning (13040): bidirectional pin "ADT7420_SDA" has no driver File: D:/develop/vup1500/logic/vup1500.vhd Line: 28
+    Warning (13040): bidirectional pin "I2C_SCL" has no driver File: D:/develop/vup1500/logic/vup1500.vhd Line: 37
+    Warning (13040): bidirectional pin "I2C_SDA" has no driver File: D:/develop/vup1500/logic/vup1500.vhd Line: 38
+    Warning (13040): bidirectional pin "GPIO_J5_03" has no driver File: D:/develop/vup1500/logic/vup1500.vhd Line: 69
+    Warning (13040): bidirectional pin "GPIO_J5_04" has no driver File: D:/develop/vup1500/logic/vup1500.vhd Line: 70
+    Warning (13040): bidirectional pin "GPIO_J5_09" has no driver File: D:/develop/vup1500/logic/vup1500.vhd Line: 75
+    Warning (13040): bidirectional pin "GPIO_J5_10" has no driver File: D:/develop/vup1500/logic/vup1500.vhd Line: 76
+    Warning (13040): bidirectional pin "GPIO_J5_13" has no driver File: D:/develop/vup1500/logic/vup1500.vhd Line: 77
+    Warning (13040): bidirectional pin "GPIO_J5_14" has no driver File: D:/develop/vup1500/logic/vup1500.vhd Line: 78
+    Warning (13040): bidirectional pin "GPIO_J5_15" has no driver File: D:/develop/vup1500/logic/vup1500.vhd Line: 79
+    Warning (13040): bidirectional pin "GPIO_J5_16" has no driver File: D:/develop/vup1500/logic/vup1500.vhd Line: 80
+    Warning (13040): bidirectional pin "GPIO_J5_17" has no driver File: D:/develop/vup1500/logic/vup1500.vhd Line: 81
+    Warning (13040): bidirectional pin "GPIO_J5_19" has no driver File: D:/develop/vup1500/logic/vup1500.vhd Line: 83
+    Warning (13040): bidirectional pin "GPIO_J5_21" has no driver File: D:/develop/vup1500/logic/vup1500.vhd Line: 85
+    Warning (13040): bidirectional pin "GPIO_J5_22" has no driver File: D:/develop/vup1500/logic/vup1500.vhd Line: 86
+    Warning (13040): bidirectional pin "GPIO_J5_23" has no driver File: D:/develop/vup1500/logic/vup1500.vhd Line: 87
+    Warning (13040): bidirectional pin "GPIO_J5_25" has no driver File: D:/develop/vup1500/logic/vup1500.vhd Line: 89
+    Warning (13040): bidirectional pin "GPIO_J5_27" has no driver File: D:/develop/vup1500/logic/vup1500.vhd Line: 91
+    Warning (13040): bidirectional pin "GPIO_J5_31" has no driver File: D:/develop/vup1500/logic/vup1500.vhd Line: 93
+    Warning (13040): bidirectional pin "GPIO_J5_32" has no driver File: D:/develop/vup1500/logic/vup1500.vhd Line: 94
+    Warning (13040): bidirectional pin "EG_P1" has no driver File: D:/develop/vup1500/logic/vup1500.vhd Line: 103
+    Warning (13040): bidirectional pin "EG_P2" has no driver File: D:/develop/vup1500/logic/vup1500.vhd Line: 104
+    Warning (13040): bidirectional pin "EG_P3" has no driver File: D:/develop/vup1500/logic/vup1500.vhd Line: 105
+    Warning (13040): bidirectional pin "EG_P4" has no driver File: D:/develop/vup1500/logic/vup1500.vhd Line: 106
+    Warning (13040): bidirectional pin "EG_P5" has no driver File: D:/develop/vup1500/logic/vup1500.vhd Line: 107
+    Warning (13040): bidirectional pin "EG_P6" has no driver File: D:/develop/vup1500/logic/vup1500.vhd Line: 108
+    Warning (13040): bidirectional pin "EG_P7" has no driver File: D:/develop/vup1500/logic/vup1500.vhd Line: 109
+    Warning (13040): bidirectional pin "EG_P8" has no driver File: D:/develop/vup1500/logic/vup1500.vhd Line: 110
+    Warning (13040): bidirectional pin "EG_P9" has no driver File: D:/develop/vup1500/logic/vup1500.vhd Line: 111
+    Warning (13040): bidirectional pin "EG_P10" has no driver File: D:/develop/vup1500/logic/vup1500.vhd Line: 112
+    Warning (13040): bidirectional pin "EG_P11" has no driver File: D:/develop/vup1500/logic/vup1500.vhd Line: 113
+    Warning (13040): bidirectional pin "EG_P12" has no driver File: D:/develop/vup1500/logic/vup1500.vhd Line: 114
+    Warning (13040): bidirectional pin "EG_P13" has no driver File: D:/develop/vup1500/logic/vup1500.vhd Line: 115
+    Warning (13040): bidirectional pin "EG_P14" has no driver File: D:/develop/vup1500/logic/vup1500.vhd Line: 116
+    Warning (13040): bidirectional pin "EG_P15" has no driver File: D:/develop/vup1500/logic/vup1500.vhd Line: 117
+    Warning (13040): bidirectional pin "EG_P16" has no driver File: D:/develop/vup1500/logic/vup1500.vhd Line: 118
+    Warning (13040): bidirectional pin "EG_P17" has no driver File: D:/develop/vup1500/logic/vup1500.vhd Line: 119
+    Warning (13040): bidirectional pin "EG_P18" has no driver File: D:/develop/vup1500/logic/vup1500.vhd Line: 120
+    Warning (13040): bidirectional pin "EG_P19" has no driver File: D:/develop/vup1500/logic/vup1500.vhd Line: 121
+    Warning (13040): bidirectional pin "EG_P20" has no driver File: D:/develop/vup1500/logic/vup1500.vhd Line: 122
+    Warning (13040): bidirectional pin "EG_P21" has no driver File: D:/develop/vup1500/logic/vup1500.vhd Line: 123
+    Warning (13040): bidirectional pin "EG_P22" has no driver File: D:/develop/vup1500/logic/vup1500.vhd Line: 124
+    Warning (13040): bidirectional pin "EG_P23" has no driver File: D:/develop/vup1500/logic/vup1500.vhd Line: 125
+    Warning (13040): bidirectional pin "EG_P24" has no driver File: D:/develop/vup1500/logic/vup1500.vhd Line: 126
+    Warning (13040): bidirectional pin "EG_P25" has no driver File: D:/develop/vup1500/logic/vup1500.vhd Line: 127
+    Warning (13040): bidirectional pin "EG_P26" has no driver File: D:/develop/vup1500/logic/vup1500.vhd Line: 128
+    Warning (13040): bidirectional pin "EG_P27" has no driver File: D:/develop/vup1500/logic/vup1500.vhd Line: 129
+    Warning (13040): bidirectional pin "EG_P28" has no driver File: D:/develop/vup1500/logic/vup1500.vhd Line: 130
+    Warning (13040): bidirectional pin "EG_P29" has no driver File: D:/develop/vup1500/logic/vup1500.vhd Line: 131
+    Warning (13040): bidirectional pin "EG_P35" has no driver File: D:/develop/vup1500/logic/vup1500.vhd Line: 132
+    Warning (13040): bidirectional pin "EG_P36" has no driver File: D:/develop/vup1500/logic/vup1500.vhd Line: 133
+    Warning (13040): bidirectional pin "EG_P37" has no driver File: D:/develop/vup1500/logic/vup1500.vhd Line: 134
+    Warning (13040): bidirectional pin "EG_P38" has no driver File: D:/develop/vup1500/logic/vup1500.vhd Line: 135
+    Warning (13040): bidirectional pin "EG_P39" has no driver File: D:/develop/vup1500/logic/vup1500.vhd Line: 136
+    Warning (13040): bidirectional pin "EG_P40" has no driver File: D:/develop/vup1500/logic/vup1500.vhd Line: 137
+    Warning (13040): bidirectional pin "EG_P41" has no driver File: D:/develop/vup1500/logic/vup1500.vhd Line: 138
+    Warning (13040): bidirectional pin "EG_P42" has no driver File: D:/develop/vup1500/logic/vup1500.vhd Line: 139
+    Warning (13040): bidirectional pin "EG_P43" has no driver File: D:/develop/vup1500/logic/vup1500.vhd Line: 140
+    Warning (13040): bidirectional pin "EG_P44" has no driver File: D:/develop/vup1500/logic/vup1500.vhd Line: 141
+    Warning (13040): bidirectional pin "EG_P45" has no driver File: D:/develop/vup1500/logic/vup1500.vhd Line: 142
+    Warning (13040): bidirectional pin "EG_P46" has no driver File: D:/develop/vup1500/logic/vup1500.vhd Line: 143
+    Warning (13040): bidirectional pin "EG_P47" has no driver File: D:/develop/vup1500/logic/vup1500.vhd Line: 144
+    Warning (13040): bidirectional pin "EG_P48" has no driver File: D:/develop/vup1500/logic/vup1500.vhd Line: 145
+    Warning (13040): bidirectional pin "EG_P49" has no driver File: D:/develop/vup1500/logic/vup1500.vhd Line: 146
+    Warning (13040): bidirectional pin "EG_P50" has no driver File: D:/develop/vup1500/logic/vup1500.vhd Line: 147
+    Warning (13040): bidirectional pin "EG_P51" has no driver File: D:/develop/vup1500/logic/vup1500.vhd Line: 148
+    Warning (13040): bidirectional pin "EG_P52" has no driver File: D:/develop/vup1500/logic/vup1500.vhd Line: 149
+    Warning (13040): bidirectional pin "EG_P53" has no driver File: D:/develop/vup1500/logic/vup1500.vhd Line: 150
+    Warning (13040): bidirectional pin "EG_P54" has no driver File: D:/develop/vup1500/logic/vup1500.vhd Line: 151
+    Warning (13040): bidirectional pin "EG_P55" has no driver File: D:/develop/vup1500/logic/vup1500.vhd Line: 152
+    Warning (13040): bidirectional pin "EG_P56" has no driver File: D:/develop/vup1500/logic/vup1500.vhd Line: 153
+    Warning (13040): bidirectional pin "EG_P57" has no driver File: D:/develop/vup1500/logic/vup1500.vhd Line: 154
+    Warning (13040): bidirectional pin "EG_P58" has no driver File: D:/develop/vup1500/logic/vup1500.vhd Line: 155
+    Warning (13040): bidirectional pin "EG_P59" has no driver File: D:/develop/vup1500/logic/vup1500.vhd Line: 156
+    Warning (13040): bidirectional pin "EG_P60" has no driver File: D:/develop/vup1500/logic/vup1500.vhd Line: 157
+    Warning (13040): bidirectional pin "EXP_PRESENT" has no driver File: D:/develop/vup1500/logic/vup1500.vhd Line: 158
+    Warning (13040): bidirectional pin "RESET_EXPn" has no driver File: D:/develop/vup1500/logic/vup1500.vhd Line: 159
+Info (13000): Registers with preset signals will power-up high File: D:/develop/vup1500/logic/vup1500.vhd Line: 210
 Info (13003): DEV_CLRn pin will set, and not reset, register with preset signal due to NOT Gate Push-Back
 Warning (13024): Output pins are stuck at VCC or GND
-    Warning (13410): Pin "AD5681R_LDACn" is stuck at GND File: D:/develop/vup1500/vup1500.vhd Line: 19
-    Warning (13410): Pin "AD5681R_RSTn" is stuck at GND File: D:/develop/vup1500/vup1500.vhd Line: 20
-    Warning (13410): Pin "AD5681R_SCL" is stuck at GND File: D:/develop/vup1500/vup1500.vhd Line: 21
-    Warning (13410): Pin "AD5681R_SDA" is stuck at GND File: D:/develop/vup1500/vup1500.vhd Line: 22
-    Warning (13410): Pin "AD5681R_SYNCn" is stuck at GND File: D:/develop/vup1500/vup1500.vhd Line: 23
-    Warning (13410): Pin "ADT7420_SCL" is stuck at GND File: D:/develop/vup1500/vup1500.vhd Line: 27
-    Warning (13410): Pin "ADXL362_CS" is stuck at GND File: D:/develop/vup1500/vup1500.vhd Line: 30
-    Warning (13410): Pin "ADXL362_MOSI" is stuck at GND File: D:/develop/vup1500/vup1500.vhd Line: 34
-    Warning (13410): Pin "ADXL362_SCLK" is stuck at GND File: D:/develop/vup1500/vup1500.vhd Line: 35
-    Warning (13410): Pin "ZDOE" is stuck at GND File: D:/develop/vup1500/vup1500.vhd Line: 57
-    Warning (13410): Pin "SDRAM_A[11]" is stuck at GND File: D:/develop/vup1500/vup1500.vhd Line: 178
-    Warning (13410): Pin "SDRAM_A[12]" is stuck at GND File: D:/develop/vup1500/vup1500.vhd Line: 178
-    Warning (13410): Pin "SDRAM_BA[0]" is stuck at GND File: D:/develop/vup1500/vup1500.vhd Line: 179
-    Warning (13410): Pin "SDRAM_BA[1]" is stuck at GND File: D:/develop/vup1500/vup1500.vhd Line: 179
-    Warning (13410): Pin "SDRAM_CKE" is stuck at VCC File: D:/develop/vup1500/vup1500.vhd Line: 181
-    Warning (13410): Pin "USER_LED[0]" is stuck at VCC File: D:/develop/vup1500/vup1500.vhd Line: 192
-    Warning (13410): Pin "USER_LED[1]" is stuck at VCC File: D:/develop/vup1500/vup1500.vhd Line: 192
-    Warning (13410): Pin "USER_LED[2]" is stuck at VCC File: D:/develop/vup1500/vup1500.vhd Line: 192
-    Warning (13410): Pin "USER_LED[3]" is stuck at VCC File: D:/develop/vup1500/vup1500.vhd Line: 192
-    Warning (13410): Pin "USER_LED[4]" is stuck at VCC File: D:/develop/vup1500/vup1500.vhd Line: 192
-    Warning (13410): Pin "USER_LED[5]" is stuck at VCC File: D:/develop/vup1500/vup1500.vhd Line: 192
-    Warning (13410): Pin "USER_LED[6]" is stuck at VCC File: D:/develop/vup1500/vup1500.vhd Line: 192
-    Warning (13410): Pin "USER_LED[7]" is stuck at VCC File: D:/develop/vup1500/vup1500.vhd Line: 192
+    Warning (13410): Pin "AD5681R_LDACn" is stuck at GND File: D:/develop/vup1500/logic/vup1500.vhd Line: 19
+    Warning (13410): Pin "AD5681R_RSTn" is stuck at GND File: D:/develop/vup1500/logic/vup1500.vhd Line: 20
+    Warning (13410): Pin "AD5681R_SCL" is stuck at GND File: D:/develop/vup1500/logic/vup1500.vhd Line: 21
+    Warning (13410): Pin "AD5681R_SDA" is stuck at GND File: D:/develop/vup1500/logic/vup1500.vhd Line: 22
+    Warning (13410): Pin "AD5681R_SYNCn" is stuck at GND File: D:/develop/vup1500/logic/vup1500.vhd Line: 23
+    Warning (13410): Pin "ADT7420_SCL" is stuck at GND File: D:/develop/vup1500/logic/vup1500.vhd Line: 27
+    Warning (13410): Pin "ADXL362_CS" is stuck at GND File: D:/develop/vup1500/logic/vup1500.vhd Line: 30
+    Warning (13410): Pin "ADXL362_MOSI" is stuck at GND File: D:/develop/vup1500/logic/vup1500.vhd Line: 34
+    Warning (13410): Pin "ADXL362_SCLK" is stuck at GND File: D:/develop/vup1500/logic/vup1500.vhd Line: 35
+    Warning (13410): Pin "ZDOE" is stuck at GND File: D:/develop/vup1500/logic/vup1500.vhd Line: 57
+    Warning (13410): Pin "SDRAM_A[11]" is stuck at GND File: D:/develop/vup1500/logic/vup1500.vhd Line: 178
+    Warning (13410): Pin "SDRAM_A[12]" is stuck at GND File: D:/develop/vup1500/logic/vup1500.vhd Line: 178
+    Warning (13410): Pin "SDRAM_BA[0]" is stuck at GND File: D:/develop/vup1500/logic/vup1500.vhd Line: 179
+    Warning (13410): Pin "SDRAM_BA[1]" is stuck at GND File: D:/develop/vup1500/logic/vup1500.vhd Line: 179
+    Warning (13410): Pin "SDRAM_CKE" is stuck at VCC File: D:/develop/vup1500/logic/vup1500.vhd Line: 181
+    Warning (13410): Pin "USER_LED[0]" is stuck at VCC File: D:/develop/vup1500/logic/vup1500.vhd Line: 192
+    Warning (13410): Pin "USER_LED[1]" is stuck at VCC File: D:/develop/vup1500/logic/vup1500.vhd Line: 192
+    Warning (13410): Pin "USER_LED[2]" is stuck at VCC File: D:/develop/vup1500/logic/vup1500.vhd Line: 192
+    Warning (13410): Pin "USER_LED[3]" is stuck at VCC File: D:/develop/vup1500/logic/vup1500.vhd Line: 192
+    Warning (13410): Pin "USER_LED[4]" is stuck at VCC File: D:/develop/vup1500/logic/vup1500.vhd Line: 192
+    Warning (13410): Pin "USER_LED[5]" is stuck at VCC File: D:/develop/vup1500/logic/vup1500.vhd Line: 192
+    Warning (13410): Pin "USER_LED[6]" is stuck at VCC File: D:/develop/vup1500/logic/vup1500.vhd Line: 192
+    Warning (13410): Pin "USER_LED[7]" is stuck at VCC File: D:/develop/vup1500/logic/vup1500.vhd Line: 192
 Info (286031): Timing-Driven Synthesis is running on partition "Top"
 Critical Warning (18061): Ignored Power-Up Level option on the following registers
-    Critical Warning (18010): Register psg:PSG0|volume1[3] will power up to Low File: D:/develop/vup1500/psg.vhd Line: 110
-    Critical Warning (18010): Register psg:PSG0|volume0[3] will power up to Low File: D:/develop/vup1500/psg.vhd Line: 110
-    Critical Warning (18010): Register psg:PSG0|volume1[2] will power up to Low File: D:/develop/vup1500/psg.vhd Line: 110
-    Critical Warning (18010): Register psg:PSG0|volume0[2] will power up to Low File: D:/develop/vup1500/psg.vhd Line: 110
-    Critical Warning (18010): Register psg:PSG0|volume1[1] will power up to Low File: D:/develop/vup1500/psg.vhd Line: 110
-    Critical Warning (18010): Register psg:PSG0|volume0[1] will power up to Low File: D:/develop/vup1500/psg.vhd Line: 110
-    Critical Warning (18010): Register psg:PSG0|volume1[0] will power up to Low File: D:/develop/vup1500/psg.vhd Line: 110
-    Critical Warning (18010): Register psg:PSG0|volume0[0] will power up to Low File: D:/develop/vup1500/psg.vhd Line: 110
-    Critical Warning (18010): Register psg:PSG0|volume3[3] will power up to Low File: D:/develop/vup1500/psg.vhd Line: 110
-    Critical Warning (18010): Register psg:PSG0|volume2[3] will power up to Low File: D:/develop/vup1500/psg.vhd Line: 110
-    Critical Warning (18010): Register psg:PSG0|volume3[2] will power up to Low File: D:/develop/vup1500/psg.vhd Line: 110
-    Critical Warning (18010): Register psg:PSG0|volume2[2] will power up to Low File: D:/develop/vup1500/psg.vhd Line: 110
-    Critical Warning (18010): Register psg:PSG0|volume3[1] will power up to Low File: D:/develop/vup1500/psg.vhd Line: 110
-    Critical Warning (18010): Register psg:PSG0|volume2[1] will power up to Low File: D:/develop/vup1500/psg.vhd Line: 110
-    Critical Warning (18010): Register psg:PSG0|volume3[0] will power up to Low File: D:/develop/vup1500/psg.vhd Line: 110
-    Critical Warning (18010): Register psg:PSG0|volume2[0] will power up to Low File: D:/develop/vup1500/psg.vhd Line: 110
-    Critical Warning (18010): Register psg:PSG1|volume1[3] will power up to Low File: D:/develop/vup1500/psg.vhd Line: 110
-    Critical Warning (18010): Register psg:PSG1|volume0[3] will power up to Low File: D:/develop/vup1500/psg.vhd Line: 110
-    Critical Warning (18010): Register psg:PSG1|volume1[2] will power up to Low File: D:/develop/vup1500/psg.vhd Line: 110
-    Critical Warning (18010): Register psg:PSG1|volume0[2] will power up to Low File: D:/develop/vup1500/psg.vhd Line: 110
-    Critical Warning (18010): Register psg:PSG1|volume1[1] will power up to Low File: D:/develop/vup1500/psg.vhd Line: 110
-    Critical Warning (18010): Register psg:PSG1|volume0[1] will power up to Low File: D:/develop/vup1500/psg.vhd Line: 110
-    Critical Warning (18010): Register psg:PSG1|volume1[0] will power up to Low File: D:/develop/vup1500/psg.vhd Line: 110
-    Critical Warning (18010): Register psg:PSG1|volume0[0] will power up to Low File: D:/develop/vup1500/psg.vhd Line: 110
-    Critical Warning (18010): Register psg:PSG1|volume3[3] will power up to Low File: D:/develop/vup1500/psg.vhd Line: 110
-    Critical Warning (18010): Register psg:PSG1|volume2[3] will power up to Low File: D:/develop/vup1500/psg.vhd Line: 110
-    Critical Warning (18010): Register psg:PSG1|volume3[2] will power up to Low File: D:/develop/vup1500/psg.vhd Line: 110
-    Critical Warning (18010): Register psg:PSG1|volume2[2] will power up to Low File: D:/develop/vup1500/psg.vhd Line: 110
-    Critical Warning (18010): Register psg:PSG1|volume3[1] will power up to Low File: D:/develop/vup1500/psg.vhd Line: 110
-    Critical Warning (18010): Register psg:PSG1|volume2[1] will power up to Low File: D:/develop/vup1500/psg.vhd Line: 110
-    Critical Warning (18010): Register psg:PSG1|volume3[0] will power up to Low File: D:/develop/vup1500/psg.vhd Line: 110
-    Critical Warning (18010): Register psg:PSG1|volume2[0] will power up to Low File: D:/develop/vup1500/psg.vhd Line: 110
+    Critical Warning (18010): Register psg:PSG0|volume1[3] will power up to Low File: D:/develop/vup1500/logic/psg.vhd Line: 110
+    Critical Warning (18010): Register psg:PSG0|volume0[3] will power up to Low File: D:/develop/vup1500/logic/psg.vhd Line: 110
+    Critical Warning (18010): Register psg:PSG0|volume1[2] will power up to Low File: D:/develop/vup1500/logic/psg.vhd Line: 110
+    Critical Warning (18010): Register psg:PSG0|volume0[2] will power up to Low File: D:/develop/vup1500/logic/psg.vhd Line: 110
+    Critical Warning (18010): Register psg:PSG0|volume1[1] will power up to Low File: D:/develop/vup1500/logic/psg.vhd Line: 110
+    Critical Warning (18010): Register psg:PSG0|volume0[1] will power up to Low File: D:/develop/vup1500/logic/psg.vhd Line: 110
+    Critical Warning (18010): Register psg:PSG0|volume1[0] will power up to Low File: D:/develop/vup1500/logic/psg.vhd Line: 110
+    Critical Warning (18010): Register psg:PSG0|volume0[0] will power up to Low File: D:/develop/vup1500/logic/psg.vhd Line: 110
+    Critical Warning (18010): Register psg:PSG0|volume3[3] will power up to Low File: D:/develop/vup1500/logic/psg.vhd Line: 110
+    Critical Warning (18010): Register psg:PSG0|volume2[3] will power up to Low File: D:/develop/vup1500/logic/psg.vhd Line: 110
+    Critical Warning (18010): Register psg:PSG0|volume3[2] will power up to Low File: D:/develop/vup1500/logic/psg.vhd Line: 110
+    Critical Warning (18010): Register psg:PSG0|volume2[2] will power up to Low File: D:/develop/vup1500/logic/psg.vhd Line: 110
+    Critical Warning (18010): Register psg:PSG0|volume3[1] will power up to Low File: D:/develop/vup1500/logic/psg.vhd Line: 110
+    Critical Warning (18010): Register psg:PSG0|volume2[1] will power up to Low File: D:/develop/vup1500/logic/psg.vhd Line: 110
+    Critical Warning (18010): Register psg:PSG0|volume3[0] will power up to Low File: D:/develop/vup1500/logic/psg.vhd Line: 110
+    Critical Warning (18010): Register psg:PSG0|volume2[0] will power up to Low File: D:/develop/vup1500/logic/psg.vhd Line: 110
+    Critical Warning (18010): Register psg:PSG1|volume1[3] will power up to Low File: D:/develop/vup1500/logic/psg.vhd Line: 110
+    Critical Warning (18010): Register psg:PSG1|volume0[3] will power up to Low File: D:/develop/vup1500/logic/psg.vhd Line: 110
+    Critical Warning (18010): Register psg:PSG1|volume1[2] will power up to Low File: D:/develop/vup1500/logic/psg.vhd Line: 110
+    Critical Warning (18010): Register psg:PSG1|volume0[2] will power up to Low File: D:/develop/vup1500/logic/psg.vhd Line: 110
+    Critical Warning (18010): Register psg:PSG1|volume1[1] will power up to Low File: D:/develop/vup1500/logic/psg.vhd Line: 110
+    Critical Warning (18010): Register psg:PSG1|volume0[1] will power up to Low File: D:/develop/vup1500/logic/psg.vhd Line: 110
+    Critical Warning (18010): Register psg:PSG1|volume1[0] will power up to Low File: D:/develop/vup1500/logic/psg.vhd Line: 110
+    Critical Warning (18010): Register psg:PSG1|volume0[0] will power up to Low File: D:/develop/vup1500/logic/psg.vhd Line: 110
+    Critical Warning (18010): Register psg:PSG1|volume3[3] will power up to Low File: D:/develop/vup1500/logic/psg.vhd Line: 110
+    Critical Warning (18010): Register psg:PSG1|volume2[3] will power up to Low File: D:/develop/vup1500/logic/psg.vhd Line: 110
+    Critical Warning (18010): Register psg:PSG1|volume3[2] will power up to Low File: D:/develop/vup1500/logic/psg.vhd Line: 110
+    Critical Warning (18010): Register psg:PSG1|volume2[2] will power up to Low File: D:/develop/vup1500/logic/psg.vhd Line: 110
+    Critical Warning (18010): Register psg:PSG1|volume3[1] will power up to Low File: D:/develop/vup1500/logic/psg.vhd Line: 110
+    Critical Warning (18010): Register psg:PSG1|volume2[1] will power up to Low File: D:/develop/vup1500/logic/psg.vhd Line: 110
+    Critical Warning (18010): Register psg:PSG1|volume3[0] will power up to Low File: D:/develop/vup1500/logic/psg.vhd Line: 110
+    Critical Warning (18010): Register psg:PSG1|volume2[0] will power up to Low File: D:/develop/vup1500/logic/psg.vhd Line: 110
 Info (17049): 10 registers lost all their fanouts during netlist optimizations.
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 2 node(s), including 0 DDIO, 2 PLL, 0 transceiver and 0 LCELL
 Warning (21074): Design contains 23 input pin(s) that do not drive logic
-    Warning (15610): No output dependent on input pin "AIN[0]" File: D:/develop/vup1500/vup1500.vhd Line: 17
-    Warning (15610): No output dependent on input pin "AIN[1]" File: D:/develop/vup1500/vup1500.vhd Line: 17
-    Warning (15610): No output dependent on input pin "AIN[2]" File: D:/develop/vup1500/vup1500.vhd Line: 17
-    Warning (15610): No output dependent on input pin "AIN[3]" File: D:/develop/vup1500/vup1500.vhd Line: 17
-    Warning (15610): No output dependent on input pin "AIN[4]" File: D:/develop/vup1500/vup1500.vhd Line: 17
-    Warning (15610): No output dependent on input pin "AIN[5]" File: D:/develop/vup1500/vup1500.vhd Line: 17
-    Warning (15610): No output dependent on input pin "AIN[6]" File: D:/develop/vup1500/vup1500.vhd Line: 17
-    Warning (15610): No output dependent on input pin "AIN[7]" File: D:/develop/vup1500/vup1500.vhd Line: 17
-    Warning (15610): No output dependent on input pin "ADT7420_CT" File: D:/develop/vup1500/vup1500.vhd Line: 25
-    Warning (15610): No output dependent on input pin "ADT7420_INT" File: D:/develop/vup1500/vup1500.vhd Line: 26
-    Warning (15610): No output dependent on input pin "ADXL362_INT1" File: D:/develop/vup1500/vup1500.vhd Line: 31
-    Warning (15610): No output dependent on input pin "ADXL362_INT2" File: D:/develop/vup1500/vup1500.vhd Line: 32
-    Warning (15610): No output dependent on input pin "ADXL362_MISO" File: D:/develop/vup1500/vup1500.vhd Line: 33
-    Warning (15610): No output dependent on input pin "RGB_BI" File: D:/develop/vup1500/vup1500.vhd Line: 88
-    Warning (15610): No output dependent on input pin "RGB_GI" File: D:/develop/vup1500/vup1500.vhd Line: 90
-    Warning (15610): No output dependent on input pin "RGB_RI" File: D:/develop/vup1500/vup1500.vhd Line: 92
-    Warning (15610): No output dependent on input pin "MONSEL[0]" File: D:/develop/vup1500/vup1500.vhd Line: 99
-    Warning (15610): No output dependent on input pin "MONSEL[1]" File: D:/develop/vup1500/vup1500.vhd Line: 99
-    Warning (15610): No output dependent on input pin "PB[0]" File: D:/develop/vup1500/vup1500.vhd Line: 166
-    Warning (15610): No output dependent on input pin "PB[1]" File: D:/develop/vup1500/vup1500.vhd Line: 166
-    Warning (15610): No output dependent on input pin "PB[2]" File: D:/develop/vup1500/vup1500.vhd Line: 166
-    Warning (15610): No output dependent on input pin "PB[3]" File: D:/develop/vup1500/vup1500.vhd Line: 166
-    Warning (15610): No output dependent on input pin "USER_CLK" File: D:/develop/vup1500/vup1500.vhd Line: 191
+    Warning (15610): No output dependent on input pin "AIN[0]" File: D:/develop/vup1500/logic/vup1500.vhd Line: 17
+    Warning (15610): No output dependent on input pin "AIN[1]" File: D:/develop/vup1500/logic/vup1500.vhd Line: 17
+    Warning (15610): No output dependent on input pin "AIN[2]" File: D:/develop/vup1500/logic/vup1500.vhd Line: 17
+    Warning (15610): No output dependent on input pin "AIN[3]" File: D:/develop/vup1500/logic/vup1500.vhd Line: 17
+    Warning (15610): No output dependent on input pin "AIN[4]" File: D:/develop/vup1500/logic/vup1500.vhd Line: 17
+    Warning (15610): No output dependent on input pin "AIN[5]" File: D:/develop/vup1500/logic/vup1500.vhd Line: 17
+    Warning (15610): No output dependent on input pin "AIN[6]" File: D:/develop/vup1500/logic/vup1500.vhd Line: 17
+    Warning (15610): No output dependent on input pin "AIN[7]" File: D:/develop/vup1500/logic/vup1500.vhd Line: 17
+    Warning (15610): No output dependent on input pin "ADT7420_CT" File: D:/develop/vup1500/logic/vup1500.vhd Line: 25
+    Warning (15610): No output dependent on input pin "ADT7420_INT" File: D:/develop/vup1500/logic/vup1500.vhd Line: 26
+    Warning (15610): No output dependent on input pin "ADXL362_INT1" File: D:/develop/vup1500/logic/vup1500.vhd Line: 31
+    Warning (15610): No output dependent on input pin "ADXL362_INT2" File: D:/develop/vup1500/logic/vup1500.vhd Line: 32
+    Warning (15610): No output dependent on input pin "ADXL362_MISO" File: D:/develop/vup1500/logic/vup1500.vhd Line: 33
+    Warning (15610): No output dependent on input pin "RGB_BI" File: D:/develop/vup1500/logic/vup1500.vhd Line: 88
+    Warning (15610): No output dependent on input pin "RGB_GI" File: D:/develop/vup1500/logic/vup1500.vhd Line: 90
+    Warning (15610): No output dependent on input pin "RGB_RI" File: D:/develop/vup1500/logic/vup1500.vhd Line: 92
+    Warning (15610): No output dependent on input pin "MONSEL[0]" File: D:/develop/vup1500/logic/vup1500.vhd Line: 99
+    Warning (15610): No output dependent on input pin "MONSEL[1]" File: D:/develop/vup1500/logic/vup1500.vhd Line: 99
+    Warning (15610): No output dependent on input pin "PB[0]" File: D:/develop/vup1500/logic/vup1500.vhd Line: 166
+    Warning (15610): No output dependent on input pin "PB[1]" File: D:/develop/vup1500/logic/vup1500.vhd Line: 166
+    Warning (15610): No output dependent on input pin "PB[2]" File: D:/develop/vup1500/logic/vup1500.vhd Line: 166
+    Warning (15610): No output dependent on input pin "PB[3]" File: D:/develop/vup1500/logic/vup1500.vhd Line: 166
+    Warning (15610): No output dependent on input pin "USER_CLK" File: D:/develop/vup1500/logic/vup1500.vhd Line: 191
 Info (21057): Implemented 2843 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 54 input pins
     Info (21059): Implemented 66 output pins
@@ -4321,9 +4345,9 @@ Info (21057): Implemented 2843 device resources after synthesis - the final reso
     Info (21064): Implemented 83 RAM segments
     Info (21065): Implemented 2 PLLs
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 274 warnings
-    Info: Peak virtual memory: 893 megabytes
-    Info: Processing ended: Sun Apr 10 21:12:50 2016
-    Info: Elapsed time: 00:01:20
-    Info: Total CPU time (on all processors): 00:01:13
+    Info: Peak virtual memory: 887 megabytes
+    Info: Processing ended: Mon Apr 11 22:08:48 2016
+    Info: Elapsed time: 00:01:15
+    Info: Total CPU time (on all processors): 00:01:11
 
 

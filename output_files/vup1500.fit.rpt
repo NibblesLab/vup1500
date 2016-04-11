@@ -1,5 +1,5 @@
 Fitter report for vup1500
-Sun Apr 10 21:13:47 2016
+Mon Apr 11 22:09:36 2016
 Quartus Prime Version 15.1.0 Build 185 10/21/2015 SJ Lite Edition
 
 
@@ -75,7 +75,7 @@ agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Fitter Summary                                                                   ;
 +------------------------------------+---------------------------------------------+
-; Fitter Status                      ; Successful - Sun Apr 10 21:13:47 2016       ;
+; Fitter Status                      ; Successful - Mon Apr 11 22:09:36 2016       ;
 ; Quartus Prime Version              ; 15.1.0 Build 185 10/21/2015 SJ Lite Edition ;
 ; Revision Name                      ; vup1500                                     ;
 ; Top-level Entity Name              ; vup1500                                     ;
@@ -5960,7 +5960,7 @@ Info (176353): Automatically promoted node pll100:CKGEN0|altpll:altpll_component
     Info (176355): Automatically promoted destinations to use location or clock signal Global Clock CLKCTRL_G8
 Info (176353): Automatically promoted node pll100:CKGEN0|altpll:altpll_component|pll100_altpll:auto_generated|wire_pll1_clk[1] (placed in counter C1 of PLL_2) File: D:/develop/vup1500/db/pll100_altpll.v Line: 78
     Info (176355): Automatically promoted destinations to use location or clock signal Global Clock CLKCTRL_G9
-Info (176353): Automatically promoted node SYS_CLK~input (placed in PIN N14 (CLK2p, DIFFIO_RX_R14p, DIFFOUT_R14p, High_Speed)) File: D:/develop/vup1500/vup1500.vhd Line: 190
+Info (176353): Automatically promoted node SYS_CLK~input (placed in PIN N14 (CLK2p, DIFFIO_RX_R14p, DIFFOUT_R14p, High_Speed)) File: D:/develop/vup1500/logic/vup1500.vhd Line: 190
     Info (176355): Automatically promoted destinations to use location or clock signal Global Clock CLKCTRL_G7
 Info (176353): Automatically promoted node videoout:VIDEO0|pll57:VCKGEN|altpll:altpll_component|pll57_altpll:auto_generated|wire_pll1_clk[0] (placed in counter C0 of PLL_1) File: D:/develop/vup1500/db/pll57_altpll.v Line: 78
     Info (176355): Automatically promoted destinations to use location or clock signal Global Clock CLKCTRL_G3
@@ -5968,199 +5968,199 @@ Info (176353): Automatically promoted node videoout:VIDEO0|pll57:VCKGEN|altpll:a
     Info (176355): Automatically promoted destinations to use location or clock signal Global Clock CLKCTRL_G2
 Info (176353): Automatically promoted node altera_internal_jtag~TCKUTAP 
     Info (176355): Automatically promoted destinations to use location or clock signal Global Clock
-Info (176353): Automatically promoted node psg:PSG0|clk_divide[4]  File: D:/develop/vup1500/psg.vhd Line: 102
+Info (176353): Automatically promoted node psg:PSG0|clk_divide[4]  File: D:/develop/vup1500/logic/psg.vhd Line: 102
     Info (176355): Automatically promoted destinations to use location or clock signal Global Clock
     Info (176356): Following destination nodes may be non-global or may not use global or regional clocks
-        Info (176357): Destination node psg:PSG0|clk_divide[4]~7 File: D:/develop/vup1500/psg.vhd Line: 102
-Info (176353): Automatically promoted node psg:PSG1|clk_divide[4]  File: D:/develop/vup1500/psg.vhd Line: 102
+        Info (176357): Destination node psg:PSG0|clk_divide[4]~7 File: D:/develop/vup1500/logic/psg.vhd Line: 102
+Info (176353): Automatically promoted node psg:PSG1|clk_divide[4]  File: D:/develop/vup1500/logic/psg.vhd Line: 102
     Info (176355): Automatically promoted destinations to use location or clock signal Global Clock
     Info (176356): Following destination nodes may be non-global or may not use global or regional clocks
-        Info (176357): Destination node psg:PSG1|clk_divide[4]~10 File: D:/develop/vup1500/psg.vhd Line: 102
-Info (176353): Automatically promoted node i8253:PIT0|gh_timer_8254_wb:PIT8254|gh_counter_control:U6|Mux3  File: D:/develop/vup1500/gh_counter_control.vhd Line: 232
+        Info (176357): Destination node psg:PSG1|clk_divide[4]~10 File: D:/develop/vup1500/logic/psg.vhd Line: 102
+Info (176353): Automatically promoted node i8253:PIT0|gh_timer_8254_wb:PIT8254|gh_counter_control:U6|Mux3  File: D:/develop/vup1500/logic/gh_counter_control.vhd Line: 232
     Info (176355): Automatically promoted destinations to use location or clock signal Global Clock
-Info (176353): Automatically promoted node videoout:VIDEO0|LOAD_x  File: D:/develop/vup1500/videoout.vhd Line: 43
+Info (176353): Automatically promoted node videoout:VIDEO0|LOAD_x  File: D:/develop/vup1500/logic/videoout.vhd Line: 43
     Info (176355): Automatically promoted destinations to use location or clock signal Global Clock
     Info (176356): Following destination nodes may be non-global or may not use global or regional clocks
-        Info (176357): Destination node videoout:VIDEO0|LOAD_x~0 File: D:/develop/vup1500/videoout.vhd Line: 43
+        Info (176357): Destination node videoout:VIDEO0|LOAD_x~0 File: D:/develop/vup1500/logic/videoout.vhd Line: 43
 Info (176233): Starting register packing
 Info (176235): Finished register packing
     Extra Info (176219): No registers were packed into other blocks
 Warning (15064): PLL "pll100:CKGEN0|altpll:altpll_component|pll100_altpll:auto_generated|pll1" output port clk[1] feeds output pin "SDRAM_CLK~output" via non-dedicated routing -- jitter performance depends on switching rate of other design elements. Use PLL dedicated clock outputs to ensure jitter performance File: D:/develop/vup1500/db/pll100_altpll.v Line: 44
 Warning (15055): PLL "videoout:VIDEO0|pll57:VCKGEN|altpll:altpll_component|pll57_altpll:auto_generated|pll1" input clock inclk[0] is not fully compensated and may have reduced jitter performance because it is fed by a non-dedicated input File: D:/develop/vup1500/db/pll57_altpll.v Line: 44
     Info (15024): Input port INCLK[0] of node "videoout:VIDEO0|pll57:VCKGEN|altpll:altpll_component|pll57_altpll:auto_generated|pll1" is driven by SYS_CLK~inputclkctrl which is OUTCLK output port of Clock control block type node SYS_CLK~inputclkctrl File: D:/develop/vup1500/db/pll57_altpll.v Line: 44
-Info (171121): Fitter preparation operations ending: elapsed time is 00:00:14
+Info (171121): Fitter preparation operations ending: elapsed time is 00:00:12
 Info (14896): Fitter has disabled Advanced Physical Optimization because it is not supported for the current family.
 Info (170189): Fitter placement preparation operations beginning
 Info (170190): Fitter placement preparation operations ending: elapsed time is 00:00:02
 Info (170191): Fitter placement operations beginning
 Info (170137): Fitter placement was successful
-Info (170192): Fitter placement operations ending: elapsed time is 00:00:02
+Info (170192): Fitter placement operations ending: elapsed time is 00:00:01
 Info (170193): Fitter routing operations beginning
 Info (170195): Router estimated average interconnect usage is 8% of the available device resources
     Info (170196): Router estimated peak interconnect usage is 16% of the available device resources in the region that extends from location X21_Y0 to location X31_Y12
 Info (170199): The Fitter performed an Auto Fit compilation.  Optimizations were skipped to reduce compilation time.
     Info (170201): Optimizations that may affect the design's routability were skipped
     Info (170200): Optimizations that may affect the design's timing were skipped
-Info (170194): Fitter routing operations ending: elapsed time is 00:00:03
-Info (11888): Total time spent on timing analysis during the Fitter is 1.04 seconds.
+Info (170194): Fitter routing operations ending: elapsed time is 00:00:02
+Info (11888): Total time spent on timing analysis during the Fitter is 0.82 seconds.
 Info (334003): Started post-fitting delay annotation
 Info (334004): Delay annotation completed successfully
 Info (334003): Started post-fitting delay annotation
 Info (334004): Delay annotation completed successfully
-Info (11218): Fitter post-fit operations ending: elapsed time is 00:00:14
+Info (11218): Fitter post-fit operations ending: elapsed time is 00:00:10
 Warning (169177): 152 pins must meet Altera requirements for 3.3-, 3.0-, and 2.5-V interfaces. For more information, refer to AN 447: Interfacing MAX 10 Devices with 3.3/3.0/2.5-V LVTTL/LVCMOS I/O Systems.
-    Info (169178): Pin AIN[0] uses I/O standard 3.3-V LVTTL at F5 File: D:/develop/vup1500/vup1500.vhd Line: 17
-    Info (169178): Pin AIN[1] uses I/O standard 3.3-V LVTTL at E4 File: D:/develop/vup1500/vup1500.vhd Line: 17
-    Info (169178): Pin AIN[2] uses I/O standard 3.3-V LVTTL at F4 File: D:/develop/vup1500/vup1500.vhd Line: 17
-    Info (169178): Pin AIN[3] uses I/O standard 3.3-V LVTTL at E3 File: D:/develop/vup1500/vup1500.vhd Line: 17
-    Info (169178): Pin AIN[4] uses I/O standard 3.3-V LVTTL at J8 File: D:/develop/vup1500/vup1500.vhd Line: 17
-    Info (169178): Pin AIN[5] uses I/O standard 3.3-V LVTTL at G4 File: D:/develop/vup1500/vup1500.vhd Line: 17
-    Info (169178): Pin AIN[6] uses I/O standard 3.3-V LVTTL at J9 File: D:/develop/vup1500/vup1500.vhd Line: 17
-    Info (169178): Pin AIN[7] uses I/O standard 3.3-V LVTTL at F3 File: D:/develop/vup1500/vup1500.vhd Line: 17
-    Info (169178): Pin ADT7420_CT uses I/O standard 3.3-V LVTTL at P13 File: D:/develop/vup1500/vup1500.vhd Line: 25
-    Info (169178): Pin ADT7420_INT uses I/O standard 3.3-V LVTTL at AB14 File: D:/develop/vup1500/vup1500.vhd Line: 26
-    Info (169178): Pin ADXL362_INT1 uses I/O standard 3.3-V LVTTL at M15 File: D:/develop/vup1500/vup1500.vhd Line: 31
-    Info (169178): Pin ADXL362_INT2 uses I/O standard 3.3-V LVTTL at M14 File: D:/develop/vup1500/vup1500.vhd Line: 32
-    Info (169178): Pin ADXL362_MISO uses I/O standard 3.3-V LVTTL at L18 File: D:/develop/vup1500/vup1500.vhd Line: 33
-    Info (169178): Pin RGB_BI uses I/O standard 3.3-V LVTTL at D13 File: D:/develop/vup1500/vup1500.vhd Line: 88
-    Info (169178): Pin RGB_GI uses I/O standard 3.3-V LVTTL at E13 File: D:/develop/vup1500/vup1500.vhd Line: 90
-    Info (169178): Pin RGB_RI uses I/O standard 3.3-V LVTTL at B14 File: D:/develop/vup1500/vup1500.vhd Line: 92
-    Info (169178): Pin MONSEL[0] uses I/O standard 3.3-V LVTTL at K14 File: D:/develop/vup1500/vup1500.vhd Line: 99
-    Info (169178): Pin MONSEL[1] uses I/O standard 3.3-V LVTTL at E16 File: D:/develop/vup1500/vup1500.vhd Line: 99
-    Info (169178): Pin PB[0] uses I/O standard 3.3 V Schmitt Trigger at M1 File: D:/develop/vup1500/vup1500.vhd Line: 166
-    Info (169178): Pin PB[1] uses I/O standard 3.3 V Schmitt Trigger at R1 File: D:/develop/vup1500/vup1500.vhd Line: 166
-    Info (169178): Pin PB[2] uses I/O standard 3.3 V Schmitt Trigger at V5 File: D:/develop/vup1500/vup1500.vhd Line: 166
-    Info (169178): Pin PB[3] uses I/O standard 3.3 V Schmitt Trigger at AB5 File: D:/develop/vup1500/vup1500.vhd Line: 166
-    Info (169178): Pin USER_CLK uses I/O standard 3.3-V LVTTL at N15 File: D:/develop/vup1500/vup1500.vhd Line: 191
-    Info (169178): Pin ADT7420_SDA uses I/O standard 3.3-V LVTTL at R13 File: D:/develop/vup1500/vup1500.vhd Line: 28
-    Info (169178): Pin I2C_SCL uses I/O standard 3.3-V LVTTL at AB15 File: D:/develop/vup1500/vup1500.vhd Line: 37
-    Info (169178): Pin I2C_SDA uses I/O standard 3.3-V LVTTL at AA14 File: D:/develop/vup1500/vup1500.vhd Line: 38
-    Info (169178): Pin GPIO_J5_03 uses I/O standard 3.3-V LVTTL at C3 File: D:/develop/vup1500/vup1500.vhd Line: 69
-    Info (169178): Pin GPIO_J5_04 uses I/O standard 3.3-V LVTTL at A2 File: D:/develop/vup1500/vup1500.vhd Line: 70
-    Info (169178): Pin GPIO_J5_09 uses I/O standard 3.3-V LVTTL at B5 File: D:/develop/vup1500/vup1500.vhd Line: 75
-    Info (169178): Pin GPIO_J5_10 uses I/O standard 3.3-V LVTTL at A5 File: D:/develop/vup1500/vup1500.vhd Line: 76
-    Info (169178): Pin GPIO_J5_13 uses I/O standard 3.3-V LVTTL at B7 File: D:/develop/vup1500/vup1500.vhd Line: 77
-    Info (169178): Pin GPIO_J5_14 uses I/O standard 3.3-V LVTTL at A6 File: D:/develop/vup1500/vup1500.vhd Line: 78
-    Info (169178): Pin GPIO_J5_15 uses I/O standard 3.3-V LVTTL at A7 File: D:/develop/vup1500/vup1500.vhd Line: 79
-    Info (169178): Pin GPIO_J5_16 uses I/O standard 3.3-V LVTTL at A8 File: D:/develop/vup1500/vup1500.vhd Line: 80
-    Info (169178): Pin GPIO_J5_17 uses I/O standard 3.3-V LVTTL at A9 File: D:/develop/vup1500/vup1500.vhd Line: 81
-    Info (169178): Pin GPIO_J5_19 uses I/O standard 3.3-V LVTTL at B10 File: D:/develop/vup1500/vup1500.vhd Line: 83
-    Info (169178): Pin GPIO_J5_21 uses I/O standard 3.3-V LVTTL at H12 File: D:/develop/vup1500/vup1500.vhd Line: 85
-    Info (169178): Pin GPIO_J5_22 uses I/O standard 3.3-V LVTTL at J11 File: D:/develop/vup1500/vup1500.vhd Line: 86
-    Info (169178): Pin GPIO_J5_23 uses I/O standard 3.3-V LVTTL at E12 File: D:/develop/vup1500/vup1500.vhd Line: 87
-    Info (169178): Pin GPIO_J5_25 uses I/O standard 3.3-V LVTTL at D14 File: D:/develop/vup1500/vup1500.vhd Line: 89
-    Info (169178): Pin GPIO_J5_27 uses I/O standard 3.3-V LVTTL at A14 File: D:/develop/vup1500/vup1500.vhd Line: 91
-    Info (169178): Pin GPIO_J5_31 uses I/O standard 3.3-V LVTTL at C14 File: D:/develop/vup1500/vup1500.vhd Line: 93
-    Info (169178): Pin GPIO_J5_32 uses I/O standard 3.3-V LVTTL at C13 File: D:/develop/vup1500/vup1500.vhd Line: 94
-    Info (169178): Pin EG_P1 uses I/O standard 3.3-V LVTTL at C1 File: D:/develop/vup1500/vup1500.vhd Line: 103
-    Info (169178): Pin EG_P2 uses I/O standard 3.3-V LVTTL at D2 File: D:/develop/vup1500/vup1500.vhd Line: 104
-    Info (169178): Pin EG_P3 uses I/O standard 3.3-V LVTTL at D1 File: D:/develop/vup1500/vup1500.vhd Line: 105
-    Info (169178): Pin EG_P4 uses I/O standard 3.3-V LVTTL at D3 File: D:/develop/vup1500/vup1500.vhd Line: 106
-    Info (169178): Pin EG_P5 uses I/O standard 3.3-V LVTTL at E1 File: D:/develop/vup1500/vup1500.vhd Line: 107
-    Info (169178): Pin EG_P6 uses I/O standard 3.3-V LVTTL at F2 File: D:/develop/vup1500/vup1500.vhd Line: 108
-    Info (169178): Pin EG_P7 uses I/O standard 3.3-V LVTTL at F1 File: D:/develop/vup1500/vup1500.vhd Line: 109
-    Info (169178): Pin EG_P8 uses I/O standard 3.3-V LVTTL at G1 File: D:/develop/vup1500/vup1500.vhd Line: 110
-    Info (169178): Pin EG_P9 uses I/O standard 3.3-V LVTTL at H1 File: D:/develop/vup1500/vup1500.vhd Line: 111
-    Info (169178): Pin EG_P10 uses I/O standard 3.3-V LVTTL at J1 File: D:/develop/vup1500/vup1500.vhd Line: 112
-    Info (169178): Pin EG_P11 uses I/O standard 3.3-V LVTTL at K2 File: D:/develop/vup1500/vup1500.vhd Line: 113
-    Info (169178): Pin EG_P12 uses I/O standard 3.3-V LVTTL at L2 File: D:/develop/vup1500/vup1500.vhd Line: 114
-    Info (169178): Pin EG_P13 uses I/O standard 3.3-V LVTTL at N2 File: D:/develop/vup1500/vup1500.vhd Line: 115
-    Info (169178): Pin EG_P14 uses I/O standard 3.3-V LVTTL at P3 File: D:/develop/vup1500/vup1500.vhd Line: 116
-    Info (169178): Pin EG_P15 uses I/O standard 3.3-V LVTTL at P1 File: D:/develop/vup1500/vup1500.vhd Line: 117
-    Info (169178): Pin EG_P16 uses I/O standard 3.3-V LVTTL at R3 File: D:/develop/vup1500/vup1500.vhd Line: 118
-    Info (169178): Pin EG_P17 uses I/O standard 3.3-V LVTTL at T2 File: D:/develop/vup1500/vup1500.vhd Line: 119
-    Info (169178): Pin EG_P18 uses I/O standard 3.3-V LVTTL at R4 File: D:/develop/vup1500/vup1500.vhd Line: 120
-    Info (169178): Pin EG_P19 uses I/O standard 3.3-V LVTTL at T5 File: D:/develop/vup1500/vup1500.vhd Line: 121
-    Info (169178): Pin EG_P20 uses I/O standard 3.3-V LVTTL at Y1 File: D:/develop/vup1500/vup1500.vhd Line: 122
-    Info (169178): Pin EG_P21 uses I/O standard 3.3-V LVTTL at Y2 File: D:/develop/vup1500/vup1500.vhd Line: 123
-    Info (169178): Pin EG_P22 uses I/O standard 3.3-V LVTTL at AA1 File: D:/develop/vup1500/vup1500.vhd Line: 124
-    Info (169178): Pin EG_P23 uses I/O standard 3.3-V LVTTL at AA2 File: D:/develop/vup1500/vup1500.vhd Line: 125
-    Info (169178): Pin EG_P24 uses I/O standard 3.3-V LVTTL at Y3 File: D:/develop/vup1500/vup1500.vhd Line: 126
-    Info (169178): Pin EG_P25 uses I/O standard 3.3-V LVTTL at Y4 File: D:/develop/vup1500/vup1500.vhd Line: 127
-    Info (169178): Pin EG_P26 uses I/O standard 3.3-V LVTTL at AB6 File: D:/develop/vup1500/vup1500.vhd Line: 128
-    Info (169178): Pin EG_P27 uses I/O standard 3.3-V LVTTL at AB7 File: D:/develop/vup1500/vup1500.vhd Line: 129
-    Info (169178): Pin EG_P28 uses I/O standard 3.3-V LVTTL at AA8 File: D:/develop/vup1500/vup1500.vhd Line: 130
-    Info (169178): Pin EG_P29 uses I/O standard 3.3-V LVTTL at AB8 File: D:/develop/vup1500/vup1500.vhd Line: 131
-    Info (169178): Pin EG_P35 uses I/O standard 3.3-V LVTTL at E11 File: D:/develop/vup1500/vup1500.vhd Line: 132
-    Info (169178): Pin EG_P36 uses I/O standard 3.3-V LVTTL at E10 File: D:/develop/vup1500/vup1500.vhd Line: 133
-    Info (169178): Pin EG_P37 uses I/O standard 3.3-V LVTTL at D9 File: D:/develop/vup1500/vup1500.vhd Line: 134
-    Info (169178): Pin EG_P38 uses I/O standard 3.3-V LVTTL at E9 File: D:/develop/vup1500/vup1500.vhd Line: 135
-    Info (169178): Pin EG_P39 uses I/O standard 3.3-V LVTTL at E8 File: D:/develop/vup1500/vup1500.vhd Line: 136
-    Info (169178): Pin EG_P40 uses I/O standard 3.3-V LVTTL at D8 File: D:/develop/vup1500/vup1500.vhd Line: 137
-    Info (169178): Pin EG_P41 uses I/O standard 3.3-V LVTTL at E6 File: D:/develop/vup1500/vup1500.vhd Line: 138
-    Info (169178): Pin EG_P42 uses I/O standard 3.3-V LVTTL at D7 File: D:/develop/vup1500/vup1500.vhd Line: 139
-    Info (169178): Pin EG_P43 uses I/O standard 3.3-V LVTTL at C8 File: D:/develop/vup1500/vup1500.vhd Line: 140
-    Info (169178): Pin EG_P44 uses I/O standard 3.3-V LVTTL at C7 File: D:/develop/vup1500/vup1500.vhd Line: 141
-    Info (169178): Pin EG_P45 uses I/O standard 3.3-V LVTTL at D6 File: D:/develop/vup1500/vup1500.vhd Line: 142
-    Info (169178): Pin EG_P46 uses I/O standard 3.3-V LVTTL at C6 File: D:/develop/vup1500/vup1500.vhd Line: 143
-    Info (169178): Pin EG_P47 uses I/O standard 3.3-V LVTTL at D5 File: D:/develop/vup1500/vup1500.vhd Line: 144
-    Info (169178): Pin EG_P48 uses I/O standard 3.3-V LVTTL at C5 File: D:/develop/vup1500/vup1500.vhd Line: 145
-    Info (169178): Pin EG_P49 uses I/O standard 3.3-V LVTTL at C4 File: D:/develop/vup1500/vup1500.vhd Line: 146
-    Info (169178): Pin EG_P50 uses I/O standard 3.3-V LVTTL at H11 File: D:/develop/vup1500/vup1500.vhd Line: 147
-    Info (169178): Pin EG_P51 uses I/O standard 3.3-V LVTTL at J10 File: D:/develop/vup1500/vup1500.vhd Line: 148
-    Info (169178): Pin EG_P52 uses I/O standard 3.3-V LVTTL at M9 File: D:/develop/vup1500/vup1500.vhd Line: 149
-    Info (169178): Pin EG_P53 uses I/O standard 3.3-V LVTTL at M8 File: D:/develop/vup1500/vup1500.vhd Line: 150
-    Info (169178): Pin EG_P54 uses I/O standard 3.3-V LVTTL at N9 File: D:/develop/vup1500/vup1500.vhd Line: 151
-    Info (169178): Pin EG_P55 uses I/O standard 3.3-V LVTTL at N8 File: D:/develop/vup1500/vup1500.vhd Line: 152
-    Info (169178): Pin EG_P56 uses I/O standard 3.3-V LVTTL at N5 File: D:/develop/vup1500/vup1500.vhd Line: 153
-    Info (169178): Pin EG_P57 uses I/O standard 3.3-V LVTTL at N4 File: D:/develop/vup1500/vup1500.vhd Line: 154
-    Info (169178): Pin EG_P58 uses I/O standard 3.3-V LVTTL at N3 File: D:/develop/vup1500/vup1500.vhd Line: 155
-    Info (169178): Pin EG_P59 uses I/O standard 3.3-V LVTTL at P5 File: D:/develop/vup1500/vup1500.vhd Line: 156
-    Info (169178): Pin EG_P60 uses I/O standard 3.3-V LVTTL at P4 File: D:/develop/vup1500/vup1500.vhd Line: 157
-    Info (169178): Pin EXP_PRESENT uses I/O standard 3.3-V LVTTL at R5 File: D:/develop/vup1500/vup1500.vhd Line: 158
-    Info (169178): Pin RESET_EXPn uses I/O standard 3.3-V LVTTL at C2 File: D:/develop/vup1500/vup1500.vhd Line: 159
-    Info (169178): Pin ZDT[0] uses I/O standard 3.3-V LVTTL at P18 File: D:/develop/vup1500/vup1500.vhd Line: 176
-    Info (169178): Pin ZDT[1] uses I/O standard 3.3-V LVTTL at R18 File: D:/develop/vup1500/vup1500.vhd Line: 176
-    Info (169178): Pin ZDT[2] uses I/O standard 3.3-V LVTTL at U17 File: D:/develop/vup1500/vup1500.vhd Line: 176
-    Info (169178): Pin ZDT[3] uses I/O standard 3.3-V LVTTL at U18 File: D:/develop/vup1500/vup1500.vhd Line: 176
-    Info (169178): Pin ZDT[4] uses I/O standard 3.3-V LVTTL at P14 File: D:/develop/vup1500/vup1500.vhd Line: 176
-    Info (169178): Pin ZDT[5] uses I/O standard 3.3-V LVTTL at P15 File: D:/develop/vup1500/vup1500.vhd Line: 176
-    Info (169178): Pin ZDT[6] uses I/O standard 3.3-V LVTTL at R15 File: D:/develop/vup1500/vup1500.vhd Line: 176
-    Info (169178): Pin ZDT[7] uses I/O standard 3.3-V LVTTL at R14 File: D:/develop/vup1500/vup1500.vhd Line: 176
-    Info (169178): Pin SDRAM_DQ[0] uses I/O standard 3.3-V LVTTL at C22 File: D:/develop/vup1500/vup1500.vhd Line: 186
-    Info (169178): Pin SDRAM_DQ[1] uses I/O standard 3.3-V LVTTL at D22 File: D:/develop/vup1500/vup1500.vhd Line: 186
-    Info (169178): Pin SDRAM_DQ[2] uses I/O standard 3.3-V LVTTL at E22 File: D:/develop/vup1500/vup1500.vhd Line: 186
-    Info (169178): Pin SDRAM_DQ[3] uses I/O standard 3.3-V LVTTL at F22 File: D:/develop/vup1500/vup1500.vhd Line: 186
-    Info (169178): Pin SDRAM_DQ[4] uses I/O standard 3.3-V LVTTL at G22 File: D:/develop/vup1500/vup1500.vhd Line: 186
-    Info (169178): Pin SDRAM_DQ[5] uses I/O standard 3.3-V LVTTL at H22 File: D:/develop/vup1500/vup1500.vhd Line: 186
-    Info (169178): Pin SDRAM_DQ[6] uses I/O standard 3.3-V LVTTL at J22 File: D:/develop/vup1500/vup1500.vhd Line: 186
-    Info (169178): Pin SDRAM_DQ[7] uses I/O standard 3.3-V LVTTL at K22 File: D:/develop/vup1500/vup1500.vhd Line: 186
-    Info (169178): Pin SDRAM_DQ[8] uses I/O standard 3.3-V LVTTL at K21 File: D:/develop/vup1500/vup1500.vhd Line: 186
-    Info (169178): Pin SDRAM_DQ[9] uses I/O standard 3.3-V LVTTL at J21 File: D:/develop/vup1500/vup1500.vhd Line: 186
-    Info (169178): Pin SDRAM_DQ[10] uses I/O standard 3.3-V LVTTL at H21 File: D:/develop/vup1500/vup1500.vhd Line: 186
-    Info (169178): Pin SDRAM_DQ[11] uses I/O standard 3.3-V LVTTL at G20 File: D:/develop/vup1500/vup1500.vhd Line: 186
-    Info (169178): Pin SDRAM_DQ[12] uses I/O standard 3.3-V LVTTL at F21 File: D:/develop/vup1500/vup1500.vhd Line: 186
-    Info (169178): Pin SDRAM_DQ[13] uses I/O standard 3.3-V LVTTL at E21 File: D:/develop/vup1500/vup1500.vhd Line: 186
-    Info (169178): Pin SDRAM_DQ[14] uses I/O standard 3.3-V LVTTL at D21 File: D:/develop/vup1500/vup1500.vhd Line: 186
-    Info (169178): Pin SDRAM_DQ[15] uses I/O standard 3.3-V LVTTL at C21 File: D:/develop/vup1500/vup1500.vhd Line: 186
-    Info (169178): Pin IORQ_x uses I/O standard 3.3-V LVTTL at W15 File: D:/develop/vup1500/vup1500.vhd Line: 61
-    Info (169178): Pin M1_x uses I/O standard 3.3-V LVTTL at W17 File: D:/develop/vup1500/vup1500.vhd Line: 64
-    Info (169178): Pin ZADDR[6] uses I/O standard 3.3 V Schmitt Trigger at W7 File: D:/develop/vup1500/vup1500.vhd Line: 39
-    Info (169178): Pin ZADDR[5] uses I/O standard 3.3 V Schmitt Trigger at AA7 File: D:/develop/vup1500/vup1500.vhd Line: 39
-    Info (169178): Pin ZADDR[7] uses I/O standard 3.3 V Schmitt Trigger at W8 File: D:/develop/vup1500/vup1500.vhd Line: 39
-    Info (169178): Pin ZADDR[0] uses I/O standard 3.3 V Schmitt Trigger at Y10 File: D:/develop/vup1500/vup1500.vhd Line: 39
-    Info (169178): Pin ZADDR[1] uses I/O standard 3.3 V Schmitt Trigger at AA10 File: D:/develop/vup1500/vup1500.vhd Line: 39
-    Info (169178): Pin ZADDR[3] uses I/O standard 3.3 V Schmitt Trigger at V10 File: D:/develop/vup1500/vup1500.vhd Line: 39
-    Info (169178): Pin ZADDR[2] uses I/O standard 3.3 V Schmitt Trigger at V9 File: D:/develop/vup1500/vup1500.vhd Line: 39
-    Info (169178): Pin ZADDR[4] uses I/O standard 3.3 V Schmitt Trigger at AA6 File: D:/develop/vup1500/vup1500.vhd Line: 39
-    Info (169178): Pin ZADDR[13] uses I/O standard 3.3 V Schmitt Trigger at W3 File: D:/develop/vup1500/vup1500.vhd Line: 39
-    Info (169178): Pin ZADDR[14] uses I/O standard 3.3 V Schmitt Trigger at AA15 File: D:/develop/vup1500/vup1500.vhd Line: 39
-    Info (169178): Pin ZADDR[15] uses I/O standard 3.3 V Schmitt Trigger at Y16 File: D:/develop/vup1500/vup1500.vhd Line: 39
-    Info (169178): Pin MREQ_x uses I/O standard 3.3-V LVTTL at V14 File: D:/develop/vup1500/vup1500.vhd Line: 60
-    Info (169178): Pin ZADDR[11] uses I/O standard 3.3 V Schmitt Trigger at W6 File: D:/develop/vup1500/vup1500.vhd Line: 39
-    Info (169178): Pin ZADDR[12] uses I/O standard 3.3 V Schmitt Trigger at W4 File: D:/develop/vup1500/vup1500.vhd Line: 39
-    Info (169178): Pin RD_x uses I/O standard 3.3-V LVTTL at U15 File: D:/develop/vup1500/vup1500.vhd Line: 62
-    Info (169178): Pin ZCLK uses I/O standard 3.3-V LVTTL at V13 File: D:/develop/vup1500/vup1500.vhd Line: 58
-    Info (169178): Pin ZRST uses I/O standard 3.3-V LVTTL at V17 File: D:/develop/vup1500/vup1500.vhd Line: 65
-    Info (169178): Pin RGB_VSI uses I/O standard 3.3-V LVTTL at B8 File: D:/develop/vup1500/vup1500.vhd Line: 82
-    Info (169178): Pin WR_x uses I/O standard 3.3-V LVTTL at V16 File: D:/develop/vup1500/vup1500.vhd Line: 63
-    Info (169178): Pin SYS_CLK uses I/O standard 3.3-V LVTTL at N14 File: D:/develop/vup1500/vup1500.vhd Line: 190
-    Info (169178): Pin ZADDR[9] uses I/O standard 3.3 V Schmitt Trigger at U7 File: D:/develop/vup1500/vup1500.vhd Line: 39
-    Info (169178): Pin ZADDR[10] uses I/O standard 3.3 V Schmitt Trigger at W5 File: D:/develop/vup1500/vup1500.vhd Line: 39
-    Info (169178): Pin ZADDR[8] uses I/O standard 3.3 V Schmitt Trigger at U6 File: D:/develop/vup1500/vup1500.vhd Line: 39
-    Info (169178): Pin PCGSW uses I/O standard 3.3-V LVTTL at W14 File: D:/develop/vup1500/vup1500.vhd Line: 59
-    Info (169178): Pin SFLASH_DATA uses I/O standard 3.3-V LVTTL at P10 File: D:/develop/vup1500/vup1500.vhd Line: 163
-    Info (169178): Pin RGB_HSI uses I/O standard 3.3-V LVTTL at C9 File: D:/develop/vup1500/vup1500.vhd Line: 84
+    Info (169178): Pin AIN[0] uses I/O standard 3.3-V LVTTL at F5 File: D:/develop/vup1500/logic/vup1500.vhd Line: 17
+    Info (169178): Pin AIN[1] uses I/O standard 3.3-V LVTTL at E4 File: D:/develop/vup1500/logic/vup1500.vhd Line: 17
+    Info (169178): Pin AIN[2] uses I/O standard 3.3-V LVTTL at F4 File: D:/develop/vup1500/logic/vup1500.vhd Line: 17
+    Info (169178): Pin AIN[3] uses I/O standard 3.3-V LVTTL at E3 File: D:/develop/vup1500/logic/vup1500.vhd Line: 17
+    Info (169178): Pin AIN[4] uses I/O standard 3.3-V LVTTL at J8 File: D:/develop/vup1500/logic/vup1500.vhd Line: 17
+    Info (169178): Pin AIN[5] uses I/O standard 3.3-V LVTTL at G4 File: D:/develop/vup1500/logic/vup1500.vhd Line: 17
+    Info (169178): Pin AIN[6] uses I/O standard 3.3-V LVTTL at J9 File: D:/develop/vup1500/logic/vup1500.vhd Line: 17
+    Info (169178): Pin AIN[7] uses I/O standard 3.3-V LVTTL at F3 File: D:/develop/vup1500/logic/vup1500.vhd Line: 17
+    Info (169178): Pin ADT7420_CT uses I/O standard 3.3-V LVTTL at P13 File: D:/develop/vup1500/logic/vup1500.vhd Line: 25
+    Info (169178): Pin ADT7420_INT uses I/O standard 3.3-V LVTTL at AB14 File: D:/develop/vup1500/logic/vup1500.vhd Line: 26
+    Info (169178): Pin ADXL362_INT1 uses I/O standard 3.3-V LVTTL at M15 File: D:/develop/vup1500/logic/vup1500.vhd Line: 31
+    Info (169178): Pin ADXL362_INT2 uses I/O standard 3.3-V LVTTL at M14 File: D:/develop/vup1500/logic/vup1500.vhd Line: 32
+    Info (169178): Pin ADXL362_MISO uses I/O standard 3.3-V LVTTL at L18 File: D:/develop/vup1500/logic/vup1500.vhd Line: 33
+    Info (169178): Pin RGB_BI uses I/O standard 3.3-V LVTTL at D13 File: D:/develop/vup1500/logic/vup1500.vhd Line: 88
+    Info (169178): Pin RGB_GI uses I/O standard 3.3-V LVTTL at E13 File: D:/develop/vup1500/logic/vup1500.vhd Line: 90
+    Info (169178): Pin RGB_RI uses I/O standard 3.3-V LVTTL at B14 File: D:/develop/vup1500/logic/vup1500.vhd Line: 92
+    Info (169178): Pin MONSEL[0] uses I/O standard 3.3-V LVTTL at K14 File: D:/develop/vup1500/logic/vup1500.vhd Line: 99
+    Info (169178): Pin MONSEL[1] uses I/O standard 3.3-V LVTTL at E16 File: D:/develop/vup1500/logic/vup1500.vhd Line: 99
+    Info (169178): Pin PB[0] uses I/O standard 3.3 V Schmitt Trigger at M1 File: D:/develop/vup1500/logic/vup1500.vhd Line: 166
+    Info (169178): Pin PB[1] uses I/O standard 3.3 V Schmitt Trigger at R1 File: D:/develop/vup1500/logic/vup1500.vhd Line: 166
+    Info (169178): Pin PB[2] uses I/O standard 3.3 V Schmitt Trigger at V5 File: D:/develop/vup1500/logic/vup1500.vhd Line: 166
+    Info (169178): Pin PB[3] uses I/O standard 3.3 V Schmitt Trigger at AB5 File: D:/develop/vup1500/logic/vup1500.vhd Line: 166
+    Info (169178): Pin USER_CLK uses I/O standard 3.3-V LVTTL at N15 File: D:/develop/vup1500/logic/vup1500.vhd Line: 191
+    Info (169178): Pin ADT7420_SDA uses I/O standard 3.3-V LVTTL at R13 File: D:/develop/vup1500/logic/vup1500.vhd Line: 28
+    Info (169178): Pin I2C_SCL uses I/O standard 3.3-V LVTTL at AB15 File: D:/develop/vup1500/logic/vup1500.vhd Line: 37
+    Info (169178): Pin I2C_SDA uses I/O standard 3.3-V LVTTL at AA14 File: D:/develop/vup1500/logic/vup1500.vhd Line: 38
+    Info (169178): Pin GPIO_J5_03 uses I/O standard 3.3-V LVTTL at C3 File: D:/develop/vup1500/logic/vup1500.vhd Line: 69
+    Info (169178): Pin GPIO_J5_04 uses I/O standard 3.3-V LVTTL at A2 File: D:/develop/vup1500/logic/vup1500.vhd Line: 70
+    Info (169178): Pin GPIO_J5_09 uses I/O standard 3.3-V LVTTL at B5 File: D:/develop/vup1500/logic/vup1500.vhd Line: 75
+    Info (169178): Pin GPIO_J5_10 uses I/O standard 3.3-V LVTTL at A5 File: D:/develop/vup1500/logic/vup1500.vhd Line: 76
+    Info (169178): Pin GPIO_J5_13 uses I/O standard 3.3-V LVTTL at B7 File: D:/develop/vup1500/logic/vup1500.vhd Line: 77
+    Info (169178): Pin GPIO_J5_14 uses I/O standard 3.3-V LVTTL at A6 File: D:/develop/vup1500/logic/vup1500.vhd Line: 78
+    Info (169178): Pin GPIO_J5_15 uses I/O standard 3.3-V LVTTL at A7 File: D:/develop/vup1500/logic/vup1500.vhd Line: 79
+    Info (169178): Pin GPIO_J5_16 uses I/O standard 3.3-V LVTTL at A8 File: D:/develop/vup1500/logic/vup1500.vhd Line: 80
+    Info (169178): Pin GPIO_J5_17 uses I/O standard 3.3-V LVTTL at A9 File: D:/develop/vup1500/logic/vup1500.vhd Line: 81
+    Info (169178): Pin GPIO_J5_19 uses I/O standard 3.3-V LVTTL at B10 File: D:/develop/vup1500/logic/vup1500.vhd Line: 83
+    Info (169178): Pin GPIO_J5_21 uses I/O standard 3.3-V LVTTL at H12 File: D:/develop/vup1500/logic/vup1500.vhd Line: 85
+    Info (169178): Pin GPIO_J5_22 uses I/O standard 3.3-V LVTTL at J11 File: D:/develop/vup1500/logic/vup1500.vhd Line: 86
+    Info (169178): Pin GPIO_J5_23 uses I/O standard 3.3-V LVTTL at E12 File: D:/develop/vup1500/logic/vup1500.vhd Line: 87
+    Info (169178): Pin GPIO_J5_25 uses I/O standard 3.3-V LVTTL at D14 File: D:/develop/vup1500/logic/vup1500.vhd Line: 89
+    Info (169178): Pin GPIO_J5_27 uses I/O standard 3.3-V LVTTL at A14 File: D:/develop/vup1500/logic/vup1500.vhd Line: 91
+    Info (169178): Pin GPIO_J5_31 uses I/O standard 3.3-V LVTTL at C14 File: D:/develop/vup1500/logic/vup1500.vhd Line: 93
+    Info (169178): Pin GPIO_J5_32 uses I/O standard 3.3-V LVTTL at C13 File: D:/develop/vup1500/logic/vup1500.vhd Line: 94
+    Info (169178): Pin EG_P1 uses I/O standard 3.3-V LVTTL at C1 File: D:/develop/vup1500/logic/vup1500.vhd Line: 103
+    Info (169178): Pin EG_P2 uses I/O standard 3.3-V LVTTL at D2 File: D:/develop/vup1500/logic/vup1500.vhd Line: 104
+    Info (169178): Pin EG_P3 uses I/O standard 3.3-V LVTTL at D1 File: D:/develop/vup1500/logic/vup1500.vhd Line: 105
+    Info (169178): Pin EG_P4 uses I/O standard 3.3-V LVTTL at D3 File: D:/develop/vup1500/logic/vup1500.vhd Line: 106
+    Info (169178): Pin EG_P5 uses I/O standard 3.3-V LVTTL at E1 File: D:/develop/vup1500/logic/vup1500.vhd Line: 107
+    Info (169178): Pin EG_P6 uses I/O standard 3.3-V LVTTL at F2 File: D:/develop/vup1500/logic/vup1500.vhd Line: 108
+    Info (169178): Pin EG_P7 uses I/O standard 3.3-V LVTTL at F1 File: D:/develop/vup1500/logic/vup1500.vhd Line: 109
+    Info (169178): Pin EG_P8 uses I/O standard 3.3-V LVTTL at G1 File: D:/develop/vup1500/logic/vup1500.vhd Line: 110
+    Info (169178): Pin EG_P9 uses I/O standard 3.3-V LVTTL at H1 File: D:/develop/vup1500/logic/vup1500.vhd Line: 111
+    Info (169178): Pin EG_P10 uses I/O standard 3.3-V LVTTL at J1 File: D:/develop/vup1500/logic/vup1500.vhd Line: 112
+    Info (169178): Pin EG_P11 uses I/O standard 3.3-V LVTTL at K2 File: D:/develop/vup1500/logic/vup1500.vhd Line: 113
+    Info (169178): Pin EG_P12 uses I/O standard 3.3-V LVTTL at L2 File: D:/develop/vup1500/logic/vup1500.vhd Line: 114
+    Info (169178): Pin EG_P13 uses I/O standard 3.3-V LVTTL at N2 File: D:/develop/vup1500/logic/vup1500.vhd Line: 115
+    Info (169178): Pin EG_P14 uses I/O standard 3.3-V LVTTL at P3 File: D:/develop/vup1500/logic/vup1500.vhd Line: 116
+    Info (169178): Pin EG_P15 uses I/O standard 3.3-V LVTTL at P1 File: D:/develop/vup1500/logic/vup1500.vhd Line: 117
+    Info (169178): Pin EG_P16 uses I/O standard 3.3-V LVTTL at R3 File: D:/develop/vup1500/logic/vup1500.vhd Line: 118
+    Info (169178): Pin EG_P17 uses I/O standard 3.3-V LVTTL at T2 File: D:/develop/vup1500/logic/vup1500.vhd Line: 119
+    Info (169178): Pin EG_P18 uses I/O standard 3.3-V LVTTL at R4 File: D:/develop/vup1500/logic/vup1500.vhd Line: 120
+    Info (169178): Pin EG_P19 uses I/O standard 3.3-V LVTTL at T5 File: D:/develop/vup1500/logic/vup1500.vhd Line: 121
+    Info (169178): Pin EG_P20 uses I/O standard 3.3-V LVTTL at Y1 File: D:/develop/vup1500/logic/vup1500.vhd Line: 122
+    Info (169178): Pin EG_P21 uses I/O standard 3.3-V LVTTL at Y2 File: D:/develop/vup1500/logic/vup1500.vhd Line: 123
+    Info (169178): Pin EG_P22 uses I/O standard 3.3-V LVTTL at AA1 File: D:/develop/vup1500/logic/vup1500.vhd Line: 124
+    Info (169178): Pin EG_P23 uses I/O standard 3.3-V LVTTL at AA2 File: D:/develop/vup1500/logic/vup1500.vhd Line: 125
+    Info (169178): Pin EG_P24 uses I/O standard 3.3-V LVTTL at Y3 File: D:/develop/vup1500/logic/vup1500.vhd Line: 126
+    Info (169178): Pin EG_P25 uses I/O standard 3.3-V LVTTL at Y4 File: D:/develop/vup1500/logic/vup1500.vhd Line: 127
+    Info (169178): Pin EG_P26 uses I/O standard 3.3-V LVTTL at AB6 File: D:/develop/vup1500/logic/vup1500.vhd Line: 128
+    Info (169178): Pin EG_P27 uses I/O standard 3.3-V LVTTL at AB7 File: D:/develop/vup1500/logic/vup1500.vhd Line: 129
+    Info (169178): Pin EG_P28 uses I/O standard 3.3-V LVTTL at AA8 File: D:/develop/vup1500/logic/vup1500.vhd Line: 130
+    Info (169178): Pin EG_P29 uses I/O standard 3.3-V LVTTL at AB8 File: D:/develop/vup1500/logic/vup1500.vhd Line: 131
+    Info (169178): Pin EG_P35 uses I/O standard 3.3-V LVTTL at E11 File: D:/develop/vup1500/logic/vup1500.vhd Line: 132
+    Info (169178): Pin EG_P36 uses I/O standard 3.3-V LVTTL at E10 File: D:/develop/vup1500/logic/vup1500.vhd Line: 133
+    Info (169178): Pin EG_P37 uses I/O standard 3.3-V LVTTL at D9 File: D:/develop/vup1500/logic/vup1500.vhd Line: 134
+    Info (169178): Pin EG_P38 uses I/O standard 3.3-V LVTTL at E9 File: D:/develop/vup1500/logic/vup1500.vhd Line: 135
+    Info (169178): Pin EG_P39 uses I/O standard 3.3-V LVTTL at E8 File: D:/develop/vup1500/logic/vup1500.vhd Line: 136
+    Info (169178): Pin EG_P40 uses I/O standard 3.3-V LVTTL at D8 File: D:/develop/vup1500/logic/vup1500.vhd Line: 137
+    Info (169178): Pin EG_P41 uses I/O standard 3.3-V LVTTL at E6 File: D:/develop/vup1500/logic/vup1500.vhd Line: 138
+    Info (169178): Pin EG_P42 uses I/O standard 3.3-V LVTTL at D7 File: D:/develop/vup1500/logic/vup1500.vhd Line: 139
+    Info (169178): Pin EG_P43 uses I/O standard 3.3-V LVTTL at C8 File: D:/develop/vup1500/logic/vup1500.vhd Line: 140
+    Info (169178): Pin EG_P44 uses I/O standard 3.3-V LVTTL at C7 File: D:/develop/vup1500/logic/vup1500.vhd Line: 141
+    Info (169178): Pin EG_P45 uses I/O standard 3.3-V LVTTL at D6 File: D:/develop/vup1500/logic/vup1500.vhd Line: 142
+    Info (169178): Pin EG_P46 uses I/O standard 3.3-V LVTTL at C6 File: D:/develop/vup1500/logic/vup1500.vhd Line: 143
+    Info (169178): Pin EG_P47 uses I/O standard 3.3-V LVTTL at D5 File: D:/develop/vup1500/logic/vup1500.vhd Line: 144
+    Info (169178): Pin EG_P48 uses I/O standard 3.3-V LVTTL at C5 File: D:/develop/vup1500/logic/vup1500.vhd Line: 145
+    Info (169178): Pin EG_P49 uses I/O standard 3.3-V LVTTL at C4 File: D:/develop/vup1500/logic/vup1500.vhd Line: 146
+    Info (169178): Pin EG_P50 uses I/O standard 3.3-V LVTTL at H11 File: D:/develop/vup1500/logic/vup1500.vhd Line: 147
+    Info (169178): Pin EG_P51 uses I/O standard 3.3-V LVTTL at J10 File: D:/develop/vup1500/logic/vup1500.vhd Line: 148
+    Info (169178): Pin EG_P52 uses I/O standard 3.3-V LVTTL at M9 File: D:/develop/vup1500/logic/vup1500.vhd Line: 149
+    Info (169178): Pin EG_P53 uses I/O standard 3.3-V LVTTL at M8 File: D:/develop/vup1500/logic/vup1500.vhd Line: 150
+    Info (169178): Pin EG_P54 uses I/O standard 3.3-V LVTTL at N9 File: D:/develop/vup1500/logic/vup1500.vhd Line: 151
+    Info (169178): Pin EG_P55 uses I/O standard 3.3-V LVTTL at N8 File: D:/develop/vup1500/logic/vup1500.vhd Line: 152
+    Info (169178): Pin EG_P56 uses I/O standard 3.3-V LVTTL at N5 File: D:/develop/vup1500/logic/vup1500.vhd Line: 153
+    Info (169178): Pin EG_P57 uses I/O standard 3.3-V LVTTL at N4 File: D:/develop/vup1500/logic/vup1500.vhd Line: 154
+    Info (169178): Pin EG_P58 uses I/O standard 3.3-V LVTTL at N3 File: D:/develop/vup1500/logic/vup1500.vhd Line: 155
+    Info (169178): Pin EG_P59 uses I/O standard 3.3-V LVTTL at P5 File: D:/develop/vup1500/logic/vup1500.vhd Line: 156
+    Info (169178): Pin EG_P60 uses I/O standard 3.3-V LVTTL at P4 File: D:/develop/vup1500/logic/vup1500.vhd Line: 157
+    Info (169178): Pin EXP_PRESENT uses I/O standard 3.3-V LVTTL at R5 File: D:/develop/vup1500/logic/vup1500.vhd Line: 158
+    Info (169178): Pin RESET_EXPn uses I/O standard 3.3-V LVTTL at C2 File: D:/develop/vup1500/logic/vup1500.vhd Line: 159
+    Info (169178): Pin ZDT[0] uses I/O standard 3.3-V LVTTL at P18 File: D:/develop/vup1500/logic/vup1500.vhd Line: 176
+    Info (169178): Pin ZDT[1] uses I/O standard 3.3-V LVTTL at R18 File: D:/develop/vup1500/logic/vup1500.vhd Line: 176
+    Info (169178): Pin ZDT[2] uses I/O standard 3.3-V LVTTL at U17 File: D:/develop/vup1500/logic/vup1500.vhd Line: 176
+    Info (169178): Pin ZDT[3] uses I/O standard 3.3-V LVTTL at U18 File: D:/develop/vup1500/logic/vup1500.vhd Line: 176
+    Info (169178): Pin ZDT[4] uses I/O standard 3.3-V LVTTL at P14 File: D:/develop/vup1500/logic/vup1500.vhd Line: 176
+    Info (169178): Pin ZDT[5] uses I/O standard 3.3-V LVTTL at P15 File: D:/develop/vup1500/logic/vup1500.vhd Line: 176
+    Info (169178): Pin ZDT[6] uses I/O standard 3.3-V LVTTL at R15 File: D:/develop/vup1500/logic/vup1500.vhd Line: 176
+    Info (169178): Pin ZDT[7] uses I/O standard 3.3-V LVTTL at R14 File: D:/develop/vup1500/logic/vup1500.vhd Line: 176
+    Info (169178): Pin SDRAM_DQ[0] uses I/O standard 3.3-V LVTTL at C22 File: D:/develop/vup1500/logic/vup1500.vhd Line: 186
+    Info (169178): Pin SDRAM_DQ[1] uses I/O standard 3.3-V LVTTL at D22 File: D:/develop/vup1500/logic/vup1500.vhd Line: 186
+    Info (169178): Pin SDRAM_DQ[2] uses I/O standard 3.3-V LVTTL at E22 File: D:/develop/vup1500/logic/vup1500.vhd Line: 186
+    Info (169178): Pin SDRAM_DQ[3] uses I/O standard 3.3-V LVTTL at F22 File: D:/develop/vup1500/logic/vup1500.vhd Line: 186
+    Info (169178): Pin SDRAM_DQ[4] uses I/O standard 3.3-V LVTTL at G22 File: D:/develop/vup1500/logic/vup1500.vhd Line: 186
+    Info (169178): Pin SDRAM_DQ[5] uses I/O standard 3.3-V LVTTL at H22 File: D:/develop/vup1500/logic/vup1500.vhd Line: 186
+    Info (169178): Pin SDRAM_DQ[6] uses I/O standard 3.3-V LVTTL at J22 File: D:/develop/vup1500/logic/vup1500.vhd Line: 186
+    Info (169178): Pin SDRAM_DQ[7] uses I/O standard 3.3-V LVTTL at K22 File: D:/develop/vup1500/logic/vup1500.vhd Line: 186
+    Info (169178): Pin SDRAM_DQ[8] uses I/O standard 3.3-V LVTTL at K21 File: D:/develop/vup1500/logic/vup1500.vhd Line: 186
+    Info (169178): Pin SDRAM_DQ[9] uses I/O standard 3.3-V LVTTL at J21 File: D:/develop/vup1500/logic/vup1500.vhd Line: 186
+    Info (169178): Pin SDRAM_DQ[10] uses I/O standard 3.3-V LVTTL at H21 File: D:/develop/vup1500/logic/vup1500.vhd Line: 186
+    Info (169178): Pin SDRAM_DQ[11] uses I/O standard 3.3-V LVTTL at G20 File: D:/develop/vup1500/logic/vup1500.vhd Line: 186
+    Info (169178): Pin SDRAM_DQ[12] uses I/O standard 3.3-V LVTTL at F21 File: D:/develop/vup1500/logic/vup1500.vhd Line: 186
+    Info (169178): Pin SDRAM_DQ[13] uses I/O standard 3.3-V LVTTL at E21 File: D:/develop/vup1500/logic/vup1500.vhd Line: 186
+    Info (169178): Pin SDRAM_DQ[14] uses I/O standard 3.3-V LVTTL at D21 File: D:/develop/vup1500/logic/vup1500.vhd Line: 186
+    Info (169178): Pin SDRAM_DQ[15] uses I/O standard 3.3-V LVTTL at C21 File: D:/develop/vup1500/logic/vup1500.vhd Line: 186
+    Info (169178): Pin IORQ_x uses I/O standard 3.3-V LVTTL at W15 File: D:/develop/vup1500/logic/vup1500.vhd Line: 61
+    Info (169178): Pin M1_x uses I/O standard 3.3-V LVTTL at W17 File: D:/develop/vup1500/logic/vup1500.vhd Line: 64
+    Info (169178): Pin ZADDR[6] uses I/O standard 3.3 V Schmitt Trigger at W7 File: D:/develop/vup1500/logic/vup1500.vhd Line: 39
+    Info (169178): Pin ZADDR[5] uses I/O standard 3.3 V Schmitt Trigger at AA7 File: D:/develop/vup1500/logic/vup1500.vhd Line: 39
+    Info (169178): Pin ZADDR[7] uses I/O standard 3.3 V Schmitt Trigger at W8 File: D:/develop/vup1500/logic/vup1500.vhd Line: 39
+    Info (169178): Pin ZADDR[0] uses I/O standard 3.3 V Schmitt Trigger at Y10 File: D:/develop/vup1500/logic/vup1500.vhd Line: 39
+    Info (169178): Pin ZADDR[1] uses I/O standard 3.3 V Schmitt Trigger at AA10 File: D:/develop/vup1500/logic/vup1500.vhd Line: 39
+    Info (169178): Pin ZADDR[3] uses I/O standard 3.3 V Schmitt Trigger at V10 File: D:/develop/vup1500/logic/vup1500.vhd Line: 39
+    Info (169178): Pin ZADDR[2] uses I/O standard 3.3 V Schmitt Trigger at V9 File: D:/develop/vup1500/logic/vup1500.vhd Line: 39
+    Info (169178): Pin ZADDR[4] uses I/O standard 3.3 V Schmitt Trigger at AA6 File: D:/develop/vup1500/logic/vup1500.vhd Line: 39
+    Info (169178): Pin ZADDR[13] uses I/O standard 3.3 V Schmitt Trigger at W3 File: D:/develop/vup1500/logic/vup1500.vhd Line: 39
+    Info (169178): Pin ZADDR[14] uses I/O standard 3.3 V Schmitt Trigger at AA15 File: D:/develop/vup1500/logic/vup1500.vhd Line: 39
+    Info (169178): Pin ZADDR[15] uses I/O standard 3.3 V Schmitt Trigger at Y16 File: D:/develop/vup1500/logic/vup1500.vhd Line: 39
+    Info (169178): Pin MREQ_x uses I/O standard 3.3-V LVTTL at V14 File: D:/develop/vup1500/logic/vup1500.vhd Line: 60
+    Info (169178): Pin ZADDR[11] uses I/O standard 3.3 V Schmitt Trigger at W6 File: D:/develop/vup1500/logic/vup1500.vhd Line: 39
+    Info (169178): Pin ZADDR[12] uses I/O standard 3.3 V Schmitt Trigger at W4 File: D:/develop/vup1500/logic/vup1500.vhd Line: 39
+    Info (169178): Pin RD_x uses I/O standard 3.3-V LVTTL at U15 File: D:/develop/vup1500/logic/vup1500.vhd Line: 62
+    Info (169178): Pin ZCLK uses I/O standard 3.3-V LVTTL at V13 File: D:/develop/vup1500/logic/vup1500.vhd Line: 58
+    Info (169178): Pin ZRST uses I/O standard 3.3-V LVTTL at V17 File: D:/develop/vup1500/logic/vup1500.vhd Line: 65
+    Info (169178): Pin RGB_VSI uses I/O standard 3.3-V LVTTL at B8 File: D:/develop/vup1500/logic/vup1500.vhd Line: 82
+    Info (169178): Pin WR_x uses I/O standard 3.3-V LVTTL at V16 File: D:/develop/vup1500/logic/vup1500.vhd Line: 63
+    Info (169178): Pin SYS_CLK uses I/O standard 3.3-V LVTTL at N14 File: D:/develop/vup1500/logic/vup1500.vhd Line: 190
+    Info (169178): Pin ZADDR[9] uses I/O standard 3.3 V Schmitt Trigger at U7 File: D:/develop/vup1500/logic/vup1500.vhd Line: 39
+    Info (169178): Pin ZADDR[10] uses I/O standard 3.3 V Schmitt Trigger at W5 File: D:/develop/vup1500/logic/vup1500.vhd Line: 39
+    Info (169178): Pin ZADDR[8] uses I/O standard 3.3 V Schmitt Trigger at U6 File: D:/develop/vup1500/logic/vup1500.vhd Line: 39
+    Info (169178): Pin PCGSW uses I/O standard 3.3-V LVTTL at W14 File: D:/develop/vup1500/logic/vup1500.vhd Line: 59
+    Info (169178): Pin SFLASH_DATA uses I/O standard 3.3-V LVTTL at P10 File: D:/develop/vup1500/logic/vup1500.vhd Line: 163
+    Info (169178): Pin RGB_HSI uses I/O standard 3.3-V LVTTL at C9 File: D:/develop/vup1500/logic/vup1500.vhd Line: 84
 Warning (14579): Pin AIN[0] uses I/O standard 3.3-V LVTTL located at F5 will have lower speed performance due to its location.  Refer to the product datasheet for the supported I/O speed.
 Warning (14579): Pin AIN[1] uses I/O standard 3.3-V LVTTL located at E4 will have lower speed performance due to its location.  Refer to the product datasheet for the supported I/O speed.
 Warning (14579): Pin AIN[2] uses I/O standard 3.3-V LVTTL located at F4 will have lower speed performance due to its location.  Refer to the product datasheet for the supported I/O speed.
@@ -6212,89 +6212,89 @@ Warning (14579): Pin EG_P50 uses I/O standard 3.3-V LVTTL located at H11 will ha
 Warning (14579): Pin EG_P51 uses I/O standard 3.3-V LVTTL located at J10 will have lower speed performance due to its location.  Refer to the product datasheet for the supported I/O speed.
 Warning (14579): Pin RESET_EXPn uses I/O standard 3.3-V LVTTL located at C2 will have lower speed performance due to its location.  Refer to the product datasheet for the supported I/O speed.
 Warning (169064): Following 77 pins have no output enable or a GND or VCC output enable - later changes to this connectivity may change fitting results
-    Info (169065): Pin ADT7420_SDA has a permanently disabled output enable File: D:/develop/vup1500/vup1500.vhd Line: 28
-    Info (169065): Pin I2C_SCL has a permanently disabled output enable File: D:/develop/vup1500/vup1500.vhd Line: 37
-    Info (169065): Pin I2C_SDA has a permanently disabled output enable File: D:/develop/vup1500/vup1500.vhd Line: 38
-    Info (169065): Pin GPIO_J5_03 has a permanently disabled output enable File: D:/develop/vup1500/vup1500.vhd Line: 69
-    Info (169065): Pin GPIO_J5_04 has a permanently disabled output enable File: D:/develop/vup1500/vup1500.vhd Line: 70
-    Info (169065): Pin GPIO_J5_09 has a permanently disabled output enable File: D:/develop/vup1500/vup1500.vhd Line: 75
-    Info (169065): Pin GPIO_J5_10 has a permanently disabled output enable File: D:/develop/vup1500/vup1500.vhd Line: 76
-    Info (169065): Pin GPIO_J5_13 has a permanently disabled output enable File: D:/develop/vup1500/vup1500.vhd Line: 77
-    Info (169065): Pin GPIO_J5_14 has a permanently disabled output enable File: D:/develop/vup1500/vup1500.vhd Line: 78
-    Info (169065): Pin GPIO_J5_15 has a permanently disabled output enable File: D:/develop/vup1500/vup1500.vhd Line: 79
-    Info (169065): Pin GPIO_J5_16 has a permanently disabled output enable File: D:/develop/vup1500/vup1500.vhd Line: 80
-    Info (169065): Pin GPIO_J5_17 has a permanently disabled output enable File: D:/develop/vup1500/vup1500.vhd Line: 81
-    Info (169065): Pin GPIO_J5_19 has a permanently disabled output enable File: D:/develop/vup1500/vup1500.vhd Line: 83
-    Info (169065): Pin GPIO_J5_21 has a permanently disabled output enable File: D:/develop/vup1500/vup1500.vhd Line: 85
-    Info (169065): Pin GPIO_J5_22 has a permanently disabled output enable File: D:/develop/vup1500/vup1500.vhd Line: 86
-    Info (169065): Pin GPIO_J5_23 has a permanently disabled output enable File: D:/develop/vup1500/vup1500.vhd Line: 87
-    Info (169065): Pin GPIO_J5_25 has a permanently disabled output enable File: D:/develop/vup1500/vup1500.vhd Line: 89
-    Info (169065): Pin GPIO_J5_27 has a permanently disabled output enable File: D:/develop/vup1500/vup1500.vhd Line: 91
-    Info (169065): Pin GPIO_J5_31 has a permanently disabled output enable File: D:/develop/vup1500/vup1500.vhd Line: 93
-    Info (169065): Pin GPIO_J5_32 has a permanently disabled output enable File: D:/develop/vup1500/vup1500.vhd Line: 94
-    Info (169065): Pin EG_P1 has a permanently disabled output enable File: D:/develop/vup1500/vup1500.vhd Line: 103
-    Info (169065): Pin EG_P2 has a permanently disabled output enable File: D:/develop/vup1500/vup1500.vhd Line: 104
-    Info (169065): Pin EG_P3 has a permanently disabled output enable File: D:/develop/vup1500/vup1500.vhd Line: 105
-    Info (169065): Pin EG_P4 has a permanently disabled output enable File: D:/develop/vup1500/vup1500.vhd Line: 106
-    Info (169065): Pin EG_P5 has a permanently disabled output enable File: D:/develop/vup1500/vup1500.vhd Line: 107
-    Info (169065): Pin EG_P6 has a permanently disabled output enable File: D:/develop/vup1500/vup1500.vhd Line: 108
-    Info (169065): Pin EG_P7 has a permanently disabled output enable File: D:/develop/vup1500/vup1500.vhd Line: 109
-    Info (169065): Pin EG_P8 has a permanently disabled output enable File: D:/develop/vup1500/vup1500.vhd Line: 110
-    Info (169065): Pin EG_P9 has a permanently disabled output enable File: D:/develop/vup1500/vup1500.vhd Line: 111
-    Info (169065): Pin EG_P10 has a permanently disabled output enable File: D:/develop/vup1500/vup1500.vhd Line: 112
-    Info (169065): Pin EG_P11 has a permanently disabled output enable File: D:/develop/vup1500/vup1500.vhd Line: 113
-    Info (169065): Pin EG_P12 has a permanently disabled output enable File: D:/develop/vup1500/vup1500.vhd Line: 114
-    Info (169065): Pin EG_P13 has a permanently disabled output enable File: D:/develop/vup1500/vup1500.vhd Line: 115
-    Info (169065): Pin EG_P14 has a permanently disabled output enable File: D:/develop/vup1500/vup1500.vhd Line: 116
-    Info (169065): Pin EG_P15 has a permanently disabled output enable File: D:/develop/vup1500/vup1500.vhd Line: 117
-    Info (169065): Pin EG_P16 has a permanently disabled output enable File: D:/develop/vup1500/vup1500.vhd Line: 118
-    Info (169065): Pin EG_P17 has a permanently disabled output enable File: D:/develop/vup1500/vup1500.vhd Line: 119
-    Info (169065): Pin EG_P18 has a permanently disabled output enable File: D:/develop/vup1500/vup1500.vhd Line: 120
-    Info (169065): Pin EG_P19 has a permanently disabled output enable File: D:/develop/vup1500/vup1500.vhd Line: 121
-    Info (169065): Pin EG_P20 has a permanently disabled output enable File: D:/develop/vup1500/vup1500.vhd Line: 122
-    Info (169065): Pin EG_P21 has a permanently disabled output enable File: D:/develop/vup1500/vup1500.vhd Line: 123
-    Info (169065): Pin EG_P22 has a permanently disabled output enable File: D:/develop/vup1500/vup1500.vhd Line: 124
-    Info (169065): Pin EG_P23 has a permanently disabled output enable File: D:/develop/vup1500/vup1500.vhd Line: 125
-    Info (169065): Pin EG_P24 has a permanently disabled output enable File: D:/develop/vup1500/vup1500.vhd Line: 126
-    Info (169065): Pin EG_P25 has a permanently disabled output enable File: D:/develop/vup1500/vup1500.vhd Line: 127
-    Info (169065): Pin EG_P26 has a permanently disabled output enable File: D:/develop/vup1500/vup1500.vhd Line: 128
-    Info (169065): Pin EG_P27 has a permanently disabled output enable File: D:/develop/vup1500/vup1500.vhd Line: 129
-    Info (169065): Pin EG_P28 has a permanently disabled output enable File: D:/develop/vup1500/vup1500.vhd Line: 130
-    Info (169065): Pin EG_P29 has a permanently disabled output enable File: D:/develop/vup1500/vup1500.vhd Line: 131
-    Info (169065): Pin EG_P35 has a permanently disabled output enable File: D:/develop/vup1500/vup1500.vhd Line: 132
-    Info (169065): Pin EG_P36 has a permanently disabled output enable File: D:/develop/vup1500/vup1500.vhd Line: 133
-    Info (169065): Pin EG_P37 has a permanently disabled output enable File: D:/develop/vup1500/vup1500.vhd Line: 134
-    Info (169065): Pin EG_P38 has a permanently disabled output enable File: D:/develop/vup1500/vup1500.vhd Line: 135
-    Info (169065): Pin EG_P39 has a permanently disabled output enable File: D:/develop/vup1500/vup1500.vhd Line: 136
-    Info (169065): Pin EG_P40 has a permanently disabled output enable File: D:/develop/vup1500/vup1500.vhd Line: 137
-    Info (169065): Pin EG_P41 has a permanently disabled output enable File: D:/develop/vup1500/vup1500.vhd Line: 138
-    Info (169065): Pin EG_P42 has a permanently disabled output enable File: D:/develop/vup1500/vup1500.vhd Line: 139
-    Info (169065): Pin EG_P43 has a permanently disabled output enable File: D:/develop/vup1500/vup1500.vhd Line: 140
-    Info (169065): Pin EG_P44 has a permanently disabled output enable File: D:/develop/vup1500/vup1500.vhd Line: 141
-    Info (169065): Pin EG_P45 has a permanently disabled output enable File: D:/develop/vup1500/vup1500.vhd Line: 142
-    Info (169065): Pin EG_P46 has a permanently disabled output enable File: D:/develop/vup1500/vup1500.vhd Line: 143
-    Info (169065): Pin EG_P47 has a permanently disabled output enable File: D:/develop/vup1500/vup1500.vhd Line: 144
-    Info (169065): Pin EG_P48 has a permanently disabled output enable File: D:/develop/vup1500/vup1500.vhd Line: 145
-    Info (169065): Pin EG_P49 has a permanently disabled output enable File: D:/develop/vup1500/vup1500.vhd Line: 146
-    Info (169065): Pin EG_P50 has a permanently disabled output enable File: D:/develop/vup1500/vup1500.vhd Line: 147
-    Info (169065): Pin EG_P51 has a permanently disabled output enable File: D:/develop/vup1500/vup1500.vhd Line: 148
-    Info (169065): Pin EG_P52 has a permanently disabled output enable File: D:/develop/vup1500/vup1500.vhd Line: 149
-    Info (169065): Pin EG_P53 has a permanently disabled output enable File: D:/develop/vup1500/vup1500.vhd Line: 150
-    Info (169065): Pin EG_P54 has a permanently disabled output enable File: D:/develop/vup1500/vup1500.vhd Line: 151
-    Info (169065): Pin EG_P55 has a permanently disabled output enable File: D:/develop/vup1500/vup1500.vhd Line: 152
-    Info (169065): Pin EG_P56 has a permanently disabled output enable File: D:/develop/vup1500/vup1500.vhd Line: 153
-    Info (169065): Pin EG_P57 has a permanently disabled output enable File: D:/develop/vup1500/vup1500.vhd Line: 154
-    Info (169065): Pin EG_P58 has a permanently disabled output enable File: D:/develop/vup1500/vup1500.vhd Line: 155
-    Info (169065): Pin EG_P59 has a permanently disabled output enable File: D:/develop/vup1500/vup1500.vhd Line: 156
-    Info (169065): Pin EG_P60 has a permanently disabled output enable File: D:/develop/vup1500/vup1500.vhd Line: 157
-    Info (169065): Pin EXP_PRESENT has a permanently disabled output enable File: D:/develop/vup1500/vup1500.vhd Line: 158
-    Info (169065): Pin RESET_EXPn has a permanently disabled output enable File: D:/develop/vup1500/vup1500.vhd Line: 159
+    Info (169065): Pin ADT7420_SDA has a permanently disabled output enable File: D:/develop/vup1500/logic/vup1500.vhd Line: 28
+    Info (169065): Pin I2C_SCL has a permanently disabled output enable File: D:/develop/vup1500/logic/vup1500.vhd Line: 37
+    Info (169065): Pin I2C_SDA has a permanently disabled output enable File: D:/develop/vup1500/logic/vup1500.vhd Line: 38
+    Info (169065): Pin GPIO_J5_03 has a permanently disabled output enable File: D:/develop/vup1500/logic/vup1500.vhd Line: 69
+    Info (169065): Pin GPIO_J5_04 has a permanently disabled output enable File: D:/develop/vup1500/logic/vup1500.vhd Line: 70
+    Info (169065): Pin GPIO_J5_09 has a permanently disabled output enable File: D:/develop/vup1500/logic/vup1500.vhd Line: 75
+    Info (169065): Pin GPIO_J5_10 has a permanently disabled output enable File: D:/develop/vup1500/logic/vup1500.vhd Line: 76
+    Info (169065): Pin GPIO_J5_13 has a permanently disabled output enable File: D:/develop/vup1500/logic/vup1500.vhd Line: 77
+    Info (169065): Pin GPIO_J5_14 has a permanently disabled output enable File: D:/develop/vup1500/logic/vup1500.vhd Line: 78
+    Info (169065): Pin GPIO_J5_15 has a permanently disabled output enable File: D:/develop/vup1500/logic/vup1500.vhd Line: 79
+    Info (169065): Pin GPIO_J5_16 has a permanently disabled output enable File: D:/develop/vup1500/logic/vup1500.vhd Line: 80
+    Info (169065): Pin GPIO_J5_17 has a permanently disabled output enable File: D:/develop/vup1500/logic/vup1500.vhd Line: 81
+    Info (169065): Pin GPIO_J5_19 has a permanently disabled output enable File: D:/develop/vup1500/logic/vup1500.vhd Line: 83
+    Info (169065): Pin GPIO_J5_21 has a permanently disabled output enable File: D:/develop/vup1500/logic/vup1500.vhd Line: 85
+    Info (169065): Pin GPIO_J5_22 has a permanently disabled output enable File: D:/develop/vup1500/logic/vup1500.vhd Line: 86
+    Info (169065): Pin GPIO_J5_23 has a permanently disabled output enable File: D:/develop/vup1500/logic/vup1500.vhd Line: 87
+    Info (169065): Pin GPIO_J5_25 has a permanently disabled output enable File: D:/develop/vup1500/logic/vup1500.vhd Line: 89
+    Info (169065): Pin GPIO_J5_27 has a permanently disabled output enable File: D:/develop/vup1500/logic/vup1500.vhd Line: 91
+    Info (169065): Pin GPIO_J5_31 has a permanently disabled output enable File: D:/develop/vup1500/logic/vup1500.vhd Line: 93
+    Info (169065): Pin GPIO_J5_32 has a permanently disabled output enable File: D:/develop/vup1500/logic/vup1500.vhd Line: 94
+    Info (169065): Pin EG_P1 has a permanently disabled output enable File: D:/develop/vup1500/logic/vup1500.vhd Line: 103
+    Info (169065): Pin EG_P2 has a permanently disabled output enable File: D:/develop/vup1500/logic/vup1500.vhd Line: 104
+    Info (169065): Pin EG_P3 has a permanently disabled output enable File: D:/develop/vup1500/logic/vup1500.vhd Line: 105
+    Info (169065): Pin EG_P4 has a permanently disabled output enable File: D:/develop/vup1500/logic/vup1500.vhd Line: 106
+    Info (169065): Pin EG_P5 has a permanently disabled output enable File: D:/develop/vup1500/logic/vup1500.vhd Line: 107
+    Info (169065): Pin EG_P6 has a permanently disabled output enable File: D:/develop/vup1500/logic/vup1500.vhd Line: 108
+    Info (169065): Pin EG_P7 has a permanently disabled output enable File: D:/develop/vup1500/logic/vup1500.vhd Line: 109
+    Info (169065): Pin EG_P8 has a permanently disabled output enable File: D:/develop/vup1500/logic/vup1500.vhd Line: 110
+    Info (169065): Pin EG_P9 has a permanently disabled output enable File: D:/develop/vup1500/logic/vup1500.vhd Line: 111
+    Info (169065): Pin EG_P10 has a permanently disabled output enable File: D:/develop/vup1500/logic/vup1500.vhd Line: 112
+    Info (169065): Pin EG_P11 has a permanently disabled output enable File: D:/develop/vup1500/logic/vup1500.vhd Line: 113
+    Info (169065): Pin EG_P12 has a permanently disabled output enable File: D:/develop/vup1500/logic/vup1500.vhd Line: 114
+    Info (169065): Pin EG_P13 has a permanently disabled output enable File: D:/develop/vup1500/logic/vup1500.vhd Line: 115
+    Info (169065): Pin EG_P14 has a permanently disabled output enable File: D:/develop/vup1500/logic/vup1500.vhd Line: 116
+    Info (169065): Pin EG_P15 has a permanently disabled output enable File: D:/develop/vup1500/logic/vup1500.vhd Line: 117
+    Info (169065): Pin EG_P16 has a permanently disabled output enable File: D:/develop/vup1500/logic/vup1500.vhd Line: 118
+    Info (169065): Pin EG_P17 has a permanently disabled output enable File: D:/develop/vup1500/logic/vup1500.vhd Line: 119
+    Info (169065): Pin EG_P18 has a permanently disabled output enable File: D:/develop/vup1500/logic/vup1500.vhd Line: 120
+    Info (169065): Pin EG_P19 has a permanently disabled output enable File: D:/develop/vup1500/logic/vup1500.vhd Line: 121
+    Info (169065): Pin EG_P20 has a permanently disabled output enable File: D:/develop/vup1500/logic/vup1500.vhd Line: 122
+    Info (169065): Pin EG_P21 has a permanently disabled output enable File: D:/develop/vup1500/logic/vup1500.vhd Line: 123
+    Info (169065): Pin EG_P22 has a permanently disabled output enable File: D:/develop/vup1500/logic/vup1500.vhd Line: 124
+    Info (169065): Pin EG_P23 has a permanently disabled output enable File: D:/develop/vup1500/logic/vup1500.vhd Line: 125
+    Info (169065): Pin EG_P24 has a permanently disabled output enable File: D:/develop/vup1500/logic/vup1500.vhd Line: 126
+    Info (169065): Pin EG_P25 has a permanently disabled output enable File: D:/develop/vup1500/logic/vup1500.vhd Line: 127
+    Info (169065): Pin EG_P26 has a permanently disabled output enable File: D:/develop/vup1500/logic/vup1500.vhd Line: 128
+    Info (169065): Pin EG_P27 has a permanently disabled output enable File: D:/develop/vup1500/logic/vup1500.vhd Line: 129
+    Info (169065): Pin EG_P28 has a permanently disabled output enable File: D:/develop/vup1500/logic/vup1500.vhd Line: 130
+    Info (169065): Pin EG_P29 has a permanently disabled output enable File: D:/develop/vup1500/logic/vup1500.vhd Line: 131
+    Info (169065): Pin EG_P35 has a permanently disabled output enable File: D:/develop/vup1500/logic/vup1500.vhd Line: 132
+    Info (169065): Pin EG_P36 has a permanently disabled output enable File: D:/develop/vup1500/logic/vup1500.vhd Line: 133
+    Info (169065): Pin EG_P37 has a permanently disabled output enable File: D:/develop/vup1500/logic/vup1500.vhd Line: 134
+    Info (169065): Pin EG_P38 has a permanently disabled output enable File: D:/develop/vup1500/logic/vup1500.vhd Line: 135
+    Info (169065): Pin EG_P39 has a permanently disabled output enable File: D:/develop/vup1500/logic/vup1500.vhd Line: 136
+    Info (169065): Pin EG_P40 has a permanently disabled output enable File: D:/develop/vup1500/logic/vup1500.vhd Line: 137
+    Info (169065): Pin EG_P41 has a permanently disabled output enable File: D:/develop/vup1500/logic/vup1500.vhd Line: 138
+    Info (169065): Pin EG_P42 has a permanently disabled output enable File: D:/develop/vup1500/logic/vup1500.vhd Line: 139
+    Info (169065): Pin EG_P43 has a permanently disabled output enable File: D:/develop/vup1500/logic/vup1500.vhd Line: 140
+    Info (169065): Pin EG_P44 has a permanently disabled output enable File: D:/develop/vup1500/logic/vup1500.vhd Line: 141
+    Info (169065): Pin EG_P45 has a permanently disabled output enable File: D:/develop/vup1500/logic/vup1500.vhd Line: 142
+    Info (169065): Pin EG_P46 has a permanently disabled output enable File: D:/develop/vup1500/logic/vup1500.vhd Line: 143
+    Info (169065): Pin EG_P47 has a permanently disabled output enable File: D:/develop/vup1500/logic/vup1500.vhd Line: 144
+    Info (169065): Pin EG_P48 has a permanently disabled output enable File: D:/develop/vup1500/logic/vup1500.vhd Line: 145
+    Info (169065): Pin EG_P49 has a permanently disabled output enable File: D:/develop/vup1500/logic/vup1500.vhd Line: 146
+    Info (169065): Pin EG_P50 has a permanently disabled output enable File: D:/develop/vup1500/logic/vup1500.vhd Line: 147
+    Info (169065): Pin EG_P51 has a permanently disabled output enable File: D:/develop/vup1500/logic/vup1500.vhd Line: 148
+    Info (169065): Pin EG_P52 has a permanently disabled output enable File: D:/develop/vup1500/logic/vup1500.vhd Line: 149
+    Info (169065): Pin EG_P53 has a permanently disabled output enable File: D:/develop/vup1500/logic/vup1500.vhd Line: 150
+    Info (169065): Pin EG_P54 has a permanently disabled output enable File: D:/develop/vup1500/logic/vup1500.vhd Line: 151
+    Info (169065): Pin EG_P55 has a permanently disabled output enable File: D:/develop/vup1500/logic/vup1500.vhd Line: 152
+    Info (169065): Pin EG_P56 has a permanently disabled output enable File: D:/develop/vup1500/logic/vup1500.vhd Line: 153
+    Info (169065): Pin EG_P57 has a permanently disabled output enable File: D:/develop/vup1500/logic/vup1500.vhd Line: 154
+    Info (169065): Pin EG_P58 has a permanently disabled output enable File: D:/develop/vup1500/logic/vup1500.vhd Line: 155
+    Info (169065): Pin EG_P59 has a permanently disabled output enable File: D:/develop/vup1500/logic/vup1500.vhd Line: 156
+    Info (169065): Pin EG_P60 has a permanently disabled output enable File: D:/develop/vup1500/logic/vup1500.vhd Line: 157
+    Info (169065): Pin EXP_PRESENT has a permanently disabled output enable File: D:/develop/vup1500/logic/vup1500.vhd Line: 158
+    Info (169065): Pin RESET_EXPn has a permanently disabled output enable File: D:/develop/vup1500/logic/vup1500.vhd Line: 159
 Info (144001): Generated suppressed messages file D:/develop/vup1500/output_files/vup1500.fit.smsg
 Info: Quartus Prime Fitter was successful. 0 errors, 82 warnings
-    Info: Peak virtual memory: 1164 megabytes
-    Info: Processing ended: Sun Apr 10 21:13:49 2016
-    Info: Elapsed time: 00:00:47
-    Info: Total CPU time (on all processors): 00:00:43
+    Info: Peak virtual memory: 1168 megabytes
+    Info: Processing ended: Mon Apr 11 22:09:38 2016
+    Info: Elapsed time: 00:00:41
+    Info: Total CPU time (on all processors): 00:00:36
 
 
 +----------------------------+
