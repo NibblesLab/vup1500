@@ -23,7 +23,7 @@ db/
 incremental_db/
 greybox_tmp/
 simulation/
-stp1.tmp
+stp1.stp
 work/
 output_files/*.sof
 output_files/*.pof
