@@ -103,7 +103,7 @@ begin
 			clk_divide <= clk_divide+1;
 		end if;
 	end process;
-	clk32 <= std_logic(clk_divide(4));
+	clk32 <= std_logic(clk_divide(3));
 
 	process (RST_n, clk, WR_n)
 	begin

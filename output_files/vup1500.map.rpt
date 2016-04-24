@@ -1,5 +1,5 @@
 Analysis & Synthesis report for vup1500
-Mon Apr 11 22:08:48 2016
+Sun Apr 24 20:10:36 2016
 Quartus Prime Version 15.1.0 Build 185 10/21/2015 SJ Lite Edition
 
 
@@ -138,15 +138,15 @@ agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                     ;
 +------------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Mon Apr 11 22:08:48 2016       ;
+; Analysis & Synthesis Status        ; Successful - Sun Apr 24 20:10:36 2016       ;
 ; Quartus Prime Version              ; 15.1.0 Build 185 10/21/2015 SJ Lite Edition ;
 ; Revision Name                      ; vup1500                                     ;
 ; Top-level Entity Name              ; vup1500                                     ;
 ; Family                             ; MAX 10                                      ;
-; Total logic elements               ; 2,479                                       ;
-;     Total combinational functions  ; 2,124                                       ;
-;     Dedicated logic registers      ; 1,194                                       ;
-; Total registers                    ; 1194                                        ;
+; Total logic elements               ; 2,480                                       ;
+;     Total combinational functions  ; 2,125                                       ;
+;     Dedicated logic registers      ; 1,193                                       ;
+; Total registers                    ; 1193                                        ;
 ; Total pins                         ; 217                                         ;
 ; Total virtual pins                 ; 0                                           ;
 ; Total memory bits                  ; 330,752                                     ;
@@ -362,20 +362,20 @@ agreement for further details.
 +---------------------------------------------+------------+
 ; Resource                                    ; Usage      ;
 +---------------------------------------------+------------+
-; Estimated Total logic elements              ; 2,479      ;
+; Estimated Total logic elements              ; 2,480      ;
 ;                                             ;            ;
-; Total combinational functions               ; 2124       ;
+; Total combinational functions               ; 2125       ;
 ; Logic element usage by number of LUT inputs ;            ;
-;     -- 4 input functions                    ; 926        ;
-;     -- 3 input functions                    ; 599        ;
-;     -- <=2 input functions                  ; 599        ;
+;     -- 4 input functions                    ; 925        ;
+;     -- 3 input functions                    ; 603        ;
+;     -- <=2 input functions                  ; 597        ;
 ;                                             ;            ;
 ; Logic elements by mode                      ;            ;
-;     -- normal mode                          ; 1782       ;
-;     -- arithmetic mode                      ; 342        ;
+;     -- normal mode                          ; 1785       ;
+;     -- arithmetic mode                      ; 340        ;
 ;                                             ;            ;
-; Total registers                             ; 1194       ;
-;     -- Dedicated logic registers            ; 1194       ;
+; Total registers                             ; 1193       ;
+;     -- Dedicated logic registers            ; 1193       ;
 ;     -- I/O registers                        ; 0          ;
 ;                                             ;            ;
 ; I/O pins                                    ; 217        ;
@@ -388,7 +388,7 @@ agreement for further details.
 ;                                             ;            ;
 ; Maximum fan-out node                        ; ZRST~input ;
 ; Maximum fan-out                             ; 636        ;
-; Total fan-out                               ; 12467      ;
+; Total fan-out                               ; 12469      ;
 ; Average fan-out                             ; 3.16       ;
 +---------------------------------------------+------------+
 
@@ -398,7 +398,7 @@ agreement for further details.
 +-----------------------------------------------------------------------------------------------------------------------------------------+-------------------+--------------+-------------+------------+--------------+---------+-----------+------+--------------+------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------+
 ; Compilation Hierarchy Node                                                                                                              ; LC Combinationals ; LC Registers ; Memory Bits ; UFM Blocks ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; ADC blocks ; Full Hierarchy Name                                                                                                                                                                                                                                                                                                                                 ; Library Name ;
 +-----------------------------------------------------------------------------------------------------------------------------------------+-------------------+--------------+-------------+------------+--------------+---------+-----------+------+--------------+------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------+
-; |vup1500                                                                                                                                ; 2124 (276)        ; 1194 (124)   ; 330752      ; 0          ; 0            ; 0       ; 0         ; 217  ; 0            ; 0          ; |vup1500                                                                                                                                                                                                                                                                                                                                            ; work         ;
+; |vup1500                                                                                                                                ; 2125 (276)        ; 1193 (124)   ; 330752      ; 0          ; 0            ; 0       ; 0         ; 217  ; 0            ; 0          ; |vup1500                                                                                                                                                                                                                                                                                                                                            ; work         ;
 ;    |ScanConv:SCONV0|                                                                                                                    ; 56 (56)           ; 63 (63)      ; 3072        ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |vup1500|ScanConv:SCONV0                                                                                                                                                                                                                                                                                                                            ; work         ;
 ;       |linebuf:SBUF|                                                                                                                    ; 0 (0)             ; 0 (0)        ; 3072        ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |vup1500|ScanConv:SCONV0|linebuf:SBUF                                                                                                                                                                                                                                                                                                               ; work         ;
 ;          |altsyncram:altsyncram_component|                                                                                              ; 0 (0)             ; 0 (0)        ; 3072        ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |vup1500|ScanConv:SCONV0|linebuf:SBUF|altsyncram:altsyncram_component                                                                                                                                                                                                                                                                               ; work         ;
@@ -512,19 +512,19 @@ agreement for further details.
 ;    |pll100:CKGEN0|                                                                                                                      ; 0 (0)             ; 0 (0)        ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |vup1500|pll100:CKGEN0                                                                                                                                                                                                                                                                                                                              ; work         ;
 ;       |altpll:altpll_component|                                                                                                         ; 0 (0)             ; 0 (0)        ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |vup1500|pll100:CKGEN0|altpll:altpll_component                                                                                                                                                                                                                                                                                                      ; work         ;
 ;          |pll100_altpll:auto_generated|                                                                                                 ; 0 (0)             ; 0 (0)        ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |vup1500|pll100:CKGEN0|altpll:altpll_component|pll100_altpll:auto_generated                                                                                                                                                                                                                                                                         ; work         ;
-;    |psg:PSG0|                                                                                                                           ; 203 (77)          ; 129 (60)     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |vup1500|psg:PSG0                                                                                                                                                                                                                                                                                                                                   ; work         ;
+;    |psg:PSG0|                                                                                                                           ; 202 (76)          ; 129 (60)     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |vup1500|psg:PSG0                                                                                                                                                                                                                                                                                                                                   ; work         ;
 ;       |dac:inst_dac|                                                                                                                    ; 9 (9)             ; 9 (9)        ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |vup1500|psg:PSG0|dac:inst_dac                                                                                                                                                                                                                                                                                                                      ; work         ;
 ;       |psg_noise:t3|                                                                                                                    ; 33 (33)           ; 27 (27)      ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |vup1500|psg:PSG0|psg_noise:t3                                                                                                                                                                                                                                                                                                                      ; work         ;
 ;       |psg_tone:t0|                                                                                                                     ; 28 (28)           ; 11 (11)      ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |vup1500|psg:PSG0|psg_tone:t0                                                                                                                                                                                                                                                                                                                       ; work         ;
 ;       |psg_tone:t1|                                                                                                                     ; 28 (28)           ; 11 (11)      ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |vup1500|psg:PSG0|psg_tone:t1                                                                                                                                                                                                                                                                                                                       ; work         ;
 ;       |psg_tone:t2|                                                                                                                     ; 28 (28)           ; 11 (11)      ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |vup1500|psg:PSG0|psg_tone:t2                                                                                                                                                                                                                                                                                                                       ; work         ;
-;    |psg:PSG1|                                                                                                                           ; 195 (69)          ; 131 (62)     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |vup1500|psg:PSG1                                                                                                                                                                                                                                                                                                                                   ; work         ;
+;    |psg:PSG1|                                                                                                                           ; 194 (68)          ; 130 (61)     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |vup1500|psg:PSG1                                                                                                                                                                                                                                                                                                                                   ; work         ;
 ;       |dac:inst_dac|                                                                                                                    ; 9 (9)             ; 9 (9)        ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |vup1500|psg:PSG1|dac:inst_dac                                                                                                                                                                                                                                                                                                                      ; work         ;
 ;       |psg_noise:t3|                                                                                                                    ; 33 (33)           ; 27 (27)      ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |vup1500|psg:PSG1|psg_noise:t3                                                                                                                                                                                                                                                                                                                      ; work         ;
 ;       |psg_tone:t0|                                                                                                                     ; 28 (28)           ; 11 (11)      ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |vup1500|psg:PSG1|psg_tone:t0                                                                                                                                                                                                                                                                                                                       ; work         ;
 ;       |psg_tone:t1|                                                                                                                     ; 28 (28)           ; 11 (11)      ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |vup1500|psg:PSG1|psg_tone:t1                                                                                                                                                                                                                                                                                                                       ; work         ;
 ;       |psg_tone:t2|                                                                                                                     ; 28 (28)           ; 11 (11)      ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |vup1500|psg:PSG1|psg_tone:t2                                                                                                                                                                                                                                                                                                                       ; work         ;
-;    |sdram:DRAM0|                                                                                                                        ; 116 (116)         ; 106 (106)    ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |vup1500|sdram:DRAM0                                                                                                                                                                                                                                                                                                                                ; work         ;
+;    |sdram:DRAM0|                                                                                                                        ; 118 (118)         ; 106 (106)    ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |vup1500|sdram:DRAM0                                                                                                                                                                                                                                                                                                                                ; work         ;
 ;    |sld_hub:auto_hub|                                                                                                                   ; 157 (1)           ; 97 (0)       ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |vup1500|sld_hub:auto_hub                                                                                                                                                                                                                                                                                                                           ; altera_sld   ;
 ;       |alt_sld_fab_with_jtag_input:\instrumentation_fabric_with_node_gen:fabric_gen_new_way:with_jtag_input_gen:instrumentation_fabric| ; 156 (0)           ; 97 (0)       ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |vup1500|sld_hub:auto_hub|alt_sld_fab_with_jtag_input:\instrumentation_fabric_with_node_gen:fabric_gen_new_way:with_jtag_input_gen:instrumentation_fabric                                                                                                                                                                                           ; altera_sld   ;
 ;          |alt_sld_fab:instrumentation_fabric|                                                                                           ; 156 (0)           ; 97 (0)       ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |vup1500|sld_hub:auto_hub|alt_sld_fab_with_jtag_input:\instrumentation_fabric_with_node_gen:fabric_gen_new_way:with_jtag_input_gen:instrumentation_fabric|alt_sld_fab:instrumentation_fabric                                                                                                                                                        ; alt_sld_fab  ;
@@ -533,7 +533,7 @@ agreement for further details.
 ;                   |sld_jtag_hub:\jtag_hub_gen:real_sld_jtag_hub|                                                                        ; 155 (116)         ; 91 (63)      ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |vup1500|sld_hub:auto_hub|alt_sld_fab_with_jtag_input:\instrumentation_fabric_with_node_gen:fabric_gen_new_way:with_jtag_input_gen:instrumentation_fabric|alt_sld_fab:instrumentation_fabric|alt_sld_fab_alt_sld_fab:alt_sld_fab|alt_sld_fab_alt_sld_fab_sldfabric:sldfabric|sld_jtag_hub:\jtag_hub_gen:real_sld_jtag_hub                           ; work         ;
 ;                      |sld_rom_sr:hub_info_reg|                                                                                          ; 21 (21)           ; 9 (9)        ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |vup1500|sld_hub:auto_hub|alt_sld_fab_with_jtag_input:\instrumentation_fabric_with_node_gen:fabric_gen_new_way:with_jtag_input_gen:instrumentation_fabric|alt_sld_fab:instrumentation_fabric|alt_sld_fab_alt_sld_fab:alt_sld_fab|alt_sld_fab_alt_sld_fab_sldfabric:sldfabric|sld_jtag_hub:\jtag_hub_gen:real_sld_jtag_hub|sld_rom_sr:hub_info_reg   ; work         ;
 ;                      |sld_shadow_jsm:shadow_jsm|                                                                                        ; 18 (18)           ; 19 (19)      ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |vup1500|sld_hub:auto_hub|alt_sld_fab_with_jtag_input:\instrumentation_fabric_with_node_gen:fabric_gen_new_way:with_jtag_input_gen:instrumentation_fabric|alt_sld_fab:instrumentation_fabric|alt_sld_fab_alt_sld_fab:alt_sld_fab|alt_sld_fab_alt_sld_fab_sldfabric:sldfabric|sld_jtag_hub:\jtag_hub_gen:real_sld_jtag_hub|sld_shadow_jsm:shadow_jsm ; altera_sld   ;
-;    |videoout:VIDEO0|                                                                                                                    ; 416 (252)         ; 243 (147)    ; 278528      ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |vup1500|videoout:VIDEO0                                                                                                                                                                                                                                                                                                                            ; work         ;
+;    |videoout:VIDEO0|                                                                                                                    ; 417 (253)         ; 243 (147)    ; 278528      ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |vup1500|videoout:VIDEO0                                                                                                                                                                                                                                                                                                                            ; work         ;
 ;       |pcg:VPCG0|                                                                                                                       ; 48 (48)           ; 22 (22)      ; 49152       ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |vup1500|videoout:VIDEO0|pcg:VPCG0                                                                                                                                                                                                                                                                                                                  ; work         ;
 ;          |cgrom:CGROM0|                                                                                                                 ; 0 (0)             ; 0 (0)        ; 32768       ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |vup1500|videoout:VIDEO0|pcg:VPCG0|cgrom:CGROM0                                                                                                                                                                                                                                                                                                     ; work         ;
 ;             |altsyncram:altsyncram_component|                                                                                           ; 0 (0)             ; 0 (0)        ; 32768       ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |vup1500|videoout:VIDEO0|pcg:VPCG0|cgrom:CGROM0|altsyncram:altsyncram_component                                                                                                                                                                                                                                                                     ; work         ;
@@ -722,7 +722,6 @@ Note: All latches listed above may not be present at the end of synthesis due to
 ; psg:PSG0|clk_divide[0]                                                                                                                               ; Merged with psg:PSG1|clk_divide[0]          ;
 ; psg:PSG0|clk_divide[1]                                                                                                                               ; Merged with psg:PSG1|clk_divide[1]          ;
 ; psg:PSG0|clk_divide[2]                                                                                                                               ; Merged with psg:PSG1|clk_divide[2]          ;
-; psg:PSG0|clk_divide[3]                                                                                                                               ; Merged with psg:PSG1|clk_divide[3]          ;
 ; sdram:DRAM0|PB                                                                                                                                       ; Stuck at GND due to stuck port data_in      ;
 ; sdram:DRAM0|PC                                                                                                                                       ; Stuck at GND due to stuck port data_in      ;
 ; z8420:PIO0|HLB                                                                                                                                       ; Lost fanout                                 ;
@@ -731,11 +730,11 @@ Note: All latches listed above may not be present at the end of synthesis due to
 ; sdram:DRAM0|CUR.WRIT2                                                                                                                                ; Stuck at GND due to stuck port data_in      ;
 ; psg:PSG1|CNT[0]                                                                                                                                      ; Merged with psg:PSG0|CNT[0]                 ;
 ; psg:PSG1|CNT[1]                                                                                                                                      ; Merged with psg:PSG0|CNT[1]                 ;
-; psg:PSG0|clk_divide[5]                                                                                                                               ; Lost fanout                                 ;
-; psg:PSG1|clk_divide[5]                                                                                                                               ; Lost fanout                                 ;
+; psg:PSG0|clk_divide[4,5]                                                                                                                             ; Lost fanout                                 ;
+; psg:PSG1|clk_divide[4,5]                                                                                                                             ; Lost fanout                                 ;
 ; videoout:VIDEO0|ram2k:VVRAM0|altsyncram:altsyncram_component|altsyncram_98r3:auto_generated|sld_mod_ram_rom:mgl_prim2|ram_rom_data_shift_cntr_reg[3] ; Stuck at GND due to stuck port data_in      ;
 ; videoout:VIDEO0|ram2k:VARAM0|altsyncram:altsyncram_component|altsyncram_98r3:auto_generated|sld_mod_ram_rom:mgl_prim2|ram_rom_data_shift_cntr_reg[3] ; Stuck at GND due to stuck port data_in      ;
-; Total Number of Removed Registers = 152                                                                                                              ;                                             ;
+; Total Number of Removed Registers = 153                                                                                                              ;                                             ;
 +------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------+
 
 
@@ -761,7 +760,7 @@ Note: All latches listed above may not be present at the end of synthesis due to
 +----------------------------------------------+-------+
 ; Statistic                                    ; Value ;
 +----------------------------------------------+-------+
-; Total registers                              ; 1194  ;
+; Total registers                              ; 1193  ;
 ; Number of registers using Synchronous Clear  ; 58    ;
 ; Number of registers using Synchronous Load   ; 121   ;
 ; Number of registers using Asynchronous Clear ; 688   ;
@@ -3309,7 +3308,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 ; Type                  ; Count                       ;
 +-----------------------+-----------------------------+
 ; boundary_port         ; 259                         ;
-; cycloneiii_ff         ; 1097                        ;
+; cycloneiii_ff         ; 1096                        ;
 ;     CLR               ; 183                         ;
 ;     CLR SCLR          ; 11                          ;
 ;     CLR SLD           ; 21                          ;
@@ -3320,23 +3319,23 @@ Note: In order to hide this table in the UI and the text report file, please set
 ;     ENA SLD           ; 32                          ;
 ;     SCLR              ; 25                          ;
 ;     SLD               ; 16                          ;
-;     plain             ; 176                         ;
+;     plain             ; 175                         ;
 ; cycloneiii_io_obuf    ; 101                         ;
-; cycloneiii_lcell_comb ; 1976                        ;
-;     arith             ; 334                         ;
-;         2 data inputs ; 247                         ;
+; cycloneiii_lcell_comb ; 1977                        ;
+;     arith             ; 332                         ;
+;         2 data inputs ; 245                         ;
 ;         3 data inputs ; 87                          ;
-;     normal            ; 1642                        ;
+;     normal            ; 1645                        ;
 ;         0 data inputs ; 10                          ;
 ;         1 data inputs ; 123                         ;
 ;         2 data inputs ; 183                         ;
-;         3 data inputs ; 463                         ;
-;         4 data inputs ; 863                         ;
+;         3 data inputs ; 467                         ;
+;         4 data inputs ; 862                         ;
 ; cycloneiii_pll        ; 2                           ;
 ; cycloneiii_ram_block  ; 83                          ;
 ;                       ;                             ;
 ; Max LUT depth         ; 14.40                       ;
-; Average LUT depth     ; 4.17                        ;
+; Average LUT depth     ; 4.16                        ;
 +-----------------------+-----------------------------+
 
 
@@ -3345,7 +3344,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:06     ;
+; Top            ; 00:00:08     ;
 +----------------+--------------+
 
 
@@ -3355,7 +3354,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 15.1.0 Build 185 10/21/2015 SJ Lite Edition
-    Info: Processing started: Mon Apr 11 22:07:33 2016
+    Info: Processing started: Sun Apr 24 20:09:21 2016
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off vup1500 -c vup1500
 Info (20029): Only one processor detected - disabling parallel compilation
 Info (12021): Found 2 design units, including 1 entities, in source file logic/vup1500.vhd
@@ -4106,7 +4105,7 @@ Info (12128): Elaborating entity "pll100_altpll" for hierarchy "pll100:CKGEN0|al
 Info (12128): Elaborating entity "sdram" for hierarchy "sdram:DRAM0" File: D:/develop/vup1500/logic/vup1500.vhd Line: 697
 Warning (10036): Verilog HDL or VHDL warning at sdram.vhd(87): object "PGDi" assigned a value but never read File: D:/develop/vup1500/logic/sdram.vhd Line: 87
 Info (11170): Start IP generation for the debug fabric within sld_hub.
-Info (11172): 2016.04.11.22:08:26 Progress: Loading sldc3dd541a/alt_sld_fab_wrapper_hw.tcl
+Info (11172): 2016.04.24.20:10:09 Progress: Loading sldc3dd541a/alt_sld_fab_wrapper_hw.tcl
 Info (11172): Alt_sld_fab.alt_sld_fab: SLD fabric agents which did not specify prefer_host were connected to JTAG
 Info (11172): Alt_sld_fab: Generating alt_sld_fab "alt_sld_fab" for QUARTUS_SYNTH
 Info (11172): Alt_sld_fab: "alt_sld_fab" instantiated alt_sld_fab "alt_sld_fab"
@@ -4310,7 +4309,7 @@ Critical Warning (18061): Ignored Power-Up Level option on the following registe
     Critical Warning (18010): Register psg:PSG1|volume2[1] will power up to Low File: D:/develop/vup1500/logic/psg.vhd Line: 110
     Critical Warning (18010): Register psg:PSG1|volume3[0] will power up to Low File: D:/develop/vup1500/logic/psg.vhd Line: 110
     Critical Warning (18010): Register psg:PSG1|volume2[0] will power up to Low File: D:/develop/vup1500/logic/psg.vhd Line: 110
-Info (17049): 10 registers lost all their fanouts during netlist optimizations.
+Info (17049): 12 registers lost all their fanouts during netlist optimizations.
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 2 node(s), including 0 DDIO, 2 PLL, 0 transceiver and 0 LCELL
 Warning (21074): Design contains 23 input pin(s) that do not drive logic
@@ -4337,17 +4336,17 @@ Warning (21074): Design contains 23 input pin(s) that do not drive logic
     Warning (15610): No output dependent on input pin "PB[2]" File: D:/develop/vup1500/logic/vup1500.vhd Line: 166
     Warning (15610): No output dependent on input pin "PB[3]" File: D:/develop/vup1500/logic/vup1500.vhd Line: 166
     Warning (15610): No output dependent on input pin "USER_CLK" File: D:/develop/vup1500/logic/vup1500.vhd Line: 191
-Info (21057): Implemented 2843 device resources after synthesis - the final resource count might be different
+Info (21057): Implemented 2844 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 54 input pins
     Info (21059): Implemented 66 output pins
     Info (21060): Implemented 101 bidirectional pins
-    Info (21061): Implemented 2536 logic cells
+    Info (21061): Implemented 2537 logic cells
     Info (21064): Implemented 83 RAM segments
     Info (21065): Implemented 2 PLLs
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 274 warnings
-    Info: Peak virtual memory: 887 megabytes
-    Info: Processing ended: Mon Apr 11 22:08:48 2016
+    Info: Peak virtual memory: 890 megabytes
+    Info: Processing ended: Sun Apr 24 20:10:36 2016
     Info: Elapsed time: 00:01:15
-    Info: Total CPU time (on all processors): 00:01:11
+    Info: Total CPU time (on all processors): 00:01:00
 
 
